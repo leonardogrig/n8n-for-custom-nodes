@@ -1,0 +1,5 @@
+/n8n-data
+.env
+/custom-nodes/*
+!/custom-nodes/.gitkeep
+

@@ -1,0 +1,15 @@
+version: "3"
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n-data:/home/node/.n8n
+      - ./custom-nodes:/home/node/.n8n/custom
+      - ./.env:/home/node/.env
+    environment:
+      - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
+      - DOTENV_CONFIG_PATH=/home/node/.env
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+    restart: always
