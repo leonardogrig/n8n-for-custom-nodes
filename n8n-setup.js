@@ -173,6 +173,8 @@ async function buildCustomNodesLocally() {
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => path.join("./custom-nodes", dirent.name));
 
+  let anyChanges = false;
+
   for (const nodeDir of customNodeDirs) {
     const packageJsonPath = path.join(nodeDir, "package.json");
 
@@ -201,6 +203,7 @@ async function buildCustomNodesLocally() {
       try {
         executeCommand("pnpm install --no-frozen-lockfile");
         executeCommand("pnpm build");
+        anyChanges = true;
       } catch (error) {
         log(`Error building custom node ${nodeDir}`, "❌");
       } finally {
@@ -208,6 +211,8 @@ async function buildCustomNodesLocally() {
       }
     }
   }
+
+  return anyChanges;
 }
 
 async function setupN8n() {
@@ -231,32 +236,55 @@ async function setupN8n() {
 
   // Check if this is initial setup
   const isInitialSetup = !fs.existsSync("docker-compose.yml");
+  const containerName = "n8n-for-custom-nodes";
+  const containerExists = isContainerRunning(containerName);
 
-  if (isInitialSetup) {
-    log("Initial setup detected - creating necessary files...", "📋");
+  // If the container already exists and this is not the initial setup,
+  // we can just do a quick restart after rebuilding the custom nodes
+  if (!isInitialSetup && containerExists) {
+    // Build custom nodes locally and check if there were any changes
+    const anyChanges = await buildCustomNodesLocally();
 
-    // Create docker-compose.yml
-    createDockerComposeFile();
-
-    // Create data directories
-    if (!fs.existsSync("./data")) {
-      fs.mkdirSync("./data", { recursive: true });
+    // If there were no changes to the custom nodes, just restart the container
+    if (!anyChanges) {
+      log(
+        "No changes detected in custom nodes, performing quick restart...",
+        "🔄"
+      );
+      executeCommand(`docker restart ${containerName}`);
+      log("n8n with custom nodes is now ready.", "✅");
+      log(`Access n8n at http://localhost:${N8N_PORT}`, "💡");
+      return;
     }
-    if (!fs.existsSync("./data/custom")) {
-      fs.mkdirSync("./data/custom", { recursive: true });
+
+    // If there were changes, continue with the normal update process
+    log("Changes detected in custom nodes, performing full update...", "🔄");
+  } else {
+    // Initial setup flow
+    if (isInitialSetup) {
+      log("Initial setup detected - creating necessary files...", "📋");
+
+      // Create docker-compose.yml
+      createDockerComposeFile();
+
+      // Create data directories
+      if (!fs.existsSync("./data")) {
+        fs.mkdirSync("./data", { recursive: true });
+      }
+      if (!fs.existsSync("./data/custom")) {
+        fs.mkdirSync("./data/custom", { recursive: true });
+      }
     }
+
+    // Build custom nodes locally
+    await buildCustomNodesLocally();
   }
-
-  // Build custom nodes locally
-  await buildCustomNodesLocally();
 
   // Create dependency extraction script
   createDependencyExtractScript();
 
   // Start or ensure container is running
-  const containerName = "n8n-for-custom-nodes";
-
-  if (isInitialSetup || !isContainerRunning(containerName)) {
+  if (isInitialSetup || !containerExists) {
     log("Starting n8n container...", "🚀");
     executeCommand(`${dockerComposeCmd} up -d`);
 
