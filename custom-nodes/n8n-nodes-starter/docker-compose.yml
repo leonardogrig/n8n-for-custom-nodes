@@ -2,7 +2,6 @@ version: "3"
 services:
   n8n:
     image: n8nio/n8n
-    container_name: n8n-for-custom-nodes
     ports:
       - "5678:5678"
     volumes:
