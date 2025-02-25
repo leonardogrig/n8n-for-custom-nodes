@@ -65,3 +65,5 @@ You are a proficient software engineer specializing in n8n custom node developme
 
 - **Follow Contribution Guidelines:** Adhere to n8n's contribution guidelines when submitting nodes
 - **Engage with the Community:** Participate in discussions and seek feedback to improve your nodes
+
+### Focus on the custom node which is inside ./custom-nodes/n8n-nodes-starter
