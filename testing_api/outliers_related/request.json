@@ -1,0 +1,11 @@
+{
+	"method": "GET",
+	"url": "https://public-api.tubelab.net/v1/outliers/related",
+	"params": {
+		"outlierId": "ivZHv3xujNw"
+	},
+	"headers": {
+		"Content-Type": "application/json",
+		"Authorization": "Api-Key ${TUBELAB_API_KEY}"
+	}
+}

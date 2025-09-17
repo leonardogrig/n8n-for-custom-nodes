@@ -1,0 +1,4407 @@
+{
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "980a74334b99d8b0-GRU",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 17 Sep 2025 17:51:52 GMT",
+    "etag": "W/\"16c1d-08ciK/puaCT5kkQZsitgvFm30cU\"",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=LeXbeDZ%2BE5zv0dmX4AP5xdUJHOAlS1vtEAipJMzr2wQrEOuvzjrEwQxnIql4dayH2HE3AYQXeGQMJk%2BjrOUlp49W%2Fcq8Laf9OZ7KFy7ihMOozsvM30gRoYwRUV7gizKzhHRVUoYtZwaVckP8dyiBhUdldKuu\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "rndr-id": "98f6c54f-b703-4348",
+    "server": "cloudflare",
+    "server-timing": "cfL4;desc=\"?proto=TCP&rtt=28801&min_rtt=28753&rtt_var=10879&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3935&recv_bytes=2051&delivery_rate=138783&cwnd=252&unsent_bytes=0&cid=62c39b7c06bb23d1&ts=2218&x=0\"",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "transfer-encoding": "chunked",
+    "vary": "Origin, Accept-Encoding",
+    "x-cache": "MISS",
+    "x-cache-key": "api-public:GET:/v1/channels/related:query:relatedChannelId=UC0BHO4AbCeBpghWNifMbH5Q",
+    "x-powered-by": "Express",
+    "x-ratelimit-limit": "10",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-reset": "1758131521",
+    "x-render-origin-server": "Render"
+  },
+  "body": {
+    "pagination": {
+      "total": 40,
+      "from": 0,
+      "size": 20
+    },
+    "hits": [
+      {
+        "id": "UC0BHO4AbCeBpghWNifMbH5Q",
+        "snippet": {
+          "handle": "@leonardogrig",
+          "title": "Leonardo Grigorio | AI Automation",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/5tgwuoFlVr7KvRob8iCxakr4L8Xi-iU5QXcX5ygN1E87LlNlDuE-ZrGQtH0VXzzet30SURONtw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/5tgwuoFlVr7KvRob8iCxakr4L8Xi-iU5QXcX5ygN1E87LlNlDuE-ZrGQtH0VXzzet30SURONtw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/5tgwuoFlVr7KvRob8iCxakr4L8Xi-iU5QXcX5ygN1E87LlNlDuE-ZrGQtH0VXzzet30SURONtw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-21T12:28:15.335Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "NoCode",
+            "Workflow",
+            "Productivity"
+          ],
+          "description": "Discover AI-powered automation tools and workflows for increased productivity and efficiency."
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 168,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 336,
+          "rpmEstimationTo": 3
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "Htb_NsGlbgc",
+            "title": "How to scrape through captchas, geo blockers and rate limits (crawl4ai + Deepseek + Evomi Proxies)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Htb_NsGlbgc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Htb_NsGlbgc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Htb_NsGlbgc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-09T00:00:00.000Z",
+            "viewCount": 120175,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "u-zCSZy81eo",
+            "title": "How I Automated Video Editing with AI (gpt-o3) EASY",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/u-zCSZy81eo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/u-zCSZy81eo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/u-zCSZy81eo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-09T00:00:00.000Z",
+            "viewCount": 90009,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "WkLdLJJzV1k",
+            "title": "Scrape Anything with DeepSeek V3 + Scraping Tool Integration (CHEAP & EASY)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/WkLdLJJzV1k/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/WkLdLJJzV1k/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/WkLdLJJzV1k/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-09T00:00:00.000Z",
+            "viewCount": 425304,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "QVCmYFL_Q6c",
+            "title": "How I Scrape and Automate X Posts, Reports & Mind Maps! (Free n8n Workflow)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/QVCmYFL_Q6c/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/QVCmYFL_Q6c/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/QVCmYFL_Q6c/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-03T00:00:00.000Z",
+            "viewCount": 942,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "KYy4jka70_k",
+            "title": "Self-hosted n8n Loading Forever Issue (Fix)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/KYy4jka70_k/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/KYy4jka70_k/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDWA9_k-n3hcL4zvya91TRxk2yOMQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1600,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "NMi742xCG4Y",
+            "title": "how to update n8n in easypanel",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/NMi742xCG4Y/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/NMi742xCG4Y/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD7cqRIWrwfWGQ0_MJK6l7KkvQPfg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 899,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 21500,
+          "subscriberCountRaw": "21.5K subscribers",
+          "viewCountEstimate": 997000,
+          "viewCountMonthlyEstimate": 112000,
+          "videosCount": 46,
+          "videosSampleCount": 44,
+          "videosCountRaw": "46",
+          "averageViewsEstimate": 22659.090909090908,
+          "medianViewsEstimate": 3421,
+          "averageVideoDurationEstimate": 695,
+          "standardDeviationViewsEstimate": 66321.91490402844,
+          "viewVariationCoefficient": 2.9269450910504027,
+          "avgViewsToSubscribersRatio": 1.0539112050739958,
+          "lastPublishedAtEstimate": "2025-06-03T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-06-09T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC3KK7ENB_ierAXvrxVNnbZQ",
+        "snippet": {
+          "handle": "@BenAI92",
+          "title": "Ben AI",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/YbMuXqlP1ZYDpl212ZPjmprCrL3D1XwlAiv0vsE-y1_bMVn7nIuQ5SlzR48nh4TWCXFZll1C5Q=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/YbMuXqlP1ZYDpl212ZPjmprCrL3D1XwlAiv0vsE-y1_bMVn7nIuQ5SlzR48nh4TWCXFZll1C5Q=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/YbMuXqlP1ZYDpl212ZPjmprCrL3D1XwlAiv0vsE-y1_bMVn7nIuQ5SlzR48nh4TWCXFZll1C5Q=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-03-29T00:34:55.697Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "NoCode",
+            "Automation",
+            "Business",
+            "Productivity"
+          ],
+          "description": "Discover AI-powered business solutions and automation tools for increased productivity and efficiency"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 1350,
+          "rpmEstimationFrom": 10,
+          "revenueMonthlyEstimationTo": 1890,
+          "rpmEstimationTo": 14
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "Lj5fyDX01v8",
+            "title": "This 20+ AI Agent Team Automates ALL Your Work (GPT-01) (Relevance AI)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Lj5fyDX01v8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Lj5fyDX01v8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Lj5fyDX01v8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-07T00:00:00.000Z",
+            "viewCount": 587238,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "yJ7R3jxSF_g",
+            "title": "Build an AI Agent That Scrapes ANYTHING (No-Code)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/yJ7R3jxSF_g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/yJ7R3jxSF_g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/yJ7R3jxSF_g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-10-07T00:00:00.000Z",
+            "viewCount": 291543,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "NH0OhyZcK-E",
+            "title": "Build an AI Agent Team That Does EVERYTHING for You! (No-Code)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/NH0OhyZcK-E/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/NH0OhyZcK-E/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/NH0OhyZcK-E/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-07T00:00:00.000Z",
+            "viewCount": 151393,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "IiPnsbjEdIY",
+            "title": "How I Built a Competitor Analysis AI System in n8n (No-Code)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/IiPnsbjEdIY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/IiPnsbjEdIY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/IiPnsbjEdIY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-07T00:00:00.000Z",
+            "viewCount": 5748,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 89500,
+          "subscriberCountRaw": "89.5K subscribers",
+          "viewCountEstimate": 2063188,
+          "viewCountMonthlyEstimate": 135000,
+          "videosCount": 42,
+          "videosSampleCount": 42,
+          "videosCountRaw": "42",
+          "averageViewsEstimate": 49123.52380952381,
+          "medianViewsEstimate": 26283,
+          "averageVideoDurationEstimate": 2518,
+          "standardDeviationViewsEstimate": 96546.14852228716,
+          "viewVariationCoefficient": 1.965375059343143,
+          "avgViewsToSubscribersRatio": 0.5488661878159085,
+          "lastPublishedAtEstimate": "2025-06-07T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-07-07T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCLiFK3f9ZHgAmvnBW9PDQdg",
+        "snippet": {
+          "handle": "@quentingavila",
+          "title": "Quentin Gavila",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/VjRD272fRUtkK9_4BRscZqwIH6U6DPpR_4FdKwWsBpB3VY1jJQDnlOBLExBAV0xsgvu4x3mf=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/VjRD272fRUtkK9_4BRscZqwIH6U6DPpR_4FdKwWsBpB3VY1jJQDnlOBLExBAV0xsgvu4x3mf=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/VjRD272fRUtkK9_4BRscZqwIH6U6DPpR_4FdKwWsBpB3VY1jJQDnlOBLExBAV0xsgvu4x3mf=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2024-12-23T17:59:17.951Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "No-Code",
+            "Template",
+            "Productivity"
+          ],
+          "description": "Discover AI-powered automation solutions and no-code templates for efficient productivity"
+        },
+        "language": "fr",
+        "videos": [
+          {
+            "id": "brg1c8AGvYw",
+            "title": "Agent IA Surpuissant pour Remplacer tes Employés (Tuto + Template)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/brg1c8AGvYw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/brg1c8AGvYw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/brg1c8AGvYw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-18T00:00:00.000Z",
+            "viewCount": 1948,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "norwJ-SWpjE",
+            "title": "Agent IA RAG – Scalable et No-Code avec n8n et supabase (+ template)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/norwJ-SWpjE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/norwJ-SWpjE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/norwJ-SWpjE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-11T00:00:00.000Z",
+            "viewCount": 1240,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 311,
+          "subscriberCountRaw": "311 subscribers",
+          "viewCountEstimate": 10888,
+          "videosCount": 18,
+          "videosSampleCount": 36,
+          "videosCountRaw": "18",
+          "averageViewsEstimate": 302.44444444444446,
+          "standardDeviationViewsEstimate": 485.9290325668534,
+          "viewVariationCoefficient": 1.6066720400814403,
+          "avgViewsToSubscribersRatio": 0.9724901750625223,
+          "lastPublishedAtEstimate": "2024-12-23T10:59:17.155Z",
+          "oldestParsedPublishedAtEstimate": "2024-11-23T00:00:00.000Z",
+          "positiveOutliersCount": 4,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCzEQpEckBEM_FpRSCLLKcNQ",
+        "snippet": {
+          "handle": "@MastersAIAutomation",
+          "title": "Masters of AI & Automation",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/FrTmiJseOMvFzsSWqj-yVO0wRhow13LelGQqpagOkzH51CBRzCuMiK1zMfeUVgL3vtMVmxJOoA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/FrTmiJseOMvFzsSWqj-yVO0wRhow13LelGQqpagOkzH51CBRzCuMiK1zMfeUVgL3vtMVmxJOoA=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/FrTmiJseOMvFzsSWqj-yVO0wRhow13LelGQqpagOkzH51CBRzCuMiK1zMfeUVgL3vtMVmxJOoA=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-06-16T11:34:11.930Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "Business",
+            "Productivity",
+            "Workflow"
+          ],
+          "description": "Discover how artificial intelligence transforms business efficiency and automates workflows to save time and increase productivity."
+        },
+        "monetization": {
+          "adsense": false,
+          "revenueMonthlyEstimationFrom": 4,
+          "rpmEstimationFrom": 4,
+          "revenueMonthlyEstimationTo": 6,
+          "rpmEstimationTo": 6
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "guVh4_xxukw",
+            "title": "Automate Google Sheets with Zapier: Step-by-Step Tutorial",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/guVh4_xxukw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/guVh4_xxukw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/guVh4_xxukw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-17T00:00:00.000Z",
+            "viewCount": 8536,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "jOPH-yjTKWE",
+            "title": "Build a Replit App in 5 Mins with Zero Coding Experience",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/jOPH-yjTKWE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/jOPH-yjTKWE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/jOPH-yjTKWE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-10-17T00:00:00.000Z",
+            "viewCount": 6415,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "6qsdvxOw65g",
+            "title": "AI Phone Calls: How to Automate Your Business Communications",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/6qsdvxOw65g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/6qsdvxOw65g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/6qsdvxOw65g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-17T00:00:00.000Z",
+            "viewCount": 9793,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "5umc1YLFyDo",
+            "title": "Automate Invoice Data Extraction with Zapier & ChatGPT in 5 steps",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/5umc1YLFyDo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/5umc1YLFyDo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/5umc1YLFyDo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-17T00:00:00.000Z",
+            "viewCount": 8028,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "37AmnZIq5OI",
+            "title": "Gamma App Changed My Presentation Game in Just 5 Minutes",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/37AmnZIq5OI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/37AmnZIq5OI/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDJ2HQIN7Xi4T7GGssa6mlNOD4W1w",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 8200,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "aquh7_Z33TM",
+            "title": "The Best AI Image Generator for 2024: DALL-E vs. Flux.1 vs. Midjourney vs. Adobe Firefly",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/aquh7_Z33TM/frame0.jpg",
+                "width": 608,
+                "height": 1080
+              },
+              {
+                "url": "https://i.ytimg.com/vi/aquh7_Z33TM/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCTnqFu3v6nx8P8HesNN2rhikFMeQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 16000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "hJw34RCyEcE",
+            "title": "AI Phone Calls: How to Automate Your Business Communication",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/hJw34RCyEcE/frame0.jpg",
+                "width": 608,
+                "height": 1080
+              },
+              {
+                "url": "https://i.ytimg.com/vi/hJw34RCyEcE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAraCdlxqpCTf12G6s1QikZezNl3A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 61000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "9FP-Aw8bJ_k",
+            "title": "Best Apps: AI tools for social media management",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/9FP-Aw8bJ_k/frame0.jpg",
+                "width": 576,
+                "height": 1024
+              },
+              {
+                "url": "https://i.ytimg.com/vi/9FP-Aw8bJ_k/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA5BpjXHb8PrsriRRmQnlFSCJzl-A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 15000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 15000,
+          "subscriberCountRaw": "15K subscribers",
+          "viewCountEstimate": 236302,
+          "viewCountMonthlyEstimate": 1000,
+          "videosCount": 532,
+          "videosSampleCount": 101,
+          "videosCountRaw": "532",
+          "averageViewsEstimate": 2339.6237623762377,
+          "medianViewsEstimate": 874,
+          "averageVideoDurationEstimate": 305,
+          "standardDeviationViewsEstimate": 4138.451259679432,
+          "viewVariationCoefficient": 1.7688533200210859,
+          "avgViewsToSubscribersRatio": 0.1559749174917492,
+          "lastPublishedAtEstimate": "2025-09-05T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-09-17T00:00:00.000Z",
+          "positiveOutliersCount": 11,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCT4-dFUFY5HR20stKB3g4iA",
+        "snippet": {
+          "handle": "@videomaker012",
+          "title": "AI PONT",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_lqULl_zl4kd2Kqu-NGfQAeRgktPwzB-Z0A1Snc5T96-MRs7PMnyyGHCmsAyOOuHNpt5Q=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_lqULl_zl4kd2Kqu-NGfQAeRgktPwzB-Z0A1Snc5T96-MRs7PMnyyGHCmsAyOOuHNpt5Q=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_lqULl_zl4kd2Kqu-NGfQAeRgktPwzB-Z0A1Snc5T96-MRs7PMnyyGHCmsAyOOuHNpt5Q=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-05-27T17:45:59.439Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Technology",
+            "Automation",
+            "Software",
+            "Productivity"
+          ],
+          "description": "Discover the latest AI technology and software solutions for automation and productivity"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 222,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 296,
+          "rpmEstimationTo": 2,
+          "adsense": true
+        },
+        "videos": [
+          {
+            "id": "pxE37c9DpWg",
+            "title": "Sayang sekali aku tidak bisa menahan tawa…",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pxE37c9DpWg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pxE37c9DpWg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pxE37c9DpWg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-10-27T00:00:00.000Z",
+            "viewCount": 7482170,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "z5oGP_-_6Hg",
+            "title": "Scale Smart: Fast, Comprehensive, and Automated",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/z5oGP_-_6Hg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/z5oGP_-_6Hg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/z5oGP_-_6Hg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-21T00:00:00.000Z",
+            "viewCount": 15,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "QO6q7Kbojxc",
+            "title": "Pablo AI",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/QO6q7Kbojxc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/QO6q7Kbojxc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/QO6q7Kbojxc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-29T00:00:00.000Z",
+            "viewCount": 227,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "vfqpH2jYNWk",
+            "title": "Kucing Gotong Royong",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/vfqpH2jYNWk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/vfqpH2jYNWk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/vfqpH2jYNWk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-27T00:00:00.000Z",
+            "viewCount": 1743,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "iFCnP-MViZc",
+            "title": "Living with Lily Episode 5",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/iFCnP-MViZc/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/iFCnP-MViZc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDpR8g8VYP9aOVsljJONBqjPupVCA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 16000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "sneDCiCbX_0",
+            "title": "Italia 🇮🇹y la piña 🍍🍕 #blender3D",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/sneDCiCbX_0/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/sneDCiCbX_0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBLoMx8JjSWWxlEtaZ7HtLzZLG2IQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 9700,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "sn2TeaDiD74",
+            "title": "Pooping simulator",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/sn2TeaDiD74/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/sn2TeaDiD74/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBXPTCh9lxn1MusOPt7ETtd4e_kkw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 13000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "JUl9T4rGG9g",
+            "title": "FunnyVids",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/JUl9T4rGG9g/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/JUl9T4rGG9g/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDNklYrmtlsewg4uISUeQU8OlyHYg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7100,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 32600,
+          "subscriberCountRaw": "32.6K subscribers",
+          "viewCountEstimate": 7501855,
+          "viewCountMonthlyEstimate": 148000,
+          "videosCount": 215,
+          "videosSampleCount": 29,
+          "videosCountRaw": "215",
+          "averageViewsEstimate": 258684.6551724138,
+          "medianViewsEstimate": 133,
+          "averageVideoDurationEstimate": 96,
+          "standardDeviationViewsEstimate": 1365111.709225072,
+          "viewVariationCoefficient": 5.277126732991652,
+          "avgViewsToSubscribersRatio": 7.935112121853184,
+          "lastPublishedAtEstimate": "2025-05-21T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2022-05-27T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC0FBv8ckxw1hrZxbUm3G7hA",
+        "snippet": {
+          "handle": "@realrobtheaiguy",
+          "title": "Rob The AI Guy",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/EIPTj5uy4_ap4KavUrzcTA56yDgRFh4ZEZ3_CWbJ6bpZVM0ibboGEV4ALdgwHnlFeSle3SJdsA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/EIPTj5uy4_ap4KavUrzcTA56yDgRFh4ZEZ3_CWbJ6bpZVM0ibboGEV4ALdgwHnlFeSle3SJdsA=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/EIPTj5uy4_ap4KavUrzcTA56yDgRFh4ZEZ3_CWbJ6bpZVM0ibboGEV4ALdgwHnlFeSle3SJdsA=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-18T07:46:30.306Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Artificial Intelligence",
+            "Technology",
+            "Productivity",
+            "Automation"
+          ],
+          "description": "Exploring innovative AI tools and technologies for creative productivity and automation"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 1602,
+          "rpmEstimationFrom": 2,
+          "revenueMonthlyEstimationTo": 2403,
+          "rpmEstimationTo": 3
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "VSj2NeUaW3A",
+            "title": "Google’s NEW AI Agent Builder Automates Any Task For FREE 👀 (INSANE USE CASES)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/VSj2NeUaW3A/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/VSj2NeUaW3A/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/VSj2NeUaW3A/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-20T00:00:00.000Z",
+            "viewCount": 54343,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Lsh7bvSGYz0",
+            "title": "Google Gemini’s NEW Features Are INSANE 👀 (New Image Generator)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Lsh7bvSGYz0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Lsh7bvSGYz0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Lsh7bvSGYz0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-19T00:00:00.000Z",
+            "viewCount": 55316,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "ImzOwjnMGkI",
+            "title": "Google’s NotebookLM Launched NEW Features That Are INSANE 🤯 (video overviews feature)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ImzOwjnMGkI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ImzOwjnMGkI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ImzOwjnMGkI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-01T00:00:00.000Z",
+            "viewCount": 35193,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "cDMKNp4wDbw",
+            "title": "NEW ChatGPT Settings & Features You’re NOT Using (But Should Be)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/cDMKNp4wDbw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/cDMKNp4wDbw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/cDMKNp4wDbw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-29T00:00:00.000Z",
+            "viewCount": 40662,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "Dk79C6nBJOI",
+            "title": "How To Summarize YouTube Videos With AI FOR FREE",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/Dk79C6nBJOI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/Dk79C6nBJOI/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDunERK0aGWhRGX5v7zRYpE_FRNLA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 15000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "8WrQxwtC3xQ",
+            "title": "3 ChatGPT Hacks For SMARTER Responses (2025 Update) #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/8WrQxwtC3xQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/8WrQxwtC3xQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCZnXnIP8WgPZzL2ScWS8iX-juJEw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 5000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "kat_Vn1p2Dc",
+            "title": "How To Use ChatGPT for Beginners in 2025",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/kat_Vn1p2Dc/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/kat_Vn1p2Dc/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDdDN5pnLn3DOboeLl4h1LxoCPBCA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7300,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "n_kHtj_X0RE",
+            "title": "How To Make AI Images of Yourself For Free in 2025 #shorts #aitools",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/n_kHtj_X0RE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/n_kHtj_X0RE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD95SmddDunx5hFnh7klcZx_YLLdA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1600,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 68100,
+          "subscriberCountRaw": "68.1K subscribers",
+          "viewCountEstimate": 2223331,
+          "viewCountMonthlyEstimate": 801000,
+          "videosCount": 173,
+          "videosSampleCount": 120,
+          "videosCountRaw": "173",
+          "averageViewsEstimate": 18527.758333333335,
+          "medianViewsEstimate": 10791,
+          "averageVideoDurationEstimate": 743,
+          "standardDeviationViewsEstimate": 19269.931965368498,
+          "viewVariationCoefficient": 1.0400573894954102,
+          "avgViewsToSubscribersRatio": 0.2720669358786099,
+          "lastPublishedAtEstimate": "2025-08-28T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2025-03-29T00:00:00.000Z",
+          "positiveOutliersCount": 16,
+          "negativeOutliersCount": 3
+        }
+      },
+      {
+        "id": "UCCGR7BRFE8RVidC7YtKnB8A",
+        "snippet": {
+          "handle": "@Latenode",
+          "title": "Latenode",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/eiA_oMhyHkXCtspAeVF7Upykb5yytMMFSYxRhkQnNXg6EkbslRvu2HGH6PcZ23tGCQrZ8V4PZeQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/eiA_oMhyHkXCtspAeVF7Upykb5yytMMFSYxRhkQnNXg6EkbslRvu2HGH6PcZ23tGCQrZ8V4PZeQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/eiA_oMhyHkXCtspAeVF7Upykb5yytMMFSYxRhkQnNXg6EkbslRvu2HGH6PcZ23tGCQrZ8V4PZeQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-04-10T13:57:45.595Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "NoCode",
+            "Workflow",
+            "Tools"
+          ],
+          "description": "Discover AI-powered automation tools and no-code workflow builders for smarter meetings, enterprise automation, and e-commerce success."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 5,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 8,
+          "rpmEstimationTo": 4,
+          "adsense": false
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "Fc2CNAAbfco",
+            "title": "Top 10 Features Make Users Asked For... And Latenode Delivers!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Fc2CNAAbfco/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Fc2CNAAbfco/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Fc2CNAAbfco/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-28T00:00:00.000Z",
+            "viewCount": 1551,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Z7etGk9OkOw",
+            "title": "Unlock Automation Power: Latenode's No-Code Platform for AI & Integrations",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Z7etGk9OkOw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Z7etGk9OkOw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Z7etGk9OkOw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-28T00:00:00.000Z",
+            "viewCount": 3459,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "J1mA3vncigI",
+            "title": "Make.com vs Latenode.com: 10 Key Differences in Automation Platforms | Which is Best for You?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/J1mA3vncigI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/J1mA3vncigI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/J1mA3vncigI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-28T00:00:00.000Z",
+            "viewCount": 3156,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "2ZNYve6x8XY",
+            "title": "Latenode.com: Advanced Automations with AI & JavaScript | Save up to 30x on Workflow Automation",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/2ZNYve6x8XY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/2ZNYve6x8XY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/2ZNYve6x8XY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-28T00:00:00.000Z",
+            "viewCount": 1765,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "VRn2qh1ooG4",
+            "title": "Automate Gmail Replies with AI using Latenode ✨",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/VRn2qh1ooG4/frame0.jpg",
+                "width": 1044,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/VRn2qh1ooG4/oar2.jpg?sqp=-oaymwEdCIgDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBdDVYHai1yY5GX9-Tv8N2s7e3NJw",
+                "width": 392,
+                "height": 720
+              }
+            ],
+            "viewCount": 1500,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "NrbjBdTdfoI",
+            "title": "Being SMM is hard sometimes... #smm #marketing #fun #scetch #wfh #remote",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/NrbjBdTdfoI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/NrbjBdTdfoI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAWZQ2pMsm7wDOSln9lTvrPH9l_MA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1200,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "PdvrIuqEGcs",
+            "title": "what it takes to be the champion?#sprintdemo #joke #wfh #fun #remote #screenshare",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/PdvrIuqEGcs/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/PdvrIuqEGcs/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCHJ3YkHV14IMj7Os_EtlKoRZUCmA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "rqCrnGPNTLg",
+            "title": "And they will never know...#wfh #remote #corporate #latenode #sales #smm #marketing",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/rqCrnGPNTLg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/rqCrnGPNTLg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCpw6cPfIJxC7wIxczPx1CQw4AL8w",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7100,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1560,
+          "subscriberCountRaw": "1.56K subscribers",
+          "viewCountEstimate": 71764,
+          "viewCountMonthlyEstimate": 2000,
+          "videosCount": 210,
+          "videosSampleCount": 120,
+          "videosCountRaw": "210",
+          "averageViewsEstimate": 598.0333333333333,
+          "medianViewsEstimate": 276,
+          "averageVideoDurationEstimate": 355,
+          "standardDeviationViewsEstimate": 1007.6769731527173,
+          "viewVariationCoefficient": 1.684984627087761,
+          "avgViewsToSubscribersRatio": 0.38335470085470086,
+          "lastPublishedAtEstimate": "2025-07-28T13:09:59.797Z",
+          "oldestParsedPublishedAtEstimate": "2024-07-28T00:00:00.000Z",
+          "positiveOutliersCount": 12,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCzi1p5UT-eXRj7InxNli96A",
+        "snippet": {
+          "handle": "@VincentDoAI",
+          "title": "Vincent Do | AI & Automation",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/Q28IZ0cV5SzXfZ1Fb1Z8_rJp9CSA6rwUNaA2NpsTbSK_39y3J8ehhijV25lDBZoaEbbUEvvbCg=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/Q28IZ0cV5SzXfZ1Fb1Z8_rJp9CSA6rwUNaA2NpsTbSK_39y3J8ehhijV25lDBZoaEbbUEvvbCg=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/Q28IZ0cV5SzXfZ1Fb1Z8_rJp9CSA6rwUNaA2NpsTbSK_39y3J8ehhijV25lDBZoaEbbUEvvbCg=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-04-03T20:47:31.839Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "Marketing",
+            "NoCode",
+            "Business"
+          ],
+          "description": "Discover AI-powered automation solutions for business and marketing, no-code tools, and expert guides for beginners."
+        },
+        "language": "vi",
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 877,
+          "rpmEstimationFrom": 7.5,
+          "revenueMonthlyEstimationTo": 1345,
+          "rpmEstimationTo": 11.5,
+          "adsense": true
+        },
+        "videos": [
+          {
+            "id": "mnu-cPgqD_s",
+            "title": "Bí Mật Tạo Trợ Lý AI Cá Nhân Làm Việc 24/7 | Xây Dựng AI Agent với N8n Giúp Tự Động Hóa Mọi Thứ",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/mnu-cPgqD_s/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/mnu-cPgqD_s/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/mnu-cPgqD_s/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-03T00:00:00.000Z",
+            "viewCount": 56897,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "ltJ2SXoh7wc",
+            "title": "Tự học SEO 5: Hướng dẫn viết Content chuẩn SEO chi tiết | Khoá học SEO miễn phí 2024",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ltJ2SXoh7wc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ltJ2SXoh7wc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ltJ2SXoh7wc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-04-03T00:00:00.000Z",
+            "viewCount": 53000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "XncCQjRiEdI",
+            "title": "Tự học SEO 4: Lập kế hoạch Content Marketing cho Website tăng trưởng Organic Traffic tổng thể",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XncCQjRiEdI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XncCQjRiEdI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XncCQjRiEdI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-04-03T00:00:00.000Z",
+            "viewCount": 33918,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "XBF-YpKkopg",
+            "title": "Tự học SEO 3: Nghiên cứu & Nhóm Từ khoá SEO hiệu quả | Khoá học SEO miễn phí 2024",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XBF-YpKkopg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XBF-YpKkopg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XBF-YpKkopg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-04-03T00:00:00.000Z",
+            "viewCount": 66983,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 48900,
+          "subscriberCountRaw": "48.9K subscribers",
+          "viewCountEstimate": 1687472,
+          "viewCountMonthlyEstimate": 117000,
+          "videosCount": 233,
+          "videosSampleCount": 120,
+          "videosCountRaw": "233",
+          "averageViewsEstimate": 14062.266666666666,
+          "medianViewsEstimate": 7459,
+          "averageVideoDurationEstimate": 1821,
+          "standardDeviationViewsEstimate": 19726.45226370475,
+          "viewVariationCoefficient": 1.4027932147286413,
+          "avgViewsToSubscribersRatio": 0.28757191547375593,
+          "lastPublishedAtEstimate": "2025-04-03T13:47:30.589Z",
+          "oldestParsedPublishedAtEstimate": "2019-04-03T00:00:00.000Z",
+          "positiveOutliersCount": 13,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCI4xxi0p97BghIqgEPYx6sw",
+        "snippet": {
+          "handle": "@youraiworkflow",
+          "title": "Your AI Workflow",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/82iFjYz9WcGAM7IyMhWeobF2F5fMZxbtFSNkTRGOVqu0pN7aXgguGmQTiO__BUXyi_anS01wGEs=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/82iFjYz9WcGAM7IyMhWeobF2F5fMZxbtFSNkTRGOVqu0pN7aXgguGmQTiO__BUXyi_anS01wGEs=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/82iFjYz9WcGAM7IyMhWeobF2F5fMZxbtFSNkTRGOVqu0pN7aXgguGmQTiO__BUXyi_anS01wGEs=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-23T05:15:39.486Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Google",
+            "Workflow",
+            "Productivity",
+            "Technology"
+          ],
+          "description": "Discover the latest Google AI tools and workflows to boost your productivity and efficiency."
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 552,
+          "rpmEstimationFrom": 6.5,
+          "revenueMonthlyEstimationTo": 850,
+          "rpmEstimationTo": 10
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "ucjFrKTrCmE",
+            "title": "Google Just Dropped INSANE AI Tools in Workspace 😱 | Gemini 2.5 Demo",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ucjFrKTrCmE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ucjFrKTrCmE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ucjFrKTrCmE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-28T00:00:00.000Z",
+            "viewCount": 38890,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_fIiB63KN58",
+            "title": "Gemini 2.0 & Workspace 2025: THIS is the ONLY Tutorial You Need! 🚀📈",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_fIiB63KN58/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_fIiB63KN58/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_fIiB63KN58/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-28T00:00:00.000Z",
+            "viewCount": 28738,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Sfjrs69vY-s",
+            "title": "AUTOMATE Every TASK with AI 🚀 Google AgentSpace Review | GEMINI 2.0 Flash, Notebook LM & AI Agents",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Sfjrs69vY-s/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Sfjrs69vY-s/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Sfjrs69vY-s/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-28T00:00:00.000Z",
+            "viewCount": 84757,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "HcfwkHUc6lw",
+            "title": "Google’s AI Studio Just Got Insane 🔥 ( Build Apps with Gemini 2.5 Pro)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/HcfwkHUc6lw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/HcfwkHUc6lw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/HcfwkHUc6lw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-24T00:00:00.000Z",
+            "viewCount": 19315,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "vzWZMcb29UU",
+            "title": "ChatGPT Hack that feels illegal 🤯 ( Copy Stock Assets FREE)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/vzWZMcb29UU/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/vzWZMcb29UU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCpAI_HmMOks2buJGFZJy5aO8xGEQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "OF-F1Ctiaqg",
+            "title": "This AI Builds & Launches Your Website in Minutes — No Code Needed ⚡️",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/OF-F1Ctiaqg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/OF-F1Ctiaqg/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBrGeQOCj4_OWY8QNfT3yFX2aW2fg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1500,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 9280,
+          "subscriberCountRaw": "9.28K subscribers",
+          "viewCountEstimate": 373727,
+          "viewCountMonthlyEstimate": 85000,
+          "videosCount": 29,
+          "videosSampleCount": 27,
+          "videosCountRaw": "29",
+          "averageViewsEstimate": 13841.74074074074,
+          "medianViewsEstimate": 8780,
+          "averageVideoDurationEstimate": 616,
+          "standardDeviationViewsEstimate": 16730.03505252486,
+          "viewVariationCoefficient": 1.2086655404029445,
+          "avgViewsToSubscribersRatio": 1.4915668901660282,
+          "lastPublishedAtEstimate": "2025-06-24T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-12-28T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCV6vzJ3Gc-Os6SPdXA6igcw",
+        "snippet": {
+          "handle": "@Your-AI-Powered-Business",
+          "title": " Your AI Powered Business",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/qkS0hR1uIIDwhATbr6bRi72CGYtdmO9Omd39n1OLakoauULi6maC01o2ttwScAbeReWUdzKh5v4=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/qkS0hR1uIIDwhATbr6bRi72CGYtdmO9Omd39n1OLakoauULi6maC01o2ttwScAbeReWUdzKh5v4=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/qkS0hR1uIIDwhATbr6bRi72CGYtdmO9Omd39n1OLakoauULi6maC01o2ttwScAbeReWUdzKh5v4=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-06-04T02:27:11.437Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Business",
+            "Productivity",
+            "Automation",
+            "Technology"
+          ],
+          "description": "Discover AI-powered solutions for business growth, productivity, and automation"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 2.5,
+          "adsense": false
+        },
+        "videos": [
+          {
+            "id": "pKVlgFTpujs",
+            "title": "What is Gibberlink",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pKVlgFTpujs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pKVlgFTpujs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pKVlgFTpujs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-12T00:00:00.000Z",
+            "viewCount": 3260,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "93T7Qgm3ba4",
+            "title": "*Remember* AI knows how to prompt itself BETTER than you do!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/93T7Qgm3ba4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/93T7Qgm3ba4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/93T7Qgm3ba4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-12T00:00:00.000Z",
+            "viewCount": 33,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "tlMTexp1X3s",
+            "title": "Vibe Coding 1.04",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/tlMTexp1X3s/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/tlMTexp1X3s/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/tlMTexp1X3s/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-12T00:00:00.000Z",
+            "viewCount": 7,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "WxsIhobaoek",
+            "title": "Learning to Vibe Code Day 2",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/WxsIhobaoek/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/WxsIhobaoek/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/WxsIhobaoek/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-12T00:00:00.000Z",
+            "viewCount": 1,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "lQiDJ9SG-aE",
+            "title": "LLMs vs LCMs",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/lQiDJ9SG-aE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/lQiDJ9SG-aE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCjWrNfz716ehZkiY5YuccEJbKKHw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 133,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Y0N9vqX4v14",
+            "title": "AI wants to give you a promotion",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/Y0N9vqX4v14/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/Y0N9vqX4v14/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBi4IC3Q93DWFG3fCbl8y41sjyehg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 32,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 35,
+          "subscriberCountRaw": "35",
+          "viewCountEstimate": 3724,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 19,
+          "videosCountRaw": 19,
+          "videosSampleCount": 17,
+          "averageViewsEstimate": 219.05882352941177,
+          "medianViewsEstimate": 12,
+          "averageVideoDurationEstimate": 214,
+          "standardDeviationViewsEstimate": 762.8442498183814,
+          "viewVariationCoefficient": 3.4823717096972295,
+          "avgViewsToSubscribersRatio": 6.258823529411765,
+          "lastPublishedAtEstimate": "2025-04-12T00:00:00Z",
+          "oldestParsedPublishedAtEstimate": "2025-03-12T00:00:00Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC7sQpQZBbBSGBiR6cL_c1qw",
+        "snippet": {
+          "handle": "@SuccessMinder",
+          "title": "Genius",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/n48Hy_yKQSNDoPMF0nq4D-gqgydBEgLgPjEdQBGCUzDfafEBPpO4dQjTrEr2VObdsH8cP6dDzw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/n48Hy_yKQSNDoPMF0nq4D-gqgydBEgLgPjEdQBGCUzDfafEBPpO4dQjTrEr2VObdsH8cP6dDzw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/n48Hy_yKQSNDoPMF0nq4D-gqgydBEgLgPjEdQBGCUzDfafEBPpO4dQjTrEr2VObdsH8cP6dDzw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-19T21:27:55.919Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "Business",
+            "Productivity",
+            "Tech"
+          ],
+          "description": "Discover the latest AI-powered tools and automation solutions for businesses and content creators to boost productivity and efficiency."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 4,
+          "rpmEstimationFrom": 2,
+          "revenueMonthlyEstimationTo": 6,
+          "rpmEstimationTo": 3,
+          "adsense": true
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "UeJKcSDwvIg",
+            "title": "100% FREE AI Voice Generator (Free Elevenlabs Alternative) Text to Speech",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/UeJKcSDwvIg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/UeJKcSDwvIg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/UeJKcSDwvIg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-26T00:00:00.000Z",
+            "viewCount": 3147,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "eayFhnQFHg0",
+            "title": "PowerPoint Designer Not Showing | Powerpoint Designer Not Working | How to Enable Design Ideas",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/eayFhnQFHg0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/eayFhnQFHg0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/eayFhnQFHg0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-26T00:00:00.000Z",
+            "viewCount": 26316,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "tSKJrQZ9fvE",
+            "title": "How to Use Napkin AI FREE (Quick & Easy) | Napkin AI Tutorial for Beginners",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/tSKJrQZ9fvE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/tSKJrQZ9fvE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/tSKJrQZ9fvE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-26T00:00:00.000Z",
+            "viewCount": 3483,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "tJB5jqXMnV0",
+            "title": "10 Best AI Tools for Content Creators to Use in 2025 (Super Useful)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/tJB5jqXMnV0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/tJB5jqXMnV0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/tJB5jqXMnV0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-24T00:00:00.000Z",
+            "viewCount": 430,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "RfSFbbTUKdc",
+            "title": "Satisfying Block Slide Animation",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/RfSFbbTUKdc/frame0.jpg",
+                "width": 1080,
+                "height": 1080
+              },
+              {
+                "url": "https://i.ytimg.com/vi/RfSFbbTUKdc/oar2.jpg?sqp=-oaymwEdCNAFENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDaPbzPXmP6ZydZ0xDEkijeyWgT2Q",
+                "width": 720,
+                "height": 720
+              }
+            ],
+            "viewCount": 9200,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "UDh6rOf76zU",
+            "title": "I made this video using AI - Here's how you can do it...",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/UDh6rOf76zU/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/UDh6rOf76zU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBqJXExiTvFtXQnJ9PdqVW735PT-w",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 711,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "irJ-W-6zHiI",
+            "title": "I Made This Video Using AI - Here's How You Can Do It Too? SmartShort AI Tutorial 2024",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/irJ-W-6zHiI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/irJ-W-6zHiI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDCVpebxdsmu1GSnu8Bf3VWlG0IBw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 139,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "BmQDhRZiyZI",
+            "title": "Top 5 Currencies in the world",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/BmQDhRZiyZI/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/BmQDhRZiyZI/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDCLGdkA1_bv8GOxsNKh-HQ8YdRFQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 138,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 8210,
+          "subscriberCountRaw": "8.21K subscribers",
+          "viewCountEstimate": 56250,
+          "viewCountMonthlyEstimate": 2000,
+          "videosCount": 260,
+          "videosSampleCount": 90,
+          "videosCountRaw": "260",
+          "averageViewsEstimate": 625,
+          "medianViewsEstimate": 141,
+          "averageVideoDurationEstimate": 211,
+          "standardDeviationViewsEstimate": 2790.321972660344,
+          "viewVariationCoefficient": 4.46451515625655,
+          "avgViewsToSubscribersRatio": 0.07612667478684532,
+          "lastPublishedAtEstimate": "2025-06-24T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-10-26T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC8YC5GVdAa3gafuDSimMilg",
+        "snippet": {
+          "handle": "@riccardovandra",
+          "title": "Riccardo Vandra | AI Systems",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/Tb2h15ePbDwt7dFGFJfpO8-jqWrVOQKwMejY0LTKOjewxoOhdEv67nhmEFVQnuKKwGGXFUnIpg=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/Tb2h15ePbDwt7dFGFJfpO8-jqWrVOQKwMejY0LTKOjewxoOhdEv67nhmEFVQnuKKwGGXFUnIpg=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/Tb2h15ePbDwt7dFGFJfpO8-jqWrVOQKwMejY0LTKOjewxoOhdEv67nhmEFVQnuKKwGGXFUnIpg=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short",
+            "long-form"
+          ]
+        },
+        "time": "2025-03-18T03:31:44.085Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "No Code",
+            "Automation",
+            "Marketing",
+            "Productivity"
+          ],
+          "description": "Learn how to build and automate AI systems for marketing, productivity, and lead generation with no coding required."
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 14,
+          "rpmEstimationFrom": 7,
+          "revenueMonthlyEstimationTo": 22,
+          "rpmEstimationTo": 11
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "hUPQByZ5iUE",
+            "title": "COMPLETE Make.com Course (2.5+ hours)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/hUPQByZ5iUE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/hUPQByZ5iUE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/hUPQByZ5iUE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-22T00:00:00.000Z",
+            "viewCount": 24962,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "37ltwOPLtY8",
+            "title": "How To Scrape Any Website Using Hidden APIs",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/37ltwOPLtY8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/37ltwOPLtY8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/37ltwOPLtY8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-22T00:00:00.000Z",
+            "viewCount": 6654,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Rxw9INjRP38",
+            "title": "How we Automated 15+ Lead Gen Agencies in 27 Minutes",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Rxw9INjRP38/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Rxw9INjRP38/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Rxw9INjRP38/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-22T00:00:00.000Z",
+            "viewCount": 20034,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "KP1o2u1AQDM",
+            "title": "How to build an AI Lead Generation Army | Autogen Tutorial",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/KP1o2u1AQDM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/KP1o2u1AQDM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/KP1o2u1AQDM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-22T00:00:00.000Z",
+            "viewCount": 5201,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "d1PdDXWaViE",
+            "title": "Building a 1-Click Apollo Scraper",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/d1PdDXWaViE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/d1PdDXWaViE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDIK5K7rmlqhQTC79X6lQm7xNE2FA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2000
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 4170,
+          "subscriberCountRaw": "4.17K subscribers",
+          "viewCountEstimate": 123708,
+          "viewCountMonthlyEstimate": 2000,
+          "videosCount": 75,
+          "videosSampleCount": 74,
+          "videosCountRaw": "75",
+          "averageViewsEstimate": 1671.7297297297298,
+          "medianViewsEstimate": 617,
+          "averageVideoDurationEstimate": 924,
+          "standardDeviationViewsEstimate": 3728.102750212656,
+          "viewVariationCoefficient": 2.2300870074347374,
+          "avgViewsToSubscribersRatio": 0.4008944195994556,
+          "lastPublishedAtEstimate": "2025-07-20T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-07-22T00:00:00.000Z",
+          "positiveOutliersCount": 4,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCnzxPyNnn8jk4bHFk3JUBhA",
+        "snippet": {
+          "handle": "@jonocatliff",
+          "title": "Jono Catliff",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/4BYN83ZL1sy-pMTaWoxiXCcn6sBauY7hMnZCiLLSXEvbvJWZ3Un_86BJbAyB5fUGQN_I4dxLkA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/4BYN83ZL1sy-pMTaWoxiXCcn6sBauY7hMnZCiLLSXEvbvJWZ3Un_86BJbAyB5fUGQN_I4dxLkA=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/4BYN83ZL1sy-pMTaWoxiXCcn6sBauY7hMnZCiLLSXEvbvJWZ3Un_86BJbAyB5fUGQN_I4dxLkA=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-03-29T00:53:29.142Z",
+        "semantic": {
+          "niches": [
+            "Google AI",
+            "Productivity",
+            "Tools",
+            "Automation",
+            "Software"
+          ],
+          "description": "Discover the best Google AI tools and productivity hacks to streamline your workflow and boost efficiency."
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 1470,
+          "rpmEstimationFrom": 5,
+          "revenueMonthlyEstimationTo": 2352,
+          "rpmEstimationTo": 8
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "bCE2OqeqCPY",
+            "title": "How I’d Teach a 10-Year Old to Build AI Agents (n8n, No Code)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/bCE2OqeqCPY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/bCE2OqeqCPY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/bCE2OqeqCPY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-17T00:00:00.000Z",
+            "viewCount": 172460,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Dt6u-yFEpsk",
+            "title": "10 Insane AI Agent Use Cases in n8n! (steal these)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Dt6u-yFEpsk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Dt6u-yFEpsk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Dt6u-yFEpsk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-17T00:00:00.000Z",
+            "viewCount": 198470,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "AURnISajubk",
+            "title": "Master n8n in 2 Hours: Complete Beginner’s Guide for 2025",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/AURnISajubk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/AURnISajubk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/AURnISajubk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-17T00:00:00.000Z",
+            "viewCount": 470179,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "MpmpC4C5fZs",
+            "title": "Master Make.com in 2 Hours: Complete Beginner’s Guide for 2025",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/MpmpC4C5fZs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/MpmpC4C5fZs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/MpmpC4C5fZs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-17T00:00:00.000Z",
+            "viewCount": 233064,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "gZiCUMaxEw0",
+            "title": "10 Insane AI Agent Use Cases in n8n! (steal these)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/gZiCUMaxEw0/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/gZiCUMaxEw0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA44l647TPC-jC43EB8LLk1vsBB9A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 48000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "c0S9TF_ZBRY",
+            "title": "17 Things You Didn’t Know About n8n",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/c0S9TF_ZBRY/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/c0S9TF_ZBRY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCIBispPSkVi5yimvPqG3CQDeI2IQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 66000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "niHtZBNaJ58",
+            "title": "The Only 12 n8n AI Automations You'll Ever Need (Steal These)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/niHtZBNaJ58/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/niHtZBNaJ58/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBwuhuMgTLjDNh4WCQk4zNyw2YiRQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 49000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "JS2YYQTRCmU",
+            "title": "How To Self-Host n8n In 5 Minutes",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/JS2YYQTRCmU/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/JS2YYQTRCmU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDiaDuh681JbpJoOhUt54s8KC6fTA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 30000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 101000,
+          "subscriberCountRaw": "101K subscribers",
+          "viewCountEstimate": 3601998,
+          "viewCountMonthlyEstimate": 294000,
+          "videosCount": 212,
+          "videosSampleCount": 120,
+          "videosCountRaw": "212",
+          "averageViewsEstimate": 30016.65,
+          "medianViewsEstimate": 9170,
+          "averageVideoDurationEstimate": 2152,
+          "standardDeviationViewsEstimate": 66339.69859338246,
+          "viewVariationCoefficient": 2.210096682787135,
+          "avgViewsToSubscribersRatio": 0.29719455445544557,
+          "lastPublishedAtEstimate": "2025-09-15T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-09-17T00:00:00.000Z",
+          "positiveOutliersCount": 7,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCdaMjU4iDCYH79mvTAvgmlQ",
+        "snippet": {
+          "handle": "@JonasRoman-t5t",
+          "title": "Jonas Roman | IA en Prod",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/hb20bMGwyCNgjWdG6v5EuNfqqOMTjCtolZtZFVLjpLXm5TdRMIOTw1Tb0tx9KGEdGJRAAywulEI=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/hb20bMGwyCNgjWdG6v5EuNfqqOMTjCtolZtZFVLjpLXm5TdRMIOTw1Tb0tx9KGEdGJRAAywulEI=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/hb20bMGwyCNgjWdG6v5EuNfqqOMTjCtolZtZFVLjpLXm5TdRMIOTw1Tb0tx9KGEdGJRAAywulEI=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-08-03T05:01:15.272Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Machine Learning",
+            "NoCode",
+            "Business",
+            "Productivity"
+          ],
+          "description": "Discover AI-powered solutions for business and productivity, from no-code tutorials to innovative applications in sales and marketing."
+        },
+        "language": "fr",
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 22,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 36,
+          "rpmEstimationTo": 4,
+          "adsense": false
+        },
+        "videos": [
+          {
+            "id": "H0mk-0LGoqI",
+            "title": "Agent IA N8N : Ce que les vendeurs de formation ne vous disent pas !",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/H0mk-0LGoqI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/H0mk-0LGoqI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/H0mk-0LGoqI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-20T00:00:00.000Z",
+            "viewCount": 4954,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "hTbNNdr8gd0",
+            "title": "Cet outil va changer ta façon de créer des prompts !",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/hTbNNdr8gd0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/hTbNNdr8gd0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/hTbNNdr8gd0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-02T00:00:00.000Z",
+            "viewCount": 239,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "zLn08Js-E_k",
+            "title": "Fini les Galères RAG ! Comment Exploiter Vos Données Excel avec l'IA (Tutoriel No-Code Complet)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/zLn08Js-E_k/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/zLn08Js-E_k/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/zLn08Js-E_k/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-31T00:00:00.000Z",
+            "viewCount": 319,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "U8lsNpz7Uk8",
+            "title": "Comment lancer ton projet IA en 2025 facilement ! Le Guide pour Dirigeants et Chefs de Projets",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/U8lsNpz7Uk8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/U8lsNpz7Uk8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/U8lsNpz7Uk8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-25T00:00:00.000Z",
+            "viewCount": 311,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "ES5Km4gMIjw",
+            "title": "Cette erreur avec l’IA peut ruiner ta réputation !",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/ES5Km4gMIjw/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/ES5Km4gMIjw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAvzNRLsyfVlAbUfu_Z8xzATlEKng",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "0LLKxzAuthE",
+            "title": "Le ROI caché de l'IA que personne ne mesure",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/0LLKxzAuthE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/0LLKxzAuthE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAKwDG15OBBbdRGfmuqlQLNv4CUMg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1100,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "B7UFryxMo5s",
+            "title": "Le marché de la souveraineté va-t-il exploser dans 10 ans ?",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/B7UFryxMo5s/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/B7UFryxMo5s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAUtuJMR-xk8eTLzwbqIEJ_6kVh5A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 957,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "M723vfJR7fs",
+            "title": "Le secret pour prouver la valeur de ton projet IA !",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/M723vfJR7fs/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/M723vfJR7fs/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDPw0eINbG24qGtxkDIMPuFxhu15g",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 427,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 533,
+          "subscriberCountRaw": "533",
+          "viewCountEstimate": 9742,
+          "viewCountMonthlyEstimate": 9000,
+          "videosCount": 18,
+          "videosCountRaw": 18,
+          "videosSampleCount": 13,
+          "averageViewsEstimate": 749.3846153846154,
+          "medianViewsEstimate": 280,
+          "averageVideoDurationEstimate": 2090,
+          "standardDeviationViewsEstimate": 1272.1665673754867,
+          "viewVariationCoefficient": 1.6976150047096414,
+          "avgViewsToSubscribersRatio": 1.4059748881512484,
+          "lastPublishedAtEstimate": "2025-08-01T00:00:00Z",
+          "oldestParsedPublishedAtEstimate": "2025-06-02T00:00:00Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCUCU2q6VGU1gxAcEZcipzaw",
+        "snippet": {
+          "handle": "@DeepDiveWithTheAIAutomators",
+          "title": "Deep Dive with The AI Automators",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/xMynxApz1L9bvYoW37H4DTtongFyknzCiCnBqjXkGlHfXlzoaR-b8GnhQ3xjWPTYzcNanh4e=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/xMynxApz1L9bvYoW37H4DTtongFyknzCiCnBqjXkGlHfXlzoaR-b8GnhQ3xjWPTYzcNanh4e=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/xMynxApz1L9bvYoW37H4DTtongFyknzCiCnBqjXkGlHfXlzoaR-b8GnhQ3xjWPTYzcNanh4e=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short",
+            "long-form"
+          ]
+        },
+        "time": "2025-08-02T22:27:46.638Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "NoCode",
+            "Makecom",
+            "Productivity"
+          ],
+          "description": "Discover AI automation techniques and tools, including Makecom, to streamline your workflow and boost productivity."
+        },
+        "language": "en",
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 52,
+          "rpmEstimationFrom": 4,
+          "revenueMonthlyEstimationTo": 78,
+          "rpmEstimationTo": 6,
+          "adsense": true
+        },
+        "classification": {
+          "isFaceless": false,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "f5AerjPEn-A",
+            "title": "How to Use Loop Over Items in n8n (With Examples)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/f5AerjPEn-A/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/f5AerjPEn-A/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/f5AerjPEn-A/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-02T00:00:00.000Z",
+            "viewCount": 14367,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "ui_92ouGqJU",
+            "title": "How to Automate Your Blog with Make.com (Beginner Guide)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ui_92ouGqJU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ui_92ouGqJU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ui_92ouGqJU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-02T00:00:00.000Z",
+            "viewCount": 10900,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "8TMKfSDORAc",
+            "title": "How to Connect a Telegram Bot to Make.com (Beginner Guide)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/8TMKfSDORAc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/8TMKfSDORAc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/8TMKfSDORAc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-02T00:00:00.000Z",
+            "viewCount": 23391,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "YZQDu-h3sI0",
+            "title": "How to Auto-post to LinkedIn from Make.com (Text, Images, Videos)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/YZQDu-h3sI0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/YZQDu-h3sI0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/YZQDu-h3sI0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-02T00:00:00.000Z",
+            "viewCount": 12033,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "fMVwGoMyTgg",
+            "title": "MCP is Make's Most Underrated New Feature",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/fMVwGoMyTgg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/fMVwGoMyTgg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDocYIiUquVGHa1TyyQEjL5yUpwAg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1300
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 6170,
+          "subscriberCountRaw": "6.17K",
+          "viewCountEstimate": 306954,
+          "viewCountMonthlyEstimate": 13000,
+          "videosCount": 69,
+          "videosCountRaw": 69,
+          "videosSampleCount": 68,
+          "averageViewsEstimate": 4514.029411764706,
+          "medianViewsEstimate": 2661,
+          "averageVideoDurationEstimate": 538,
+          "standardDeviationViewsEstimate": 5942.282053145487,
+          "viewVariationCoefficient": 1.3164030428464626,
+          "avgViewsToSubscribersRatio": 0.731609304986176,
+          "lastPublishedAtEstimate": "2025-06-02T00:00:00Z",
+          "oldestParsedPublishedAtEstimate": "2024-09-02T00:00:00Z",
+          "positiveOutliersCount": 9,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC2dfARQQOm3jWeG6D506-NQ",
+        "snippet": {
+          "handle": "@codeautomation-ai",
+          "title": "CodeAutomation",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/7zzSlyid9hJsype0WivTpgyY4T3Tx2H_s0Rqr83_IZGyXvcGGBLFk8QaHXngs2ivg-YRAzxt5g=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/7zzSlyid9hJsype0WivTpgyY4T3Tx2H_s0Rqr83_IZGyXvcGGBLFk8QaHXngs2ivg-YRAzxt5g=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/7zzSlyid9hJsype0WivTpgyY4T3Tx2H_s0Rqr83_IZGyXvcGGBLFk8QaHXngs2ivg-YRAzxt5g=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-05-08T00:20:14.213Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "Business",
+            "Development",
+            "Technology"
+          ],
+          "description": "Discover how to automate business processes with custom AI agents, boost efficiency, and transform your company with code automation solutions."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 2,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 3,
+          "adsense": false
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": false,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "Q0f0K0zJ8Z4",
+            "title": "SEMrush for Beginners: A complete Guide to SEO Success",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Q0f0K0zJ8Z4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Q0f0K0zJ8Z4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Q0f0K0zJ8Z4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-13T00:00:00.000Z",
+            "viewCount": 59283,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "EKegkLPyLKA",
+            "title": "Tired of Generic AI Tools? Solve Real Business Problems with Custom AI Agents | CodeAutomation.ai",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/EKegkLPyLKA/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/EKegkLPyLKA/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/EKegkLPyLKA/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-09T00:00:00.000Z",
+            "viewCount": 1,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "dEcSZIhSztk",
+            "title": "Custom AI Agent Development for Businesses | Boost Efficiency & Automate with CodeAutomation.ai",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/dEcSZIhSztk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/dEcSZIhSztk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/dEcSZIhSztk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-08T00:00:00.000Z",
+            "viewCount": 2,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "Mjg8i0sXCtg",
+            "title": "Revolutionize Your Business with AI Agent Development | CodeAutomation.ai",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Mjg8i0sXCtg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Mjg8i0sXCtg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Mjg8i0sXCtg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-07T00:00:00.000Z",
+            "viewCount": 2,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "9UGCztk3T2s",
+            "title": "That is why you should know scope of work before getting into it!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/9UGCztk3T2s/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/9UGCztk3T2s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCA1UMgx29DUkSt17HSVqFI15PSzQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3100,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "woxWdwjDKpw",
+            "title": "Understand the crucial benefits of implementing QA in your projects.",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/woxWdwjDKpw/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/woxWdwjDKpw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC5M-K9G-jB6RviUx_px1xnAPfxrQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 6200,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "LnMO-qkXdH8",
+            "title": "When Your Client’s Website Hits Page 1 on Google 😎 | SEO Guy Energy",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/LnMO-qkXdH8/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/LnMO-qkXdH8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAtg2YgGQ-yDXAjYv-ZThwUSgl83Q",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 5,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "opkdfaziMUQ",
+            "title": "🍦 Ice Cream Break at CodeAutomation.ai! Sweet Moments with Our Tech Team 😄",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/opkdfaziMUQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/opkdfaziMUQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDxb5waQipx_dRIsR9D8rrt9NQ-nQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 11,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1870,
+          "subscriberCountRaw": "1.87K subscribers",
+          "viewCountEstimate": 60766,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 138,
+          "videosSampleCount": 63,
+          "videosCountRaw": "138",
+          "averageViewsEstimate": 964.5396825396825,
+          "medianViewsEstimate": 13,
+          "averageVideoDurationEstimate": 81,
+          "standardDeviationViewsEstimate": 7406.514701680073,
+          "viewVariationCoefficient": 7.678807658984376,
+          "avgViewsToSubscribersRatio": 0.5157966216789747,
+          "lastPublishedAtEstimate": "2025-08-09T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-08-13T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCSahJFlH9UNnidcNn2xAEDQ",
+        "snippet": {
+          "handle": "@aiinaction_official",
+          "title": "Ai In Action",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/aQxXB3Ps9-1kwEkk0kfHOJyDwMe0h76Tw98jpn4yvbND7GV6-R0atlTSXDXFYFpALOSrhZ964zs=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/aQxXB3Ps9-1kwEkk0kfHOJyDwMe0h76Tw98jpn4yvbND7GV6-R0atlTSXDXFYFpALOSrhZ964zs=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/aQxXB3Ps9-1kwEkk0kfHOJyDwMe0h76Tw98jpn4yvbND7GV6-R0atlTSXDXFYFpALOSrhZ964zs=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-09-09T18:23:48.267Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Artificial Intelligence",
+            "Technology",
+            "Creativity",
+            "Productivity"
+          ],
+          "description": "Discover innovative AI tools and techniques for creative professionals, entrepreneurs, and tech enthusiasts to boost productivity and creativity."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 75,
+          "rpmEstimationFrom": 5,
+          "revenueMonthlyEstimationTo": 120,
+          "rpmEstimationTo": 8,
+          "adsense": false
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "_DjBA1KlSNE",
+            "title": "I Asked 50 Google Engineers For Nano Banana Tips... And These 50 Blew My Mind! This is Bananas!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_DjBA1KlSNE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_DjBA1KlSNE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_DjBA1KlSNE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-09-13T00:00:00.000Z",
+            "viewCount": 6357,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "kLzQQIwSLgg",
+            "title": "I Tested 50 Nano Banana Prompts... And These Blew My Mind 🤯(This is Bananas! 🍌)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/kLzQQIwSLgg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/kLzQQIwSLgg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/kLzQQIwSLgg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-09-02T00:00:00.000Z",
+            "viewCount": 4689,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_GvAAhNWc1g",
+            "title": "Google's NEW AI Tool Creates Full Apps in Minutes (Stitch 2025 Update)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_GvAAhNWc1g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_GvAAhNWc1g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_GvAAhNWc1g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-09-12T00:00:00.000Z",
+            "viewCount": 89,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "uMnEWk49iEc",
+            "title": "How to Use Nano Banana + Veo 3 to Create CINEMATIC Videos (This Method is INSANE)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/uMnEWk49iEc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/uMnEWk49iEc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/uMnEWk49iEc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-09-11T00:00:00.000Z",
+            "viewCount": 137,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 675,
+          "subscriberCountRaw": "675 subscribers",
+          "viewCountEstimate": 15793,
+          "viewCountMonthlyEstimate": 15000,
+          "videosCount": 20,
+          "videosSampleCount": 20,
+          "videosCountRaw": "20",
+          "averageViewsEstimate": 789.65,
+          "medianViewsEstimate": 103,
+          "averageVideoDurationEstimate": 809,
+          "standardDeviationViewsEstimate": 1637.7191845673665,
+          "viewVariationCoefficient": 2.0739811113371323,
+          "avgViewsToSubscribersRatio": 1.169851851851852,
+          "lastPublishedAtEstimate": "2025-09-13T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2025-08-15T00:00:00.000Z",
+          "positiveOutliersCount": 2,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC5PXCQFI6sQcP0OL1aGUAVQ",
+        "snippet": {
+          "handle": "@aiworkshophub",
+          "title": "AI Workshop Hub",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/4VHNyTv9s7MTIax2pztQUOdQqR0_Dbctpx86nDF8aFX4YVr6gP3sff4m0OH_bg-0fXms37CBVw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/4VHNyTv9s7MTIax2pztQUOdQqR0_Dbctpx86nDF8aFX4YVr6gP3sff4m0OH_bg-0fXms37CBVw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/4VHNyTv9s7MTIax2pztQUOdQqR0_Dbctpx86nDF8aFX4YVr6gP3sff4m0OH_bg-0fXms37CBVw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-05-28T09:36:06.616Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "No Code",
+            "Web Scraping",
+            "Business"
+          ],
+          "description": "Discover AI-powered automation tools and techniques for businesses and individuals, including web scraping, no-code solutions, and CRM integration."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 6.5,
+          "rpmEstimationFrom": 6.5,
+          "revenueMonthlyEstimationTo": 10,
+          "rpmEstimationTo": 10,
+          "adsense": false
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "P9V0leAT1RE",
+            "title": "Generate LinkedIn articles with AI and web scraping (No Code)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/P9V0leAT1RE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/P9V0leAT1RE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/P9V0leAT1RE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-28T00:00:00.000Z",
+            "viewCount": 741,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "7xPUBGK3Qp8",
+            "title": "How to automate your CRM with Slack using n8n (AI Agents for Beginners)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/7xPUBGK3Qp8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/7xPUBGK3Qp8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/7xPUBGK3Qp8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-28T00:00:00.000Z",
+            "viewCount": 529,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "vI-fUnayfac",
+            "title": "You can automate any task with DeepSeek R1 for free",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/vI-fUnayfac/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/vI-fUnayfac/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/vI-fUnayfac/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-28T00:00:00.000Z",
+            "viewCount": 570,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "NT1U3JZzZvw",
+            "title": "Scrape Instagram profiles to store data in Google Sheets or Airtable using Apify and Make.com",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/NT1U3JZzZvw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/NT1U3JZzZvw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/NT1U3JZzZvw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-07T00:00:00.000Z",
+            "viewCount": 57,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "lsVFdSrNh5Q",
+            "title": "Using Terracotta To Replace Air Conditioner? 🕵️‍♀️",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/lsVFdSrNh5Q/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/lsVFdSrNh5Q/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLA0JW6ZAkqhDNYcpge-fAJx29wirQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 161000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "MMGqTzi34Og",
+            "title": "EYE TRACKING on your website is really possible using JUST IMAGES? 👀",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/MMGqTzi34Og/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/MMGqTzi34Og/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA6_3T5KynLt2UB01GfpPnyP7nDCQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "YSfTsOPKPrA",
+            "title": "What are the greatest risks of artificial intelligence? I Part-2",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/YSfTsOPKPrA/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/YSfTsOPKPrA/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCNrsZ6eDz_Jn8CmrwUc-inV2kvGw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 182,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "eBjli4gRDEM",
+            "title": "What are the greatest risks of Artificial Intelligence? | Part-1",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/eBjli4gRDEM/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/eBjli4gRDEM/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLD4Si8U0Nk2hW1etZ5LjQS_yeffUA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 137,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1020,
+          "subscriberCountRaw": "1.02K subscribers",
+          "viewCountEstimate": 3042,
+          "viewCountMonthlyEstimate": 1000,
+          "videosCount": 24,
+          "videosSampleCount": 15,
+          "videosCountRaw": "24",
+          "averageViewsEstimate": 202.8,
+          "medianViewsEstimate": 64,
+          "averageVideoDurationEstimate": 551,
+          "standardDeviationViewsEstimate": 232.4043028861557,
+          "viewVariationCoefficient": 1.1459778248824246,
+          "avgViewsToSubscribersRatio": 0.1988235294117647,
+          "lastPublishedAtEstimate": "2025-05-07T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2025-01-28T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 1
+        }
+      },
+      {
+        "id": "UCrafir2fPYYopziSsFNRLJA",
+        "snippet": {
+          "handle": "@GoZen.",
+          "title": "GoZen",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/68rTizntw5L1FAfKNuLMIgBsank59ptHcwxQ6OGcqR0DRhuhxZSnBtWaKf8QQwwMoWVBWUsC=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/68rTizntw5L1FAfKNuLMIgBsank59ptHcwxQ6OGcqR0DRhuhxZSnBtWaKf8QQwwMoWVBWUsC=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/68rTizntw5L1FAfKNuLMIgBsank59ptHcwxQ6OGcqR0DRhuhxZSnBtWaKf8QQwwMoWVBWUsC=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-08-26T20:05:23.402Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Marketing",
+            "Automation",
+            "SEO",
+            "Productivity"
+          ],
+          "description": "Discover AI-powered marketing tools and automation solutions for increased productivity and efficiency in your business."
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 4.5,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 7,
+          "adsense": false
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "qe0miH2aF0g",
+            "title": "GoZen's 10th Product Launch – Introducing GoZen DeepAgent!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/qe0miH2aF0g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/qe0miH2aF0g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/qe0miH2aF0g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-06T00:00:00.000Z",
+            "viewCount": 6849,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "0jo6r4CrpvU",
+            "title": "Launching Aalamaram after being 2 years in stealth mode | Startup Incubator",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/0jo6r4CrpvU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/0jo6r4CrpvU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/0jo6r4CrpvU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-06T00:00:00.000Z",
+            "viewCount": 7253,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "kT4KynOg7co",
+            "title": "GoZen growth Demo Tutorial",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/kT4KynOg7co/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/kT4KynOg7co/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/kT4KynOg7co/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-06T00:00:00.000Z",
+            "viewCount": 3265,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "U8s-4uYlVUI",
+            "title": "GoZen Content AI Blog wizard - Tutorial",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/U8s-4uYlVUI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/U8s-4uYlVUI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/U8s-4uYlVUI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-09-06T00:00:00.000Z",
+            "viewCount": 1431,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "jc6cndNKcOw",
+            "title": "When you want to leave the office early, But....",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/jc6cndNKcOw/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/jc6cndNKcOw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLATTX5jrBGzIBhjd6A50AbhWNzPHA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 5600,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "pzzoNPqCpmY",
+            "title": "Be gentle (Or at least, don't scare the soul out of them)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/pzzoNPqCpmY/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/pzzoNPqCpmY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDibgoZemQe1xTUY4gwG9vmCQUd1A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 20000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "SaJwRn1o5LI",
+            "title": "Marketing ain’t for the faint heart. And whoever is in marketing ain’t got faint heart",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/SaJwRn1o5LI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/SaJwRn1o5LI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBPfUAujUF_Cdyrhoz0xNxTm0P0aQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 14000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "sIG2Ua4P31g",
+            "title": "AI Agent To Automate High Demand Content Ideas",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/sIG2Ua4P31g/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/sIG2Ua4P31g/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDqLgV2a7ClJi37vWEttACkV2c1aQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 188,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 920,
+          "subscriberCountRaw": "920 subscribers",
+          "viewCountEstimate": 34915,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 203,
+          "videosSampleCount": 76,
+          "videosCountRaw": "203",
+          "averageViewsEstimate": 459.4078947368421,
+          "medianViewsEstimate": 111,
+          "averageVideoDurationEstimate": 324,
+          "standardDeviationViewsEstimate": 1176.935071518073,
+          "viewVariationCoefficient": 2.561852081780712,
+          "avgViewsToSubscribersRatio": 0.49935640732265446,
+          "lastPublishedAtEstimate": "2025-06-06T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2022-09-06T00:00:00.000Z",
+          "positiveOutliersCount": 5,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCS_0fe9-2mR9G49qpAb6FHw",
+        "snippet": {
+          "handle": "@EliColussi",
+          "title": "Eli Colussi",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/lM4hkOdFmwy94uqwwi31f5F0sLhjSjUX0sbn0Igrg14UhfFTUiQhE4JGg2GQV40Ku9Lzz2LZrQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/lM4hkOdFmwy94uqwwi31f5F0sLhjSjUX0sbn0Igrg14UhfFTUiQhE4JGg2GQV40Ku9Lzz2LZrQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/lM4hkOdFmwy94uqwwi31f5F0sLhjSjUX0sbn0Igrg14UhfFTUiQhE4JGg2GQV40Ku9Lzz2LZrQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-07T17:31:16.819Z",
+        "semantic": {
+          "niches": [
+            "AI",
+            "Automation",
+            "Productivity",
+            "Business",
+            "Technology"
+          ],
+          "description": "Explore AI-powered automation solutions, productivity hacks, and business insights from Eli Colussi's channel."
+        },
+        "monetization": {
+          "adsense": false,
+          "revenueMonthlyEstimationFrom": 24,
+          "rpmEstimationFrom": 8,
+          "revenueMonthlyEstimationTo": 36,
+          "rpmEstimationTo": 12
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "a4Ivobg2mQk",
+            "title": "Building the Umax App from Scratch (with windsurf)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/a4Ivobg2mQk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/a4Ivobg2mQk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/a4Ivobg2mQk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-16T00:00:00.000Z",
+            "viewCount": 9405,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "pCmreCONfaQ",
+            "title": "Coding a Chrome Extension with Claude-3.5-Sonnet (Part-1)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pCmreCONfaQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pCmreCONfaQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pCmreCONfaQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-16T00:00:00.000Z",
+            "viewCount": 4652,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "TRkacViVhNk",
+            "title": "Building Three Levels of AI Apps using Hugging Face (Beginner Friendly)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/TRkacViVhNk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/TRkacViVhNk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/TRkacViVhNk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-06-16T00:00:00.000Z",
+            "viewCount": 14854,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "BOxMWRnnPlg",
+            "title": "Watch me Build an Insane Automation for Solar Companies",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/BOxMWRnnPlg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/BOxMWRnnPlg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/BOxMWRnnPlg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-15T19:55:44.202Z",
+            "viewCount": 11,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "zCHKu0OPvYI",
+            "title": "Link in youtube bio if you want to be a beta tester!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/zCHKu0OPvYI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/zCHKu0OPvYI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDPHAcU7cJLTO6NRsMq4nwckz4klQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 518,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "0kYspdwdb6k",
+            "title": "HUGE year ahead lads let's get after it!! #newyear #typeshit",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/0kYspdwdb6k/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/0kYspdwdb6k/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCjSU59rW_NttkeWC1fnNbo0fDcTg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 515,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "gszzAjs6Ln8",
+            "title": "Sign up for beta: https://tally.so/r/nWlyER #tech #software",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/gszzAjs6Ln8/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/gszzAjs6Ln8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAinTpMGaen1P9kl7fieXMCDRn-vw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 526,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "U_hdhAgdMDI",
+            "title": "Lock in lads",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/U_hdhAgdMDI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/U_hdhAgdMDI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDzplexMGiITPfVLgpNFI09M7NUog",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 523,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1720,
+          "subscriberCountRaw": "1.72K subscribers",
+          "viewCountEstimate": 56681,
+          "viewCountMonthlyEstimate": 3000,
+          "videosCount": 77,
+          "videosSampleCount": 63,
+          "videosCountRaw": "77",
+          "averageViewsEstimate": 899.6984126984127,
+          "medianViewsEstimate": 258,
+          "averageVideoDurationEstimate": 1119,
+          "standardDeviationViewsEstimate": 2214.4115104506945,
+          "viewVariationCoefficient": 2.4612820020534882,
+          "avgViewsToSubscribersRatio": 0.5230804724990771,
+          "lastPublishedAtEstimate": "2025-05-15T19:55:44.202Z",
+          "oldestParsedPublishedAtEstimate": "2024-05-16T00:00:00.000Z",
+          "positiveOutliersCount": 3,
+          "negativeOutliersCount": 0
+        }
+      }
+    ]
+  }
+}

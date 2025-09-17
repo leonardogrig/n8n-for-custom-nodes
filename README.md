@@ -4,7 +4,7 @@ This repository provides a cross-platform development environment for creating, 
 
 ## Overview
 
-This setup uses Docker to run n8n with your custom nodes, handling all dependencies and configurations automatically. The scripts are designed to work seamlessly on Windows, macOS, and Linux.
+This setup uses Docker to run n8n with your custom nodes, handling all dependencies and configurations automatically. The Node-based setup script works seamlessly on Windows, macOS, and Linux.
 
 ## Prerequisites
 
@@ -17,44 +17,23 @@ This setup uses Docker to run n8n with your custom nodes, handling all dependenc
 
 ### Initial Setup
 
-Choose one of the following methods to set up your environment based on your operating system:
-
-#### Windows (PowerShell)
-
-```powershell
-.\n8n-setup.ps1
-```
-
-#### Windows (Command Prompt)
-
-```cmd
-n8n-setup.bat
-```
-
-#### macOS/Linux
+Run the setup script from the repository root using Node.js:
 
 ```bash
-chmod +x ./n8n-setup.sh
-./n8n-setup.sh
+node n8n-setup.js
 ```
 
 ### Updating After Changes
 
-After making changes to your custom nodes, use the same script to update your n8n installation:
+After making changes to your custom nodes, rerun the same command to update your n8n installation:
 
-```powershell
-# Windows PowerShell
-.\n8n-setup.ps1
-
-# OR
-
-# macOS/Linux
-./n8n-setup.sh
+```bash
+node n8n-setup.js
 ```
 
 ## How It Works
 
-The setup script:
+The setup script (`node n8n-setup.js`):
 
 1. Builds your custom nodes locally
 2. Copies them to the n8n Docker container
@@ -89,8 +68,8 @@ http://localhost:5678
 
 ### Permission Issues
 
-- If you encounter permission issues on Windows, try running PowerShell as Administrator
-- If `node_modules` directories cause problems, they will be automatically cleaned during the update process
+- If you encounter permission issues, rerun `node n8n-setup.js` so it can clean and rebuild permissions
+- If `node_modules` directories cause problems, the script automatically removes and recreates them during each run
 
 ### Container Issues
 
@@ -101,7 +80,7 @@ http://localhost:5678
 ## Development Tips
 
 1. Make changes to your custom nodes in the `./custom-nodes/` directory
-2. Run the update script to apply changes
+2. Run `node n8n-setup.js` to apply changes
 3. Test your changes in the n8n UI
 4. Repeat until satisfied
 

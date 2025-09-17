@@ -1,0 +1,13 @@
+{
+	"method": "GET",
+	"url": "https://public-api.tubelab.net/v1/channels/related",
+	"params": {
+		"relatedChannelId": [
+			"UC0BHO4AbCeBpghWNifMbH5Q"
+		]
+	},
+	"headers": {
+		"Content-Type": "application/json",
+		"Authorization": "Api-Key ${TUBELAB_API_KEY}"
+	}
+}

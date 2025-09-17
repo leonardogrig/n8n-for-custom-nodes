@@ -1,0 +1,1217 @@
+{
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "980a58a86d20a5c0-GRU",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-length": "2682",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 17 Sep 2025 17:33:05 GMT",
+    "etag": "W/\"57e4-FlF1s2nRnx4QVv6pc9B6oXVq9/U\"",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Aa50c6ysjdZtPxq8DkMtmAPHHyWBn20G%2B3293O5bphmIBVRRpRfhSQ31xcsGOIcrhy1LPb%2FibPt6sZgCftpPzlMVICGqa2ZjeLf8UW42NPmCwWHxVIjgwLMGkJRQOcE8wwI%3D\"}]}",
+    "rndr-id": "86f0f1bb-835f-4133",
+    "server": "cloudflare",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "vary": "Origin, Accept-Encoding",
+    "x-cache": "MISS",
+    "x-cache-key": "api-public:GET:/v1/outliers:query:query=minecraft",
+    "x-powered-by": "Express",
+    "x-ratelimit-limit": "10",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-reset": "1758130393",
+    "x-render-origin-server": "Render"
+  },
+  "body": {
+    "pagination": {
+      "total": 40,
+      "from": 0,
+      "size": 20
+    },
+    "hits": [
+      {
+        "id": "ivZHv3xujNw",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-21T21:34:20Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ivZHv3xujNw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ivZHv3xujNw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ivZHv3xujNw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 13,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 2,
+          "likeCount": 92,
+          "viewCount": 31923,
+          "zScore": 2.4549633043453727,
+          "averageViewsRatio": 3.6247417858674043,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "D6Lvk0UBkpk",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-12T12:47:08Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/D6Lvk0UBkpk/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/D6Lvk0UBkpk/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/D6Lvk0UBkpk/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 13,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 85,
+          "viewCount": 30977,
+          "zScore": 2.345599451932559,
+          "averageViewsRatio": 3.507814631484585,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "ai2aeB2cK-w",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-06T12:05:38Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ai2aeB2cK-w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ai2aeB2cK-w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ai2aeB2cK-w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 17,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.2,
+            "revenueEstimationTo": 0.2,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 278,
+          "viewCount": 22369,
+          "zScore": 1.4706886326300488,
+          "averageViewsRatio": 2.572397396422029,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "QmsBEwb9dZU",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-14T17:57:46Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QmsBEwb9dZU/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QmsBEwb9dZU/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/QmsBEwb9dZU/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 11,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 3,
+          "likeCount": 79,
+          "viewCount": 32181,
+          "zScore": 2.5643271567581865,
+          "averageViewsRatio": 3.7416689402502237,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "u4UvuB9umNY",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-05T09:48:45Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/u4UvuB9umNY/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/u4UvuB9umNY/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/u4UvuB9umNY/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 12,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 150,
+          "viewCount": 30390,
+          "zScore": 2.345599451932559,
+          "averageViewsRatio": 3.507814631484585,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "7CbRNpx3Qiw",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-04T09:22:22Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7CbRNpx3Qiw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7CbRNpx3Qiw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7CbRNpx3Qiw/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 17,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 1,
+          "likeCount": 124,
+          "viewCount": 25165,
+          "zScore": 1.7987801898684899,
+          "averageViewsRatio": 2.9231788595704873,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "Cd6PcXkWiZI",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-07T07:41:46Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Cd6PcXkWiZI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Cd6PcXkWiZI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Cd6PcXkWiZI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 11,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 90,
+          "viewCount": 30008,
+          "zScore": 2.345599451932559,
+          "averageViewsRatio": 3.507814631484585,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "k0kGFqiW3a4",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-13T16:44:34Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/k0kGFqiW3a4/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/k0kGFqiW3a4/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/k0kGFqiW3a4/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 18,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 161,
+          "viewCount": 30706,
+          "zScore": 2.345599451932559,
+          "averageViewsRatio": 3.507814631484585,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "T4IXc3LQE9c",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-09T06:10:24Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/T4IXc3LQE9c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/T4IXc3LQE9c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/T4IXc3LQE9c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 13,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 88,
+          "viewCount": 28255,
+          "zScore": 2.1268717471069314,
+          "averageViewsRatio": 3.273960322718946,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "GWmCbm82tY0",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCWk9Sik-K75fR_oOB2GLk9g",
+          "channelTitle": "D - YAN",
+          "channelHandle": "@dyan",
+          "channelSubscribers": 49200,
+          "title": "Custom Track Mob Challenges Minecraft",
+          "publishedAt": "2025-08-02T05:47:29Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "curious"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/GWmCbm82tY0/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GWmCbm82tY0/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GWmCbm82tY0/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 10,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0.3,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 82,
+            "rpmEstimationFrom": 2,
+            "revenueMonthlyEstimationTo": 123,
+            "rpmEstimationTo": 3,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 60,
+          "viewCount": 32039,
+          "zScore": 2.5643271567581865,
+          "averageViewsRatio": 3.7416689402502237,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-08-27T12:24:42.934Z"
+      },
+      {
+        "id": "6W4YGEbqgRk",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCJX8nHCVehvySYLwSEkemsQ",
+          "channelTitle": "TheGDMalik",
+          "channelHandle": "@TheGDMalik",
+          "channelSubscribers": 107,
+          "title": "Minecraft mini games",
+          "publishedAt": "2024-05-31T17:39:17Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "fun"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6W4YGEbqgRk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6W4YGEbqgRk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6W4YGEbqgRk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 1781,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 4,
+          "likeCount": null,
+          "viewCount": 152,
+          "zScore": 1.6892971776397157,
+          "averageViewsRatio": 3.795071335927367,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-01-07T21:10:53.118Z"
+      },
+      {
+        "id": "YjviPBMpli0",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCHV0ae9Jt0BBX2-xbYur9XQ",
+          "channelTitle": "mark playz",
+          "channelHandle": "@markplayz09395",
+          "channelSubscribers": 3820,
+          "title": "Minecraft Hardcore",
+          "publishedAt": "2025-01-20T08:56:46Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "negative",
+            "subSentiment": "scary"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YjviPBMpli0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YjviPBMpli0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YjviPBMpli0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "duration": 35852,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 4,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 6,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 2,
+          "viewCount": 202,
+          "zScore": 1.2438828854828168,
+          "averageViewsRatio": 3.449551729045112,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-16T08:26:20.332Z"
+      },
+      {
+        "id": "O0TBYQU3jYc",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCJixDuL-1ryWLLT4BQNMX0Q",
+          "channelTitle": "Gooklu",
+          "channelHandle": "@Gooklu",
+          "channelSubscribers": 55000,
+          "title": "#minecraft",
+          "publishedAt": "2025-04-13T21:15:13Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/O0TBYQU3jYc/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/O0TBYQU3jYc/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/O0TBYQU3jYc/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 17,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.7,
+            "rpmEstimationTo": 0.02
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 798,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 1995,
+            "rpmEstimationTo": 2.5,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 1,
+          "likeCount": null,
+          "viewCount": 33320,
+          "zScore": 1.4394431660793388,
+          "averageViewsRatio": 2.106158919263908,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-06-25T08:47:02.715Z"
+      },
+      {
+        "id": "7xUNW2MJkOI",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCJixDuL-1ryWLLT4BQNMX0Q",
+          "channelTitle": "Gooklu",
+          "channelHandle": "@Gooklu",
+          "channelSubscribers": 55000,
+          "title": "#minecraft",
+          "publishedAt": "2025-04-09T16:29:33Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7xUNW2MJkOI/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7xUNW2MJkOI/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7xUNW2MJkOI/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 15,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.3,
+            "revenueEstimationTo": 0.6,
+            "rpmEstimationTo": 0.02
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 798,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 1995,
+            "rpmEstimationTo": 2.5,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": null,
+          "viewCount": 32125,
+          "zScore": 1.3563903821916956,
+          "averageViewsRatio": 2.0423359217104564,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-06-25T08:47:02.715Z"
+      },
+      {
+        "id": "ZlXXUfO_Eu8",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCVbiLXX_BEcPuNrc9isxdMQ",
+          "channelTitle": "Krez",
+          "channelHandle": "@Krez-28",
+          "channelSubscribers": 3230,
+          "title": "#minecraft",
+          "publishedAt": "2023-07-22T05:17:44Z",
+          "language": null,
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ZlXXUfO_Eu8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ZlXXUfO_Eu8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ZlXXUfO_Eu8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 6,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0.1,
+            "revenueEstimationTo": 0.1,
+            "rpmEstimationTo": 0.01
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 130,
+            "rpmEstimationFrom": 0.5,
+            "revenueMonthlyEstimationTo": 520,
+            "rpmEstimationTo": 2,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 4,
+          "likeCount": 150,
+          "viewCount": 9112,
+          "zScore": 0.8993327941006787,
+          "averageViewsRatio": 2.173074450302173,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-06-13T15:35:52.214Z"
+      },
+      {
+        "id": "JDwXSEeQzU8",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCpgQy-pKM5bEt0OXV2XJQuw",
+          "channelTitle": "Harpersville",
+          "channelHandle": "@fjpb9686",
+          "channelSubscribers": 281,
+          "title": "#minecraft",
+          "publishedAt": "2024-07-30T13:01:04Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JDwXSEeQzU8/frame0.jpg",
+              "width": 720,
+              "height": 720
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JDwXSEeQzU8/frame0.jpg",
+              "width": 720,
+              "height": 720
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JDwXSEeQzU8/frame0.jpg",
+              "width": 720,
+              "height": 720
+            }
+          },
+          "duration": 25,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 1,
+          "likeCount": 22,
+          "viewCount": 549,
+          "zScore": 2.474446066722076,
+          "averageViewsRatio": 5.010520978577767,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-01-08T07:26:36.628Z"
+      },
+      {
+        "id": "rT_hUetZcUM",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCsiJ-Y6w5T-U1yvKQMpPmtQ",
+          "channelTitle": "Theomcl1",
+          "channelHandle": "@Theomcl1",
+          "channelSubscribers": 441,
+          "title": "#minecraft",
+          "publishedAt": "2024-03-31T10:52:10Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "neutral"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rT_hUetZcUM/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rT_hUetZcUM/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rT_hUetZcUM/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 61,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 1,
+          "likeCount": 19,
+          "viewCount": 511,
+          "zScore": 1.9309901004563161,
+          "averageViewsRatio": 3.9725746369378605,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-01-11T12:11:01.104Z"
+      },
+      {
+        "id": "Z08Xm94uQOg",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCzrgzB2_ZxFCgJtwobLDtHQ",
+          "channelTitle": "Rathod XD",
+          "channelHandle": "@Rathodxd",
+          "channelSubscribers": 613000,
+          "title": "Minecraft Moments",
+          "publishedAt": "2024-10-13T13:38:01Z",
+          "language": "hi",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "fun"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Z08Xm94uQOg/frame0.jpg",
+              "width": 1080,
+              "height": 1440
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Z08Xm94uQOg/frame0.jpg",
+              "width": 1080,
+              "height": 1440
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Z08Xm94uQOg/frame0.jpg",
+              "width": 1080,
+              "height": 1440
+            }
+          },
+          "duration": 19,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 3,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 7.5,
+            "rpmEstimationTo": 2.5,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 3113,
+          "likeCount": 811229,
+          "viewCount": 16829306,
+          "zScore": 3.5013941379477083,
+          "averageViewsRatio": 7.497110488665827,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-29T12:22:30.989Z"
+      },
+      {
+        "id": "7FiuSRyMMfU",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCpgQy-pKM5bEt0OXV2XJQuw",
+          "channelTitle": "Harpersville",
+          "channelHandle": "@fjpb9686",
+          "channelSubscribers": 281,
+          "title": "#minecraft",
+          "publishedAt": "2024-08-11T02:39:14Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7FiuSRyMMfU/frame0.jpg",
+              "width": 720,
+              "height": 720
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7FiuSRyMMfU/frame0.jpg",
+              "width": 720,
+              "height": 720
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7FiuSRyMMfU/frame0.jpg",
+              "width": 720,
+              "height": 720
+            }
+          },
+          "duration": 27,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 27,
+          "viewCount": 565,
+          "zScore": 2.5645425258030783,
+          "averageViewsRatio": 5.156547090886044,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-01-08T07:26:36.628Z"
+      },
+      {
+        "id": "zquY_zxX-EE",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCaQXXkQTM5jTwJGyL04wtOw",
+          "channelTitle": "xRelix",
+          "channelHandle": "@Relixsk",
+          "channelSubscribers": 1180,
+          "title": "#minecraft",
+          "publishedAt": "2024-06-21T18:43:02Z",
+          "language": null,
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "neutral"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zquY_zxX-EE/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zquY_zxX-EE/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zquY_zxX-EE/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 17,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 29,
+          "likeCount": 671,
+          "viewCount": 43890,
+          "zScore": 8.582224504525474,
+          "averageViewsRatio": 30.31545627855113,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-01-11T19:57:16.372Z"
+      }
+    ]
+  }
+}

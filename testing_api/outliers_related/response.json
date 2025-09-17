@@ -1,0 +1,1219 @@
+{
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "980a5b67cc191a97-GRU",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 17 Sep 2025 17:34:57 GMT",
+    "etag": "W/\"5c44-7A+PrsIfr2SRZ5KuXon0a2Jrxf4\"",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=EHfEEHa742UjaZoBCTgvuMHWiWuoVAHhDQKlISNEZUIAkyVzaOtHGUffmOvkQ%2Bm7A9h1%2BHnHw96XmW%2FztHIYXidhZslYMrbMSWQzZQ%2F3IiW5qy5PRR6ykldEAoJNGl%2BD7rLotTFG23M8qb1U%2BnGeRfZukwfv\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "rndr-id": "11464548-c20f-42e9",
+    "server": "cloudflare",
+    "server-timing": "cfL4;desc=\"?proto=TCP&rtt=149526&min_rtt=149453&rtt_var=56191&sent=6&recv=7&lost=0&retrans=0&sent_bytes=3936&recv_bytes=2031&delivery_rate=26953&cwnd=252&unsent_bytes=0&cid=319a1b349b991185&ts=2895&x=0\"",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "transfer-encoding": "chunked",
+    "vary": "Origin, Accept-Encoding",
+    "x-cache": "MISS",
+    "x-cache-key": "api-public:GET:/v1/outliers/related:query:outlierId=ivZHv3xujNw",
+    "x-powered-by": "Express",
+    "x-ratelimit-limit": "10",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-reset": "1758130506",
+    "x-render-origin-server": "Render"
+  },
+  "body": {
+    "pagination": {
+      "total": 10000,
+      "from": 0,
+      "size": 20
+    },
+    "hits": [
+      {
+        "id": "M5jbVywg1wA",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UC0dkv5U1A98X_fVLZIZmkwQ",
+          "channelTitle": "Cat Cuddle - Rescue Center",
+          "channelHandle": "@CatCuddleCrew1",
+          "channelSubscribers": 2990,
+          "title": "Will You Help SAVE Thousands of Stray Cats This Year?  #cat #straycatrescue #straycatalliance",
+          "publishedAt": "2024-11-29T12:00:32Z",
+          "language": null,
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/M5jbVywg1wA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/M5jbVywg1wA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/M5jbVywg1wA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 58,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 46,
+            "rpmEstimationFrom": 0.5,
+            "revenueMonthlyEstimationTo": 184,
+            "rpmEstimationTo": 2,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 3,
+          "likeCount": 151,
+          "viewCount": 1587,
+          "zScore": 2.27420194245987,
+          "averageViewsRatio": 1.7761989342806395,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T01:20:39.621Z"
+      },
+      {
+        "id": "vYI15SrkMdA",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCmFDKrPFP5VjXyQKGMZBaMw",
+          "channelTitle": "Cute Cat Crew ",
+          "channelHandle": "@cutecatcrew",
+          "channelSubscribers": 398,
+          "title": "Baby kitten #shorts #short #shortvideo #shortsvideo #shortsyoutube #shortsfeed",
+          "publishedAt": "2025-01-21T20:00:35Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vYI15SrkMdA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vYI15SrkMdA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vYI15SrkMdA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 16,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 8,
+            "rpmEstimationFrom": 0.5,
+            "revenueMonthlyEstimationTo": 24,
+            "rpmEstimationTo": 1.5,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 7,
+          "likeCount": 369,
+          "viewCount": 5348,
+          "zScore": 2.8426003070515695,
+          "averageViewsRatio": 3.916931490651098,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T01:21:03.203Z"
+      },
+      {
+        "id": "buHPHC6bDZM",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCpvxQ5A1wkfGhsRhyCRVhgA",
+          "channelTitle": "Explore Geo Sciences",
+          "channelHandle": "@exploregeosciences",
+          "channelSubscribers": 293,
+          "title": "Zeolite group of Minerals",
+          "publishedAt": "2024-01-28T12:41:16Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/buHPHC6bDZM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/buHPHC6bDZM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/buHPHC6bDZM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 1223,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 1.5,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 3,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 4,
+          "likeCount": 15,
+          "viewCount": 434,
+          "zScore": 9.885164483528166,
+          "averageViewsRatio": 13.218274111675125,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:52:24.618Z"
+      },
+      {
+        "id": "Qn8-ar4mbLI",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCZlnLiH1mqMqnfh8B0Yg2qQ",
+          "channelTitle": "หน้ากลม แชนแนล",
+          "channelHandle": "@NaaKlomchannel",
+          "channelSubscribers": 103,
+          "title": "เปรตห่วงแม่ I หน้ากลม แชนแนล",
+          "publishedAt": "2025-04-04T15:13:00Z",
+          "language": "th",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Qn8-ar4mbLI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Qn8-ar4mbLI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Qn8-ar4mbLI/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 112,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 4.5,
+            "rpmEstimationFrom": 1.5,
+            "revenueMonthlyEstimationTo": 10,
+            "rpmEstimationTo": 3.5,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 18,
+          "viewCount": 1752,
+          "zScore": 1.3815254261375483,
+          "averageViewsRatio": 1.7541273584905661,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:52:42.906Z"
+      },
+      {
+        "id": "b5i7VGyils8",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCk0jpXIcuRsFjj376dO9rEA",
+          "channelTitle": "Blackwolfmusic",
+          "channelHandle": "@Blackwolfmusic7",
+          "channelSubscribers": 139000,
+          "title": "Krishna Bhajan youtube shorts new💯🔥 #shorts #viral #devotional",
+          "publishedAt": "2024-07-09T04:39:00Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "exciting"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/b5i7VGyils8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/b5i7VGyils8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/b5i7VGyils8/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 40,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0.02
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 200,
+            "rpmEstimationTo": 0.5,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 51,
+          "viewCount": 1185,
+          "zScore": 0.925307717515512,
+          "averageViewsRatio": 1.2074643249176729,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:48.347Z"
+      },
+      {
+        "id": "sisMmo7d-yY",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UC6J8S9nqmM7bFkjV5m4WRLw",
+          "channelTitle": "Sabaz Ali ",
+          "channelHandle": "@sabaz786love",
+          "channelSubscribers": 2380,
+          "title": "chhodh Na Jaa Ooh piya l♥️Love Songs♥️l Alka Yagnik Arbaaz khan Tabu Maa Tujhhe Salaam #cars#viral..",
+          "publishedAt": "2025-04-05T17:32:53Z",
+          "language": "hi",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "fun"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sisMmo7d-yY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sisMmo7d-yY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sisMmo7d-yY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 429,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 650,
+          "viewCount": 207999,
+          "zScore": 2.3366837427420037,
+          "averageViewsRatio": 5.504270890609334,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:47:58.469Z"
+      },
+      {
+        "id": "p2brKDpWaF0",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCtGMhyS4lK3L_UVWzeaTCpA",
+          "channelTitle": "DJ BACK BHART ",
+          "channelHandle": "@DJBACKBHARTREMIX",
+          "channelSubscribers": 313,
+          "title": "Me Tane Su Pyari Tu Pyara Mera Dj Remix | Jale 2 Sapna Choudhary Dj Remix | Tabij Bana Lu Tane Remix",
+          "publishedAt": "2025-02-25T04:16:02Z",
+          "language": "hi",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "fun"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/p2brKDpWaF0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/p2brKDpWaF0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/p2brKDpWaF0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "duration": 601,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 14,
+            "rpmEstimationTo": 1,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 6,
+          "likeCount": null,
+          "viewCount": 41010,
+          "zScore": 4.413195509686866,
+          "averageViewsRatio": 15.43331780222931,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:46:22.442Z"
+      },
+      {
+        "id": "prgohtWPkM0",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UC6J8S9nqmM7bFkjV5m4WRLw",
+          "channelTitle": "Sabaz Ali ",
+          "channelHandle": "@sabaz786love",
+          "channelSubscribers": 2380,
+          "title": ".💔🥀...#love #instagood #instagram #like #photography #photooftheday #follow #fashion #beaut",
+          "publishedAt": "2024-03-25T14:00:12Z",
+          "language": null,
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "happy"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/prgohtWPkM0/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/prgohtWPkM0/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/prgohtWPkM0/frame0.jpg",
+              "width": 720,
+              "height": 1280
+            }
+          },
+          "duration": 11,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 21,
+          "viewCount": 376,
+          "zScore": 1,
+          "averageViewsRatio": 1.078909612625538,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:24.165Z"
+      },
+      {
+        "id": "CftyuEIB9TU",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2024-03-05T11:14:52Z",
+          "language": "pl",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CftyuEIB9TU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CftyuEIB9TU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CftyuEIB9TU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 11,
+          "monetization": {
+            "rpmEstimationFrom": 0.5,
+            "revenueEstimationFrom": 0.7,
+            "revenueEstimationTo": 0.7,
+            "rpmEstimationTo": 0.5
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 1,
+          "viewCount": 1468,
+          "zScore": 0.996901771761242,
+          "averageViewsRatio": 4.368939262419087,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.167Z"
+      },
+      {
+        "id": "ldHT1bfjp_U",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2025-05-16T08:10:17Z",
+          "language": "pl",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ldHT1bfjp_U/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ldHT1bfjp_U/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ldHT1bfjp_U/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 27,
+          "monetization": {
+            "rpmEstimationFrom": 0.02,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0.03
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 1,
+          "viewCount": 1253,
+          "zScore": 2.752873530655742,
+          "averageViewsRatio": 4.877635701583538,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.361Z"
+      },
+      {
+        "id": "JJ_VzOW8OVg",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2025-05-01T07:00:29Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JJ_VzOW8OVg/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JJ_VzOW8OVg/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JJ_VzOW8OVg/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 23,
+          "monetization": {
+            "rpmEstimationFrom": 0.02,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0.03
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 1,
+          "viewCount": 582,
+          "zScore": 0.9695265757219792,
+          "averageViewsRatio": 2.3656533152680157,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.362Z"
+      },
+      {
+        "id": "H8G150lQc1c",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2025-04-28T08:26:12Z",
+          "language": "pl",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/H8G150lQc1c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/H8G150lQc1c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/H8G150lQc1c/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 30,
+          "monetization": {
+            "rpmEstimationFrom": 0.02,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0.1,
+            "rpmEstimationTo": 0.03
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 2,
+          "viewCount": 1689,
+          "zScore": 3.907143404399278,
+          "averageViewsRatio": 6.5035142687780505,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.362Z"
+      },
+      {
+        "id": "mD3P15edbVA",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2025-04-25T04:33:52Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/mD3P15edbVA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mD3P15edbVA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mD3P15edbVA/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 16,
+          "monetization": {
+            "rpmEstimationFrom": 0.02,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0.02
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 3,
+          "viewCount": 1013,
+          "zScore": 2.175738593783974,
+          "averageViewsRatio": 4.064696417986282,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.362Z"
+      },
+      {
+        "id": "QWE0Bv2Em_w",
+        "kind": "short",
+        "snippet": {
+          "channelId": "UCklBs_pjjq53LcRzrnTZTGg",
+          "channelTitle": "Lipslay - Home Salon UAE",
+          "channelHandle": "@lipslayuae",
+          "channelSubscribers": 5540,
+          "title": "Liplsay Home salon For Ladies",
+          "publishedAt": "2025-04-06T03:50:38Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QWE0Bv2Em_w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QWE0Bv2Em_w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/QWE0Bv2Em_w/frame0.jpg",
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          "duration": 10,
+          "monetization": {
+            "rpmEstimationFrom": 0.01,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0.02
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 0,
+            "rpmEstimationTo": 0,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 12,
+          "viewCount": 1504,
+          "zScore": 3.618575935963394,
+          "averageViewsRatio": 6.0970446269794225,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:55.362Z"
+      },
+      {
+        "id": "k56I4VeBiok",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCUxyEB0RNlvBPqmTG5qSwcA",
+          "channelTitle": "Kind Of NBA",
+          "channelHandle": "@KindOfNba",
+          "channelSubscribers": 715,
+          "title": "The 5 Most Hated Fighters in MMA History",
+          "publishedAt": "2024-12-14T17:46:32Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "negative",
+            "subSentiment": "critical"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/k56I4VeBiok/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/k56I4VeBiok/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/k56I4VeBiok/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 322,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 9,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 18,
+            "rpmEstimationTo": 2,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 4,
+          "likeCount": 10,
+          "viewCount": 1383,
+          "zScore": 1.1003477364708352,
+          "averageViewsRatio": 2.233696458295565,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:49:46.569Z"
+      },
+      {
+        "id": "hWEt0ze2FQ8",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCUxyEB0RNlvBPqmTG5qSwcA",
+          "channelTitle": "Kind Of NBA",
+          "channelHandle": "@KindOfNba",
+          "channelSubscribers": 715,
+          "title": "The Untold Story of Khabib Nurmagomedov",
+          "publishedAt": "2024-11-30T19:44:33Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hWEt0ze2FQ8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hWEt0ze2FQ8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hWEt0ze2FQ8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 242,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 9,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 18,
+            "rpmEstimationTo": 2,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 3,
+          "likeCount": 13,
+          "viewCount": 1462,
+          "zScore": 1.2141499483649427,
+          "averageViewsRatio": 2.3612901099263315,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:49:46.569Z"
+      },
+      {
+        "id": "9EecC8Hj3LQ",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCUxyEB0RNlvBPqmTG5qSwcA",
+          "channelTitle": "Kind Of NBA",
+          "channelHandle": "@KindOfNba",
+          "channelSubscribers": 715,
+          "title": "Top 10 BIGGEST Shoe Deals ln NBA History! / BIGGEST Shoe Deals ln NBA History!",
+          "publishedAt": "2024-11-05T19:33:30Z",
+          "language": "en",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "exciting"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/9EecC8Hj3LQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9EecC8Hj3LQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9EecC8Hj3LQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 482,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 9,
+            "rpmEstimationFrom": 1,
+            "revenueMonthlyEstimationTo": 18,
+            "rpmEstimationTo": 2,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": 3,
+          "likeCount": 47,
+          "viewCount": 4384,
+          "zScore": 5.423391254119148,
+          "averageViewsRatio": 7.080640110750367,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:49:46.569Z"
+      },
+      {
+        "id": "pSIvqN3rDGA",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCWPsOvQmWk2yM67Aj76AZpg",
+          "channelTitle": "DJ Party Songs",
+          "channelHandle": "@DJPartySongsBollywood",
+          "channelSubscribers": 252000,
+          "title": "Kasam Khake Kaho | Full Video | Kumar Sanu | Alka Yagnik | Dil Hai Tumhaara | 90 Bollywood Song",
+          "publishedAt": "2025-01-23T06:00:34Z",
+          "language": "hi",
+          "sentiment": {
+            "sentiment": "neutral",
+            "subSentiment": "informative"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pSIvqN3rDGA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pSIvqN3rDGA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pSIvqN3rDGA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 212,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 1105,
+            "rpmEstimationTo": 1,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": 5,
+          "likeCount": 328,
+          "viewCount": 120731,
+          "zScore": 0.8949829708849564,
+          "averageViewsRatio": 3.8572420133339405,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:48:50.394Z"
+      },
+      {
+        "id": "-iABVAzARX4",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCyyq0AncdsgukUNXYAqEWHw",
+          "channelTitle": "Taal Bhojpuri - RCM",
+          "channelHandle": "@TaalBhojpuri-RCM",
+          "channelSubscribers": 669,
+          "title": "#Nonstop Bhojpuri Hit TOP 10 Songs | भोजपुरी हिट सदाबहार टॉप गाने 2025 | Bhojpuri #DJ Song",
+          "publishedAt": "2025-05-22T11:30:01Z",
+          "language": "bn",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "fun"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/-iABVAzARX4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-iABVAzARX4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-iABVAzARX4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": 3353,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 0,
+            "rpmEstimationTo": 0
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 139,
+            "rpmEstimationTo": 1,
+            "adsense": false
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 84,
+          "viewCount": 23645,
+          "zScore": 2.200767644118001,
+          "averageViewsRatio": 4.577994019490437,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:49:45.524Z"
+      },
+      {
+        "id": "voNly9rbAAo",
+        "kind": "video",
+        "snippet": {
+          "channelId": "UCUpluKgy0ygHiX3AbDjs46g",
+          "channelTitle": "Basant Sharma India",
+          "channelHandle": "@Basantsharmaindia",
+          "channelSubscribers": 1050,
+          "title": "90’s old hindi songs💘 90s love song💘 udit narayan, alka yagnik, kumar sanu 🥰 hindi jukebox songs",
+          "publishedAt": "2025-05-23T15:14:01Z",
+          "language": "hi",
+          "sentiment": {
+            "sentiment": "positive",
+            "subSentiment": "happy"
+          },
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/voNly9rbAAo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/voNly9rbAAo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/voNly9rbAAo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "duration": 4718,
+          "monetization": {
+            "rpmEstimationFrom": 0,
+            "revenueEstimationFrom": 0,
+            "revenueEstimationTo": 1.9,
+            "rpmEstimationTo": 1.5
+          },
+          "channelMonetization": {
+            "revenueMonthlyEstimationFrom": 0,
+            "rpmEstimationFrom": 0,
+            "revenueMonthlyEstimationTo": 2,
+            "rpmEstimationTo": 1,
+            "adsense": true
+          }
+        },
+        "statistics": {
+          "commentCount": null,
+          "likeCount": 8,
+          "viewCount": 1288,
+          "zScore": 1.9493725430706998,
+          "averageViewsRatio": 4.698215067360537,
+          "isPositiveOutlier": true,
+          "isNegativeOutlier": false
+        },
+        "classification": null,
+        "time": "2025-05-24T00:49:58.575Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4281 @@
+{
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "980a5a889f77e2b9-GIG",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 17 Sep 2025 17:34:20 GMT",
+    "etag": "W/\"1586b-e0DYO6KtPVHobSiJ9APYLdwiOD4\"",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xgjO8AccugZ7XHNg5xpjWOEO7vUfEuDClJ88w4S0fl1phTgCeJvzJj77q1sHxIBgjlAKnO7DQsT3lgDcg0at2IoE2M%2BE7O7M8B1svIqoOwh3Jc0H8wMp7YLe0APaCuMRX70%3D\"}]}",
+    "rndr-id": "c189b059-e70b-4cc2",
+    "server": "cloudflare",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "transfer-encoding": "chunked",
+    "vary": "Origin, Accept-Encoding",
+    "x-cache": "MISS",
+    "x-cache-key": "api-public:GET:/v1/channels:query:query=minecraft",
+    "x-powered-by": "Express",
+    "x-ratelimit-limit": "10",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-reset": "1758130470",
+    "x-render-origin-server": "Render"
+  },
+  "body": {
+    "pagination": {
+      "total": 40,
+      "from": 0,
+      "size": 20
+    },
+    "hits": [
+      {
+        "id": "UCYPYEhWUvvKFgmgkLACagXA",
+        "snippet": {
+          "handle": "@MaxCraftYT",
+          "title": "MaxCraft",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/82oC4Gnt6Goq5hGOmFRznaoMsnUomv3DjWhWCgDDWYosYORRrao_u6IQKQbqh0kxATRZKytXN1E=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/82oC4Gnt6Goq5hGOmFRznaoMsnUomv3DjWhWCgDDWYosYORRrao_u6IQKQbqh0kxATRZKytXN1E=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/82oC4Gnt6Goq5hGOmFRznaoMsnUomv3DjWhWCgDDWYosYORRrao_u6IQKQbqh0kxATRZKytXN1E=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-02-15T18:15:11.324Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Survival",
+            "Challenge",
+            "Roleplay"
+          ],
+          "description": "Minecraft survival challenges and roleplay adventures"
+        },
+        "monetization": {
+          "adsense": false,
+          "revenueMonthlyEstimationFrom": 9580,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 21076,
+          "rpmEstimationTo": 5.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "negative"
+        },
+        "videos": [
+          {
+            "id": "5JgzqQzLhq4",
+            "title": "I Survived 100 Days as GUITAR SPEAKERMAN in Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/5JgzqQzLhq4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/5JgzqQzLhq4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/5JgzqQzLhq4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-09T00:00:00.000Z",
+            "viewCount": 3800998,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "qO00g0v8538",
+            "title": "I Survived 100 Days as DIAMOND CLOCKMAN in Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/qO00g0v8538/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/qO00g0v8538/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/qO00g0v8538/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-09T00:00:00.000Z",
+            "viewCount": 4825578,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "KOZOH29LKY8",
+            "title": "I Survived 100 Days as EVIL DRILLMAN in HARDCORE Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/KOZOH29LKY8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/KOZOH29LKY8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/KOZOH29LKY8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-09T00:00:00.000Z",
+            "viewCount": 5450738,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "iQ-tesRiBW4",
+            "title": "I Survived 1000 Days in CHAPTER 3 in HARDCORE Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/iQ-tesRiBW4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/iQ-tesRiBW4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/iQ-tesRiBW4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-09T00:00:00.000Z",
+            "viewCount": 4619110,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 1980000,
+          "subscriberCountRaw": "1.98M subscribers",
+          "viewCountEstimate": 229059402,
+          "viewCountMonthlyEstimate": 3832000,
+          "videosCount": 171,
+          "videosSampleCount": 120,
+          "videosCountRaw": "171",
+          "averageViewsEstimate": 1908828.35,
+          "medianViewsEstimate": 1513684,
+          "averageVideoDurationEstimate": 4280,
+          "standardDeviationViewsEstimate": 1338017.766483139,
+          "viewVariationCoefficient": 0.7009628531989998,
+          "avgViewsToSubscribersRatio": 0.9640547222222222,
+          "lastPublishedAtEstimate": "2025-08-30T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-09-09T00:00:00.000Z",
+          "positiveOutliersCount": 18,
+          "negativeOutliersCount": 22
+        }
+      },
+      {
+        "id": "UCI3CD3EQJDP4aP8tT7JaFHA",
+        "snippet": {
+          "handle": "@mastercraft-117",
+          "title": "MasterCraft",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/C9zsqc84O5rUANsGSedED2CWpfVCTG7oRCTUT6OWyfOl7TVXNvarJcxljXfI3HXqbT6jQ29ZKQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/C9zsqc84O5rUANsGSedED2CWpfVCTG7oRCTUT6OWyfOl7TVXNvarJcxljXfI3HXqbT6jQ29ZKQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/C9zsqc84O5rUANsGSedED2CWpfVCTG7oRCTUT6OWyfOl7TVXNvarJcxljXfI3HXqbT6jQ29ZKQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short",
+            "long-form"
+          ]
+        },
+        "time": "2025-06-06T22:44:40.734Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "survival",
+            "pocketmon",
+            "modding"
+          ],
+          "description": "Minecraft survival challenges and adventures with a twist of Pokémon"
+        },
+        "language": "es",
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 951,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 2536,
+          "rpmEstimationTo": 4,
+          "adsense": true
+        },
+        "videos": [
+          {
+            "id": "rMIz7aEhMbQ",
+            "title": "Sobreviví 100 días con el FLOOD en Minecraft Modo Hardcore",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/rMIz7aEhMbQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/rMIz7aEhMbQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/rMIz7aEhMbQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-16T00:00:00.000Z",
+            "viewCount": 520727,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "P-33bMXm-No",
+            "title": "I survived 100 days in JURASSIC PARK in Minecraft Hardcore Mode",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/P-33bMXm-No/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/P-33bMXm-No/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/P-33bMXm-No/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-30T00:00:00.000Z",
+            "viewCount": 28413,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "yZb9IYaGI0Q",
+            "title": "Sobreviví 100 días en la región KANTO de Minecraft Cobblemon",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/yZb9IYaGI0Q/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/yZb9IYaGI0Q/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/yZb9IYaGI0Q/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-06T00:00:00.000Z",
+            "viewCount": 18221,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "XL16bw9dSN4",
+            "title": "Sobreviví 100 DÍAS en Minecraft Cobblemon y me convertí en CAMPEÓN POKÉMON de JOHTO",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XL16bw9dSN4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XL16bw9dSN4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XL16bw9dSN4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-06T00:00:00.000Z",
+            "viewCount": 24306,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "_7MJWqokas0",
+            "title": "¡APARECIÓ MOLTRES EN COBBLEMON MINECRAFT! #minecraft #cobblemon #pokemon",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/_7MJWqokas0/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/_7MJWqokas0/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC7PhLXOrmmOLPKo-orWhBcV8myhg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 8900
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 9600,
+          "subscriberCountRaw": "9.6K subscribers",
+          "viewCountEstimate": 776572,
+          "viewCountMonthlyEstimate": 634000,
+          "videosCount": 11,
+          "videosSampleCount": 10,
+          "videosCountRaw": "11",
+          "averageViewsEstimate": 77657.2,
+          "medianViewsEstimate": 24306,
+          "averageVideoDurationEstimate": 991,
+          "standardDeviationViewsEstimate": 149675.6298184845,
+          "viewVariationCoefficient": 1.9273889583771306,
+          "avgViewsToSubscribersRatio": 8.089291666666666,
+          "lastPublishedAtEstimate": "2025-05-30T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2025-04-06T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCX8_T-tzHZIxrUuBgLFgOtw",
+        "snippet": {
+          "handle": "@ensisbest",
+          "title": "ens",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/k4iks8k2Sb2LDEMy0vjKwZTO2aPyJkAEkuzD3ANicuz8-cnwxN7Uf-jIVVhG7NExB2jyggoC16w=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/k4iks8k2Sb2LDEMy0vjKwZTO2aPyJkAEkuzD3ANicuz8-cnwxN7Uf-jIVVhG7NExB2jyggoC16w=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/k4iks8k2Sb2LDEMy0vjKwZTO2aPyJkAEkuzD3ANicuz8-cnwxN7Uf-jIVVhG7NExB2jyggoC16w=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-08-25T13:15:43.882Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Survival",
+            "Building",
+            "Hardcore"
+          ],
+          "description": "Minecraft hardcore survival and building challenges"
+        },
+        "language": "tr",
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 1521,
+          "rpmEstimationFrom": 3,
+          "revenueMonthlyEstimationTo": 2535,
+          "rpmEstimationTo": 5,
+          "adsense": true
+        },
+        "classification": {
+          "isFaceless": true,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "HITfhsL6Ufg",
+            "title": "Minecraft'taki Tüm Eşyaları Topladım | Hardcore 6",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/HITfhsL6Ufg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/HITfhsL6Ufg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/HITfhsL6Ufg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-25T00:00:00.000Z",
+            "viewCount": 451723,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "5Cf1DJYZ1MY",
+            "title": "Minecraft'ta 4,105,530 Blok Kazdım | Hardcore 5",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/5Cf1DJYZ1MY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/5Cf1DJYZ1MY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/5Cf1DJYZ1MY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-25T00:00:00.000Z",
+            "viewCount": 689069,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "H1X7zjNMn50",
+            "title": "Minecraft'ta Ejderha Farmı Yaptım | Hardcore 4",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/H1X7zjNMn50/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/H1X7zjNMn50/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/H1X7zjNMn50/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-25T00:00:00.000Z",
+            "viewCount": 869306,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "PgPDLYPZAuo",
+            "title": "Minecraft'ın En İyi Zırhını Yaptım | Hardcore 3",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/PgPDLYPZAuo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/PgPDLYPZAuo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/PgPDLYPZAuo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-25T00:00:00.000Z",
+            "viewCount": 1067647,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "brWBKokQwd4",
+            "title": "hardcore youtuberları @BerkayInan",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/brWBKokQwd4/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/brWBKokQwd4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCOCIY2y7d_N0IAOXaKADIlOGjbjA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 6300000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "XSoqlMl3OR0",
+            "title": "I will never make copper armor again 💀",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/XSoqlMl3OR0/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/XSoqlMl3OR0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCYXGwUj1WUfCtlA6e2v_wToiFaRw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 914000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "yDraTfCJvfo",
+            "title": "The golem called his father 💀",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/yDraTfCJvfo/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/yDraTfCJvfo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCZEnLrcj6quCroklZ2eE8vtVzDIw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 342000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "U43i0FEpaOM",
+            "title": "tamir vermeyen köylü",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/U43i0FEpaOM/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/U43i0FEpaOM/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBHPfj9iVRnfKFEoKkHAFzeugXmow",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 356000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 234000,
+          "subscriberCountRaw": "234K subscribers",
+          "viewCountEstimate": 27757299,
+          "viewCountMonthlyEstimate": 507000,
+          "videosCount": 159,
+          "videosSampleCount": 120,
+          "videosCountRaw": "159",
+          "averageViewsEstimate": 231310.825,
+          "medianViewsEstimate": 174204,
+          "averageVideoDurationEstimate": 1035,
+          "standardDeviationViewsEstimate": 218297.5473393546,
+          "viewVariationCoefficient": 0.943741164467139,
+          "avgViewsToSubscribersRatio": 0.9885077991452992,
+          "lastPublishedAtEstimate": "2025-07-25T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-08-25T00:00:00.000Z",
+          "positiveOutliersCount": 15,
+          "negativeOutliersCount": 14
+        }
+      },
+      {
+        "id": "UCwPlekBdyNPnNxLhkp9K--A",
+        "snippet": {
+          "handle": "@minutetechmc",
+          "title": "MinuteTech",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/I7dkaw58dsEL3YyFL1bM8qrNIMcxL6dr2Syz7XTk9NXYC-uuBMEeRrEEnEo_oL4kFaNMsgOf=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/I7dkaw58dsEL3YyFL1bM8qrNIMcxL6dr2Syz7XTk9NXYC-uuBMEeRrEEnEo_oL4kFaNMsgOf=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/I7dkaw58dsEL3YyFL1bM8qrNIMcxL6dr2Syz7XTk9NXYC-uuBMEeRrEEnEo_oL4kFaNMsgOf=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-03-22T07:17:03.917Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "survival",
+            "modding",
+            "challenge"
+          ],
+          "description": "Minecraft survival challenges and modded gameplay adventures"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 0,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 0
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "pNLd7_YCzio",
+            "title": "How I Won a Secret Base War",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pNLd7_YCzio/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pNLd7_YCzio/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pNLd7_YCzio/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-01T00:00:00.000Z",
+            "viewCount": 2484238,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "QbNjnDEflsQ",
+            "title": "I Built The Death Star In Survival Minecraft",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/QbNjnDEflsQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/QbNjnDEflsQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/QbNjnDEflsQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-01T00:00:00.000Z",
+            "viewCount": 1842065,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "mBN2UVCEZ5w",
+            "title": "Beating Prominence: Minecraft's Hardest RPG",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/mBN2UVCEZ5w/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/mBN2UVCEZ5w/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/mBN2UVCEZ5w/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-01T00:00:00.000Z",
+            "viewCount": 2844181,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "g0fJIea52AE",
+            "title": "How I Conquered RLCraft",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/g0fJIea52AE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/g0fJIea52AE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/g0fJIea52AE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-01T00:00:00.000Z",
+            "viewCount": 2622747,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "g2uTyxITz9o",
+            "title": "Minecraft's Highest Damage",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/g2uTyxITz9o/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/g2uTyxITz9o/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBYBk-IIkhhlg_WgToQJdK8xXkNaw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1600000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "8wEqRpvizco",
+            "title": "Minecraft's Tallest World Record",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/8wEqRpvizco/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/8wEqRpvizco/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBWpKNkSorgJEBcDj9uv6q0lz3fWA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1600000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "sQDVeLJeXsc",
+            "title": "minecrafts HARDEST clutches",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/sQDVeLJeXsc/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/sQDVeLJeXsc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAOIlvd45p1fbdeUq4RrsMT9UFomw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "osQRf6kC6ZI",
+            "title": "minecrafts HARDEST record",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/osQRf6kC6ZI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/osQRf6kC6ZI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDavlrzCXOcznPiCVOdon5e6XydAA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3700000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1000000,
+          "subscriberCountRaw": "1M subscribers",
+          "viewCountEstimate": 92378959,
+          "viewCountMonthlyEstimate": 3890000,
+          "videosCount": 114,
+          "videosSampleCount": 92,
+          "videosCountRaw": "114",
+          "averageViewsEstimate": 1004119.1195652174,
+          "medianViewsEstimate": 759011,
+          "averageVideoDurationEstimate": 1214,
+          "standardDeviationViewsEstimate": 1039835.1397077208,
+          "viewVariationCoefficient": 1.0355695050981286,
+          "avgViewsToSubscribersRatio": 1.0041191195652175,
+          "lastPublishedAtEstimate": "2025-07-23T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2021-08-01T00:00:00.000Z",
+          "positiveOutliersCount": 18,
+          "negativeOutliersCount": 24
+        }
+      },
+      {
+        "id": "UCOYBtBZtz0xVraIhB_rhEnw",
+        "snippet": {
+          "handle": "@MkamelAndSmsmaaa",
+          "title": "Mkamel",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kBoaMNf5SNliGlcqCebM6WhysPJ9RmqgFju8850DGhniY=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kBoaMNf5SNliGlcqCebM6WhysPJ9RmqgFju8850DGhniY=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kBoaMNf5SNliGlcqCebM6WhysPJ9RmqgFju8850DGhniY=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2024-12-29T04:00:30.112Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Challenge",
+            "Build",
+            "Survival"
+          ],
+          "description": "Minecraft survival challenges and builds"
+        },
+        "language": "ar",
+        "videos": [
+          {
+            "id": "WGPqc-bxDWI",
+            "title": "ماين كرافت تحدي بناء المنزل المائي ضد المنزل الناري امكامل و سمسمة ضد سحس و مالك ..(2Vs2 ) 😨🔥",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/WGPqc-bxDWI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/WGPqc-bxDWI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/WGPqc-bxDWI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-29T00:00:00.000Z",
+            "viewCount": 346576,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "FRCdjK1y2Ks",
+            "title": "ماين كرافت : تحدي بناء بيت أمن ضد تسونامي مشروب برايم عائلة سحس ضد عائلة امكامل..😂🔥",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/FRCdjK1y2Ks/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/FRCdjK1y2Ks/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/FRCdjK1y2Ks/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-29T00:00:00.000Z",
+            "viewCount": 316559,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_3nF95FJ5C0",
+            "title": "ماين كرافت : تحدي بناء بيت أمن ضد هجوم البوب العملاق الشرير مع اخويا النوب..😂🔥",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_3nF95FJ5C0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_3nF95FJ5C0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_3nF95FJ5C0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-29T00:00:00.000Z",
+            "viewCount": 326226,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "BAsvS-Kixwo",
+            "title": "الهروب من البوب الشرير الجديد في ماين كرافت.. (الكاميرات صورتة ) !!🔥😨",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/BAsvS-Kixwo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/BAsvS-Kixwo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/BAsvS-Kixwo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-07-29T00:00:00.000Z",
+            "viewCount": 366286,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 1320000,
+          "subscriberCountRaw": "1.32M subscribers",
+          "viewCountEstimate": 23834941,
+          "videosCount": 620,
+          "videosSampleCount": 120,
+          "videosCountRaw": "620",
+          "averageViewsEstimate": 198624.50833333333,
+          "standardDeviationViewsEstimate": 137939.7528164619,
+          "viewVariationCoefficient": 0.6944749868680367,
+          "avgViewsToSubscribersRatio": 0.15047311237373737,
+          "lastPublishedAtEstimate": "2024-12-28T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-12-29T00:00:00.000Z",
+          "positiveOutliersCount": 16,
+          "negativeOutliersCount": 11
+        }
+      },
+      {
+        "id": "UCbtMZowe0Rgq0Bn5kW2N6oQ",
+        "snippet": {
+          "handle": "@TheMac_",
+          "title": "TheMac",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/PSHx49bIjfWethEBMLgTIs4betQGbHJsyeXi-bvduXmio3KVD2HOfc9zD4rpD-obLBxGz4BT-w=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/PSHx49bIjfWethEBMLgTIs4betQGbHJsyeXi-bvduXmio3KVD2HOfc9zD4rpD-obLBxGz4BT-w=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/PSHx49bIjfWethEBMLgTIs4betQGbHJsyeXi-bvduXmio3KVD2HOfc9zD4rpD-obLBxGz4BT-w=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-25T08:03:03.920Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "challenge",
+            "crafting",
+            "fun"
+          ],
+          "description": "Minecraft gameplay challenges and creative builds"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 1296,
+          "rpmEstimationFrom": 4.5,
+          "revenueMonthlyEstimationTo": 1728,
+          "rpmEstimationTo": 6
+        },
+        "videos": [
+          {
+            "id": "oTny9dxruPs",
+            "title": "Letting Random Comments Control My Game",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/oTny9dxruPs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/oTny9dxruPs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/oTny9dxruPs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-10-25T00:00:00.000Z",
+            "viewCount": 1076661,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "E7rGnOEd7CI",
+            "title": "Your Infinite Craft Challenges Are Busted",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/E7rGnOEd7CI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/E7rGnOEd7CI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/E7rGnOEd7CI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-25T00:00:00.000Z",
+            "viewCount": 381348,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "qXuJz4Re038",
+            "title": "An Hour of Infinite Craft To Enjoy While You...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/qXuJz4Re038/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/qXuJz4Re038/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/qXuJz4Re038/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-05-25T00:00:00.000Z",
+            "viewCount": 348063,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "to-mNhy4ZmE",
+            "title": "your challenges are getting too insane",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/to-mNhy4ZmE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/to-mNhy4ZmE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/to-mNhy4ZmE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-03-25T00:00:00.000Z",
+            "viewCount": 957679,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "uOFsb1jkBsQ",
+            "title": "GETTING ROASTED BY MY COMMENTS #infinitecraft",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/uOFsb1jkBsQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/uOFsb1jkBsQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBHvwo1SRfWF4YblO3n18yoBj21XQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7700,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "x0rwzCWZxRI",
+            "title": "Gigachad BeatSaber VR #beatsaber #gigachad #vr",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/x0rwzCWZxRI/frame0.jpg",
+                "width": 1080,
+                "height": 1620
+              },
+              {
+                "url": "https://i.ytimg.com/vi/x0rwzCWZxRI/oar2.jpg?sqp=-oaymwEdCOADENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCPHt8ER5b5BNgkqCA5ti52H21fzw",
+                "width": 480,
+                "height": 720
+              }
+            ],
+            "viewCount": 1800,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "zqSOdShdWoE",
+            "title": "I think I'm in a Leaf Simulation #join #discord #challenge",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/zqSOdShdWoE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/zqSOdShdWoE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAMV9gpdJQTMtKWMnH-VjHYpK2mCQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1800,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 37300,
+          "subscriberCountRaw": "37.3K subscribers",
+          "viewCountEstimate": 8745588,
+          "viewCountMonthlyEstimate": 343000,
+          "videosCount": 128,
+          "videosSampleCount": 120,
+          "videosCountRaw": "128",
+          "averageViewsEstimate": 72879.9,
+          "medianViewsEstimate": 141,
+          "averageVideoDurationEstimate": 1075,
+          "standardDeviationViewsEstimate": 245571.26118055152,
+          "viewVariationCoefficient": 3.3695334540874993,
+          "avgViewsToSubscribersRatio": 1.9538847184986594,
+          "lastPublishedAtEstimate": "2025-01-16T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-01-25T00:00:00.000Z",
+          "positiveOutliersCount": 9,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCPcEEMYMy3EpYw9IATmWBNQ",
+        "snippet": {
+          "handle": "@fvdge",
+          "title": "fvdge",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/FLVNNo4wde51h_Ux7vSufcdrvqzIzpdblPUgtK2bUeoRjqrym4-L6dpZKgnmCEL6dBGlR6CWbQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/FLVNNo4wde51h_Ux7vSufcdrvqzIzpdblPUgtK2bUeoRjqrym4-L6dpZKgnmCEL6dBGlR6CWbQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/FLVNNo4wde51h_Ux7vSufcdrvqzIzpdblPUgtK2bUeoRjqrym4-L6dpZKgnmCEL6dBGlR6CWbQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "short",
+            "short-form"
+          ]
+        },
+        "time": "2025-02-09T14:38:27.922Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "mining",
+            "parkour",
+            "challenge"
+          ],
+          "description": "Minecraft gameplay challenges and adventures"
+        },
+        "monetization": {
+          "adsense": false,
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 0,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 0
+        },
+        "language": "en",
+        "videos": [],
+        "shorts": [
+          {
+            "id": "DTxZEPQfdns",
+            "title": "Looting Desert Temples At Different Ages 🤔 (World's Smallest Violin)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/DTxZEPQfdns/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/DTxZEPQfdns/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAQfIYFcbO5_FCIHMgmNH5mnFRUWQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 36000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "p-eItu06Sjw",
+            "title": "Clutches By Different Youtubers... 🤔 (World's Smallest Violin)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/p-eItu06Sjw/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/p-eItu06Sjw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAa1-j7kOIkrYywsDB89EHGhiIanw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 52000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "5NBHmr1DUW0",
+            "title": "Crossing Lava At Different Ages 🤔 (World's Smallest Violin)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/5NBHmr1DUW0/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/5NBHmr1DUW0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBkM_S9hRntZCFHbkJqsNHaMB8E3w",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 51000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "pnv7Di6FqKs",
+            "title": "Parkour At Different Ages 😳 (World's Smallest Violin)",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/pnv7Di6FqKs/frame0.jpg",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://i.ytimg.com/vi/pnv7Di6FqKs/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCR4udxbi6X7hZ9SK9YcTUEr0wipA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 58000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 1750000,
+          "subscriberCountRaw": "1.75M",
+          "viewCountEstimate": 0,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 94,
+          "videosCountRaw": 94,
+          "videosSampleCount": 0,
+          "averageViewsEstimate": null,
+          "averageVideoDurationEstimate": null,
+          "standardDeviationViewsEstimate": null,
+          "viewVariationCoefficient": null,
+          "avgViewsToSubscribersRatio": null,
+          "lastPublishedAtEstimate": null,
+          "oldestParsedPublishedAtEstimate": null,
+          "positiveOutliersCount": 0,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC73HkfIZt0RasDkpWINVg2g",
+        "snippet": {
+          "handle": "@CxIvxn",
+          "title": "Cxlvxn",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kWPJdNlf8mv7r8IqWYINwM_sGKdJ-oNAqGpZD2QfFBw9Q=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kWPJdNlf8mv7r8IqWYINwM_sGKdJ-oNAqGpZD2QfFBw9Q=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_kWPJdNlf8mv7r8IqWYINwM_sGKdJ-oNAqGpZD2QfFBw9Q=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-03-22T07:11:15.259Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "hardcore",
+            "survival",
+            "adventure"
+          ],
+          "description": "Minecraft survival and adventure challenges"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 815,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 1793,
+          "rpmEstimationTo": 5.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "T52KDCh5Wlk",
+            "title": "I Spent 100 days in HARDCORE RLCRAFT v2.9.. Here's What Happened...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/T52KDCh5Wlk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/T52KDCh5Wlk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/T52KDCh5Wlk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-08-10T00:00:00.000Z",
+            "viewCount": 1890308,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "-8GOLfBjqIE",
+            "title": "I Spent 100 days in NEW RLCRAFT.. Here's What Happened..",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/-8GOLfBjqIE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/-8GOLfBjqIE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/-8GOLfBjqIE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-08-10T00:00:00.000Z",
+            "viewCount": 3724871,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Mu_7iA2dKVU",
+            "title": "I Spent 200 days in HARDCORE RLCraft.. Here's What Happened..",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Mu_7iA2dKVU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Mu_7iA2dKVU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Mu_7iA2dKVU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2021-08-10T00:00:00.000Z",
+            "viewCount": 3526402,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "nyDdeSzEzDE",
+            "title": "I Survived 200 Days in HARDCORE Minecraft.. Here's What Happened",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/nyDdeSzEzDE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/nyDdeSzEzDE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/nyDdeSzEzDE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2021-08-10T00:00:00.000Z",
+            "viewCount": 3801605,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 1150000,
+          "subscriberCountRaw": "1.15M subscribers",
+          "viewCountEstimate": 74818684,
+          "viewCountMonthlyEstimate": 326000,
+          "videosCount": 192,
+          "videosSampleCount": 120,
+          "videosCountRaw": "192",
+          "averageViewsEstimate": 623489.0333333333,
+          "medianViewsEstimate": 353837,
+          "averageVideoDurationEstimate": 1909,
+          "standardDeviationViewsEstimate": 1355435.0964054181,
+          "viewVariationCoefficient": 2.1739517841379055,
+          "avgViewsToSubscribersRatio": 0.5421643768115942,
+          "lastPublishedAtEstimate": "2025-07-27T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2020-08-10T00:00:00.000Z",
+          "positiveOutliersCount": 6,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCDt3CWRmllUEladp1DxdoBw",
+        "snippet": {
+          "handle": "@redcraft12",
+          "title": "RED Craft",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_ntM7cJqDEP-XCsoQBBZDFYF3VwT9-xoaacSZgfZrIUsw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_ntM7cJqDEP-XCsoQBBZDFYF3VwT9-xoaacSZgfZrIUsw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_ntM7cJqDEP-XCsoQBBZDFYF3VwT9-xoaacSZgfZrIUsw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short",
+            "long-form"
+          ]
+        },
+        "time": "2025-01-25T21:13:20.496Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "animation",
+            "challenge",
+            "run"
+          ],
+          "description": "Minecraft animations and challenges"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 743,
+          "rpmEstimationFrom": 1,
+          "revenueMonthlyEstimationTo": 2229,
+          "rpmEstimationTo": 3
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "negative"
+        },
+        "videos": [
+          {
+            "id": "sPRRYIsGs5g",
+            "title": "DRAWING RUN CHALLENGE - Minecraft Animation",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/sPRRYIsGs5g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/sPRRYIsGs5g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/sPRRYIsGs5g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-15T00:00:00.000Z",
+            "viewCount": 9938193,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_Gu0UffwXk4",
+            "title": "WHICH MOB STRONGEST RUN CHALLENGE - Minecraft Animation",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_Gu0UffwXk4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_Gu0UffwXk4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_Gu0UffwXk4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-09-06T00:00:00.000Z",
+            "viewCount": 62872,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "ZLWMT-UYY6M",
+            "title": "CATCH STEVE RUN CHALLENGE - Minecraft Animation",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ZLWMT-UYY6M/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ZLWMT-UYY6M/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ZLWMT-UYY6M/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-18T00:00:00.000Z",
+            "viewCount": 154586,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "-xCC0MP00zM",
+            "title": "DRAWING RUN 4 CHALLENGE - Minecraft Animation",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/-xCC0MP00zM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/-xCC0MP00zM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/-xCC0MP00zM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-06-15T00:00:00.000Z",
+            "viewCount": 2992724,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "rrvzUNeRUwc",
+            "title": "Save Dog Destiny - Minecraft Animation  | A sad story💔😢 #shorts #minecraft #minecraftanimation",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/rrvzUNeRUwc/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/rrvzUNeRUwc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDc_KtAyE05IOkSKpeOorClD3ySXw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 171000
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 130000,
+          "subscriberCountRaw": "130K subscribers",
+          "viewCountEstimate": 25266434,
+          "viewCountMonthlyEstimate": 743000,
+          "videosCount": 15,
+          "videosSampleCount": 14,
+          "videosCountRaw": "15",
+          "averageViewsEstimate": 1804745.2857142857,
+          "medianViewsEstimate": 986341,
+          "averageVideoDurationEstimate": 540,
+          "standardDeviationViewsEstimate": 2470191.623054849,
+          "viewVariationCoefficient": 1.3687203632601215,
+          "avgViewsToSubscribersRatio": 13.882656043956043,
+          "lastPublishedAtEstimate": "2025-09-06T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-09-15T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC9GmTDKB0ttKEnzKsMRYRTA",
+        "snippet": {
+          "handle": "@Mcaddon",
+          "title": "Mc addon",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/syxX25tX4t60ix2T8NH14e76QHrkTq2h5kQ6euo3XHTvf88MxuQrIPi2PWXwgKDN-avyttVd8g=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/syxX25tX4t60ix2T8NH14e76QHrkTq2h5kQ6euo3XHTvf88MxuQrIPi2PWXwgKDN-avyttVd8g=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/syxX25tX4t60ix2T8NH14e76QHrkTq2h5kQ6euo3XHTvf88MxuQrIPi2PWXwgKDN-avyttVd8g=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-25T22:33:17.242Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Modding",
+            "Survival",
+            "Challenge"
+          ],
+          "description": "Minecraft modding and survival challenges"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 2407,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 5617,
+          "rpmEstimationTo": 3.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "negative"
+        },
+        "videos": [
+          {
+            "id": "7FI-UcyvBU4",
+            "title": "I Built INDIA In Minecraft Survival | Addon Nagar #22 | Mcaddon",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/7FI-UcyvBU4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/7FI-UcyvBU4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/7FI-UcyvBU4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-08-10T00:00:00.000Z",
+            "viewCount": 1681552,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "MBCpiqess10",
+            "title": "Minecraft But If I take Damage My Language Changes | Mcaddon",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/MBCpiqess10/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/MBCpiqess10/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/MBCpiqess10/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-08-10T00:00:00.000Z",
+            "viewCount": 1849883,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "-8q7WT4LRHI",
+            "title": "I Survived 100 Days But EveryDay New Challenges Arrives in Minecraft Hardcore | Mcaddon",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/-8q7WT4LRHI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/-8q7WT4LRHI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/-8q7WT4LRHI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-08-10T00:00:00.000Z",
+            "viewCount": 1303072,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "9Di-8CxT7vU",
+            "title": "Minecraft But If I Take Damage Game VERSION Changes | Minecraft In Hindi",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/9Di-8CxT7vU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/9Di-8CxT7vU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/9Di-8CxT7vU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-08-10T00:00:00.000Z",
+            "viewCount": 1258810,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "0pDgKFz0BI4",
+            "title": "Minecraft But I Can Steal Mobs Parts....#mcaddon #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/0pDgKFz0BI4/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/0pDgKFz0BI4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAj5qwVx0oTjkEZxmmJXtyoudDo9A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "9BOB70as73s",
+            "title": "Minecraft But it's all Challenges Combined..... #mcaddon #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/9BOB70as73s/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/9BOB70as73s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD9gKM4dagVn5uDh6rPCaKqxQgHSg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "1xOlSTpHc8g",
+            "title": "Minecraft But If You SUBSCRIBE It Gets More Realistic.... #mcaddon #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/1xOlSTpHc8g/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/1xOlSTpHc8g/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC1M3VohBz5T7Cf9fEz8iMLhrOJlw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 7600000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "0cBwbcbA8pg",
+            "title": "Minecraft, But If I Take Damage My Size Randomly Changes.... #mcaddon #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/0cBwbcbA8pg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/0cBwbcbA8pg/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB1CMZFW0rHhia2t7w_GISBfIX4DA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 2600000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 2350000,
+          "subscriberCountRaw": "2.35M subscribers",
+          "viewCountEstimate": 84133825,
+          "viewCountMonthlyEstimate": 1605000,
+          "videosCount": 697,
+          "videosSampleCount": 113,
+          "videosCountRaw": "697",
+          "averageViewsEstimate": 744547.1238938053,
+          "medianViewsEstimate": 531220,
+          "averageVideoDurationEstimate": 592,
+          "standardDeviationViewsEstimate": 617387.7668491319,
+          "viewVariationCoefficient": 0.8292124796887804,
+          "avgViewsToSubscribersRatio": 0.3168285633590661,
+          "lastPublishedAtEstimate": "2025-07-20T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2021-08-10T00:00:00.000Z",
+          "positiveOutliersCount": 17,
+          "negativeOutliersCount": 12
+        }
+      },
+      {
+        "id": "UCrJCzC7Jkq72tVF5bVu7-ew",
+        "snippet": {
+          "handle": "@McMakistein",
+          "title": "McMakistein",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_k7POXMETvGU0oQcIKMrxIOX9vjdgIhXFN4nR30PmtQXw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_k7POXMETvGU0oQcIKMrxIOX9vjdgIhXFN4nR30PmtQXw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/ytc/AIdro_k7POXMETvGU0oQcIKMrxIOX9vjdgIhXFN4nR30PmtQXw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-09-06T07:36:35.040Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "modding",
+            "enchantments",
+            "challenge"
+          ],
+          "description": "Minecraft modding and enchantment challenges"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 324,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 648,
+          "rpmEstimationTo": 3,
+          "adsense": false
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "XHEkzrINhAY",
+            "title": "Longest Minecraft Piston World Record!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XHEkzrINhAY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XHEkzrINhAY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XHEkzrINhAY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-09-06T00:00:00.000Z",
+            "viewCount": 1115342,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "KDas5w3LMXs",
+            "title": "Breaking Minecraft using a single Piston...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/KDas5w3LMXs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/KDas5w3LMXs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/KDas5w3LMXs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-09-06T00:00:00.000Z",
+            "viewCount": 1003249,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "2LRvq6H11bs",
+            "title": "So I added the wildest 8 Minecraft Features...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/2LRvq6H11bs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/2LRvq6H11bs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/2LRvq6H11bs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-09-06T00:00:00.000Z",
+            "viewCount": 1990219,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "ouUw9Yli-LI",
+            "title": "So I tried beating Minecraft in Reverse...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ouUw9Yli-LI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ouUw9Yli-LI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ouUw9Yli-LI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2022-09-06T00:00:00.000Z",
+            "viewCount": 818658,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "EVGCkCqp5cQ",
+            "title": "Minecraft But... It's Impossible To Survive",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/EVGCkCqp5cQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/EVGCkCqp5cQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCw9NRG71JXlo8dy3eTxSRH2qEQnw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 5600000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "WLCk_XwmxDQ",
+            "title": "I added Block Enchantments to Minecraft",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/WLCk_XwmxDQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/WLCk_XwmxDQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAK_1liv5bCRI276TMEUDDklY12mw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3900,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "aWZ7ZrFDH9Y",
+            "title": "Minecraft Has A New Boss Now?!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/aWZ7ZrFDH9Y/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/aWZ7ZrFDH9Y/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCMEbgKO7rJom0JNuraZ3r6uc3seg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 18000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "pKlPgZG_N2Q",
+            "title": "Mace Enchantments are Overpowered...",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/pKlPgZG_N2Q/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/pKlPgZG_N2Q/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAejORhRsYm-8d5XNfNV-X3hWWznQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 23000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 415000,
+          "subscriberCountRaw": "415K subscribers",
+          "viewCountEstimate": 34384621,
+          "viewCountMonthlyEstimate": 219000,
+          "videosCount": 211,
+          "videosSampleCount": 119,
+          "videosCountRaw": "211",
+          "averageViewsEstimate": 288946.39495798317,
+          "medianViewsEstimate": 74046,
+          "averageVideoDurationEstimate": 493,
+          "standardDeviationViewsEstimate": 659180.9784879438,
+          "viewVariationCoefficient": 2.2813261905683158,
+          "avgViewsToSubscribersRatio": 0.6962563733927305,
+          "lastPublishedAtEstimate": "2025-08-23T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2016-09-06T00:00:00.000Z",
+          "positiveOutliersCount": 11,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCL5tJuD2nu87LwUHiDidu5g",
+        "snippet": {
+          "handle": "@MOBOIGAMING",
+          "title": "MOBOI GAMING",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/JYXv6KiSOEpmuyq8SZ0l3Pw6CLRoqYo6cjVX127LBqJ5Ycn2yfFEy19ORgtaYNsoATO6Gsh4KQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/JYXv6KiSOEpmuyq8SZ0l3Pw6CLRoqYo6cjVX127LBqJ5Ycn2yfFEy19ORgtaYNsoATO6Gsh4KQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/JYXv6KiSOEpmuyq8SZ0l3Pw6CLRoqYo6cjVX127LBqJ5Ycn2yfFEy19ORgtaYNsoATO6Gsh4KQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-01-09T08:56:00.038Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "mob",
+            "challenge",
+            "survival"
+          ],
+          "description": "Minecraft survival challenges and mob battles"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 43,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 72,
+          "rpmEstimationTo": 2.5
+        },
+        "videos": [
+          {
+            "id": "uyapx-F65dE",
+            "title": "Herobrine vs 30 Different TNTs! Can He survive Nuclear TNTs?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/uyapx-F65dE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/uyapx-F65dE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/uyapx-F65dE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-05-26T00:00:00.000Z",
+            "viewCount": 3074096,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_kxQeMdHJ2U",
+            "title": "Warden vs 30 Different TNTs! Can Warden survive Nuclear TNTs?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_kxQeMdHJ2U/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_kxQeMdHJ2U/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_kxQeMdHJ2U/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-05-26T00:00:00.000Z",
+            "viewCount": 2531344,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "pOpta4v9SuQ",
+            "title": "Stalker vs all Golems! Can Stalker beat all?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pOpta4v9SuQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pOpta4v9SuQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pOpta4v9SuQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-22T00:00:00.000Z",
+            "viewCount": 1226,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "eaL_HuBsnF4",
+            "title": "Warden vs Deep Dark Mobs! Can Warden beat All?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/eaL_HuBsnF4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/eaL_HuBsnF4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/eaL_HuBsnF4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-05-12T00:00:00.000Z",
+            "viewCount": 1587,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 23800,
+          "subscriberCountRaw": "23.8K subscribers",
+          "viewCountEstimate": 6208385,
+          "viewCountMonthlyEstimate": 29000,
+          "videosCount": 58,
+          "videosSampleCount": 58,
+          "videosCountRaw": "58",
+          "averageViewsEstimate": 107041.12068965517,
+          "medianViewsEstimate": 3785,
+          "averageVideoDurationEstimate": 846,
+          "standardDeviationViewsEstimate": 512250.17254843283,
+          "viewVariationCoefficient": 4.7855456785958195,
+          "avgViewsToSubscribersRatio": 4.497526079397276,
+          "lastPublishedAtEstimate": "2025-05-22T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-05-26T00:00:00.000Z",
+          "positiveOutliersCount": 2,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCS7lxrvcQMhTMlRV_LThnaw",
+        "snippet": {
+          "handle": "@SCMasterLive",
+          "title": "SC Master Live",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/oBTuDbLLLXTdDo_ceymq5AFPKxvSJZqm21NkbToe-pfpQ25AGVjXD1ECqHzGt8P2REo4Nzoz-Q=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/oBTuDbLLLXTdDo_ceymq5AFPKxvSJZqm21NkbToe-pfpQ25AGVjXD1ECqHzGt8P2REo4Nzoz-Q=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/oBTuDbLLLXTdDo_ceymq5AFPKxvSJZqm21NkbToe-pfpQ25AGVjXD1ECqHzGt8P2REo4Nzoz-Q=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-21T06:14:35.444Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "hardcore",
+            "build",
+            "tutorials"
+          ],
+          "description": "Explore Minecraft challenges, hardcore gameplay, and creative builds"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 2,
+          "rpmEstimationFrom": 2,
+          "revenueMonthlyEstimationTo": 4,
+          "rpmEstimationTo": 4,
+          "adsense": true
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "Y2MTAVnMG0Q",
+            "title": "We Survived 100 Days In BADLANDS Only World In Minecraft Hardcore",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Y2MTAVnMG0Q/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Y2MTAVnMG0Q/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Y2MTAVnMG0Q/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-26T00:00:00.000Z",
+            "viewCount": 6087,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "tDmDVXxrG44",
+            "title": "Minecraft Automatic Sugarcane Farm 1.21 (Tutorial)",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/tDmDVXxrG44/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/tDmDVXxrG44/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/tDmDVXxrG44/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-26T00:00:00.000Z",
+            "viewCount": 6535,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "eIPEQMYF-4o",
+            "title": "We Survived 100 days on one LUCKY BLOCK CHUNK in Minecraft Hardcore",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/eIPEQMYF-4o/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/eIPEQMYF-4o/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/eIPEQMYF-4o/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-26T00:00:00.000Z",
+            "viewCount": 3600,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "YQJ9ixRvmKo",
+            "title": "SURVIVING 100 DAYS In HARDCORE Minecraft With Friends 😰",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/YQJ9ixRvmKo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/YQJ9ixRvmKo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/YQJ9ixRvmKo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-26T00:00:00.000Z",
+            "viewCount": 838,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "CYX8Vjsw37U",
+            "title": "Minecraft Easy Automatic Door #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/CYX8Vjsw37U/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/CYX8Vjsw37U/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAXTCjqE5gtFNzESYfnbGY2YBB7ww",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 53000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "bdrXYnsxIFQ",
+            "title": "Minecraft Working Shower #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/bdrXYnsxIFQ/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/bdrXYnsxIFQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAV5oE-MHVb5ZtdqlVzDj-RhB3sig",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 47000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "9ohsTdsqq1g",
+            "title": "Minecraft Lava Door #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/9ohsTdsqq1g/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/9ohsTdsqq1g/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBwdSWR4dzkQgjWIB7wyAOukpkXrg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 44000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "DUznmKP3Uhg",
+            "title": "Minecraft Bed Design #minecraft #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/DUznmKP3Uhg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/DUznmKP3Uhg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCkBeNAcJ5OR5u4cQqa0Ofe0AyMcQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 51000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 26700,
+          "subscriberCountRaw": "26.7K subscribers",
+          "viewCountEstimate": 18533,
+          "viewCountMonthlyEstimate": 1000,
+          "videosCount": 724,
+          "videosSampleCount": 5,
+          "videosCountRaw": "724",
+          "averageViewsEstimate": 3706.6,
+          "medianViewsEstimate": 3600,
+          "averageVideoDurationEstimate": 1910,
+          "standardDeviationViewsEstimate": 2319.282182055474,
+          "viewVariationCoefficient": 0.6257168785559473,
+          "avgViewsToSubscribersRatio": 0.13882397003745317,
+          "lastPublishedAtEstimate": "2025-03-26T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2025-01-26T00:00:00.000Z",
+          "positiveOutliersCount": 2,
+          "negativeOutliersCount": 2
+        }
+      },
+      {
+        "id": "UCv17L3EWyvoEsDqZ5nVIuKg",
+        "snippet": {
+          "handle": "@LimitedMC",
+          "title": "Limited",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/6xalC_Mlyvs-gLXDglN466V9FZj-t9fcwx3vejIVRXuXhqTqjXZD3iCAXyico42oDl24Fr5-RQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/6xalC_Mlyvs-gLXDglN466V9FZj-t9fcwx3vejIVRXuXhqTqjXZD3iCAXyico42oDl24Fr5-RQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/6xalC_Mlyvs-gLXDglN466V9FZj-t9fcwx3vejIVRXuXhqTqjXZD3iCAXyico42oDl24Fr5-RQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2025-01-25T22:12:09.789Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "PvP",
+            "Let's Play",
+            "Challenge"
+          ],
+          "description": "Minecraft gameplay challenges and PvP battles"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 11,
+          "rpmEstimationFrom": 1,
+          "revenueMonthlyEstimationTo": 27,
+          "rpmEstimationTo": 2.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "neutral"
+        },
+        "videos": [
+          {
+            "id": "6GO-2sx-aVE",
+            "title": "My Best Friend Wants Me Dead Over Minecraft..",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/6GO-2sx-aVE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/6GO-2sx-aVE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/6GO-2sx-aVE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-11-29T00:00:00.000Z",
+            "viewCount": 530634,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "sjxnc93TGcY",
+            "title": "Why I Got Hunted by 100 Players..",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/sjxnc93TGcY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/sjxnc93TGcY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/sjxnc93TGcY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-06-29T00:00:00.000Z",
+            "viewCount": 53529,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "mQHraiTMloM",
+            "title": "Why I Killed 10,000 Players in Minecraft",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/mQHraiTMloM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/mQHraiTMloM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/mQHraiTMloM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-06-29T00:00:00.000Z",
+            "viewCount": 151287,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "RNgvVW_6Jxc",
+            "title": "Killing 100,000 Minecraft Players in 30 Days",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/RNgvVW_6Jxc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/RNgvVW_6Jxc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/RNgvVW_6Jxc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-06-29T00:00:00.000Z",
+            "viewCount": 85288,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 41800,
+          "subscriberCountRaw": "41.8K subscribers",
+          "viewCountEstimate": 1679961,
+          "viewCountMonthlyEstimate": 11000,
+          "videosCount": 13,
+          "videosSampleCount": 13,
+          "videosCountRaw": "13",
+          "averageViewsEstimate": 129227.76923076923,
+          "medianViewsEstimate": 100712,
+          "averageVideoDurationEstimate": 764,
+          "standardDeviationViewsEstimate": 125976.81909178851,
+          "viewVariationCoefficient": 0.9748432542143839,
+          "avgViewsToSubscribersRatio": 3.0915734265734267,
+          "lastPublishedAtEstimate": "2024-11-29T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-06-29T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCdRKDtzMexxnowPGUGqRcrA",
+        "snippet": {
+          "handle": "@MisterDemonYT",
+          "title": "MisterDemon",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/vp5XTFHPK-MNVKrsiNgyf9bUW2O-KzA_Z3fyYYJXhzpjePnVj3_gDtuAMD0hP0tB3_Ra1L3O0Q=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/vp5XTFHPK-MNVKrsiNgyf9bUW2O-KzA_Z3fyYYJXhzpjePnVj3_gDtuAMD0hP0tB3_Ra1L3O0Q=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/vp5XTFHPK-MNVKrsiNgyf9bUW2O-KzA_Z3fyYYJXhzpjePnVj3_gDtuAMD0hP0tB3_Ra1L3O0Q=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-07T21:12:16.342Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "survival",
+            "challenge",
+            "adventure"
+          ],
+          "description": "Minecraft survival challenges and adventures"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 0,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 0,
+          "adsense": false
+        },
+        "videos": [
+          {
+            "id": "h-_u874Hy2k",
+            "title": "I Joined random Minecraft Servers",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/h-_u874Hy2k/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/h-_u874Hy2k/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/h-_u874Hy2k/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-01-07T00:00:00.000Z",
+            "viewCount": 81758,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "Ny339xNLC00",
+            "title": "I Survived 100 Days in Ultimate Minecraft",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/Ny339xNLC00/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/Ny339xNLC00/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/Ny339xNLC00/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-01-07T00:00:00.000Z",
+            "viewCount": 246666,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "DOSWK9RB520",
+            "title": "Minecraft Skyblock in a Nutshell",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/DOSWK9RB520/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/DOSWK9RB520/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/DOSWK9RB520/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-01-07T00:00:00.000Z",
+            "viewCount": 571,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "F9ek-u2-3pM",
+            "title": "I Survived 2b2t",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/F9ek-u2-3pM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/F9ek-u2-3pM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/F9ek-u2-3pM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-01-07T00:00:00.000Z",
+            "viewCount": 2404,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "cEk5d-rVSJg",
+            "title": "Dream's manhunts are FAKE and I have PROOF #minecraft",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/cEk5d-rVSJg/frame0.jpg",
+                "width": 1012,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/cEk5d-rVSJg/oar2.jpg?sqp=-oaymwEdCPwCENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDwUD7fDZplkadaLqgLTclh-1dNNg",
+                "width": 380,
+                "height": 720
+              }
+            ],
+            "viewCount": 22000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "_yVoA3Cutrk",
+            "title": "Minecraft Legends is INSANE",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/_yVoA3Cutrk/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/_yVoA3Cutrk/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAk2WI0Q4SgWkhCgenwoG1bJv0zyA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 23000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "o_ph6fwACTs",
+            "title": "Minecraft parkour maps in youtube shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/o_ph6fwACTs/frame0.jpg",
+                "width": 406,
+                "height": 720
+              },
+              {
+                "url": "https://i.ytimg.com/vi/o_ph6fwACTs/hq720_2.jpg?sqp=-oaymwEdCJYDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDTd6KuBiaH_BRokpnTtuohiwfzbw",
+                "width": 406,
+                "height": 720
+              }
+            ],
+            "viewCount": 44000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "OhAbcgfzRrQ",
+            "title": "Minecraft Found Footage",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/OhAbcgfzRrQ/frame0.jpg",
+                "width": 1012,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/OhAbcgfzRrQ/oar2.jpg?sqp=-oaymwEdCPwCENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDKjnz3kmB8lJIU3k7vtKFgqaeOAA",
+                "width": 380,
+                "height": 720
+              }
+            ],
+            "viewCount": 1000,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 5280,
+          "subscriberCountRaw": "5.28K subscribers",
+          "viewCountEstimate": 367302,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 51,
+          "videosSampleCount": 15,
+          "videosCountRaw": "51",
+          "averageViewsEstimate": 24486.8,
+          "medianViewsEstimate": 779,
+          "averageVideoDurationEstimate": 512,
+          "standardDeviationViewsEstimate": 62732.37377962567,
+          "viewVariationCoefficient": 2.5618853333071563,
+          "avgViewsToSubscribersRatio": 4.637651515151515,
+          "lastPublishedAtEstimate": "2024-01-07T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2023-01-07T00:00:00.000Z",
+          "positiveOutliersCount": 2,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCorm6R7xW0fxY4I-WKFti7Q",
+        "snippet": {
+          "handle": "@anti-cool",
+          "title": "Anti-Cool",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/8SZNV0dA0kNVvnNHgQ_Fz6aB7YWMb51yv-T_tzorH_WdxnxPk93yhgT8SO6CLyIXWdd_tr0MNw=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/8SZNV0dA0kNVvnNHgQ_Fz6aB7YWMb51yv-T_tzorH_WdxnxPk93yhgT8SO6CLyIXWdd_tr0MNw=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/8SZNV0dA0kNVvnNHgQ_Fz6aB7YWMb51yv-T_tzorH_WdxnxPk93yhgT8SO6CLyIXWdd_tr0MNw=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-04-10T09:23:04.607Z",
+        "semantic": {
+          "niches": [
+            "minecraft",
+            "gaming",
+            "challenge",
+            "adventure",
+            "mining"
+          ],
+          "description": "Minecraft challenges, adventures, and fun gameplay"
+        },
+        "monetization": {
+          "revenueMonthlyEstimationFrom": 15,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 24,
+          "rpmEstimationTo": 4,
+          "adsense": false
+        },
+        "videos": [
+          {
+            "id": "R9C8EPz8x8A",
+            "title": "How Much Ancient Debris Can We Mine In 100 Days?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/R9C8EPz8x8A/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/R9C8EPz8x8A/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/R9C8EPz8x8A/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-31T00:00:00.000Z",
+            "viewCount": 5263,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "9lN425ENW2c",
+            "title": "I beat Minecraft With One Item.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/9lN425ENW2c/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/9lN425ENW2c/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/9lN425ENW2c/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-04-07T00:00:00.000Z",
+            "viewCount": 1464,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "oRZQ7hEsEOc",
+            "title": "Squid Games 456 Emeralds In Minecraft.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/oRZQ7hEsEOc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/oRZQ7hEsEOc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/oRZQ7hEsEOc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-10T00:00:00.000Z",
+            "viewCount": 214,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "UbSOHKMeu5c",
+            "title": "Noob vs Bedrock Wither",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/UbSOHKMeu5c/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/UbSOHKMeu5c/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/UbSOHKMeu5c/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-03-10T00:00:00.000Z",
+            "viewCount": 109,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "vQMWqCuaIjM",
+            "title": "Smartest villager EVER",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/vQMWqCuaIjM/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/vQMWqCuaIjM/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLACPI-YwU8UgdemcdGY2o-M7k9H7Q",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 17000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "CwxPL3gvlBY",
+            "title": "Block Roulette 3",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/CwxPL3gvlBY/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/CwxPL3gvlBY/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB2ha68HwhP22SlEbCT4Zbg85KckQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 29000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "rS3Mj7YCTr4",
+            "title": "How Minecraft is",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/rS3Mj7YCTr4/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/rS3Mj7YCTr4/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCoSwV9_o6PvN3g2kLn2fzw_crCJA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 16000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "7O39Ww2yleY",
+            "title": "Pigs are broken in Minecraft",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/7O39Ww2yleY/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/7O39Ww2yleY/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAwZkiOavjtQ4ZP3KVlzPWS9VzpoQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 14000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 879,
+          "subscriberCountRaw": "879 subscribers",
+          "viewCountEstimate": 7894,
+          "viewCountMonthlyEstimate": 6000,
+          "videosCount": 104,
+          "videosSampleCount": 9,
+          "videosCountRaw": "104",
+          "averageViewsEstimate": 877.1111111111111,
+          "medianViewsEstimate": 141,
+          "averageVideoDurationEstimate": 424,
+          "standardDeviationViewsEstimate": 1607.5011971272158,
+          "viewVariationCoefficient": 1.8327224188174491,
+          "avgViewsToSubscribersRatio": 0.9978510934142333,
+          "lastPublishedAtEstimate": "2025-04-07T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2024-04-10T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCIVSqoHCUN1XdEpiVItxfoQ",
+        "snippet": {
+          "handle": "@aCookieGod",
+          "title": "aCookieGod",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/LRSOZjCXnsmbpkbxWdCNQOW_XbnIk9pTkf0pE2ML5pGukr2QKTkd-rqRk7jzURt0y31T-1_OM18=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/LRSOZjCXnsmbpkbxWdCNQOW_XbnIk9pTkf0pE2ML5pGukr2QKTkd-rqRk7jzURt0y31T-1_OM18=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/LRSOZjCXnsmbpkbxWdCNQOW_XbnIk9pTkf0pE2ML5pGukr2QKTkd-rqRk7jzURt0y31T-1_OM18=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-03-31T04:17:47.453Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Survival",
+            "Build",
+            "Challenge"
+          ],
+          "description": "Minecraft survival and building challenges"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 25326,
+          "rpmEstimationFrom": 2,
+          "revenueMonthlyEstimationTo": 56983,
+          "rpmEstimationTo": 4.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "positive"
+        },
+        "videos": [
+          {
+            "id": "XoSFSWrhRcs",
+            "title": "I Survived 1000 Days on ONE BLOCK in Minecraft Hardcore [FULL MOVIE]",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XoSFSWrhRcs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XoSFSWrhRcs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XoSFSWrhRcs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-12-17T00:00:00.000Z",
+            "viewCount": 12260966,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "hqfEgHFznoA",
+            "title": "I Survived 100 Days in an EXPANDING WORLD in Minecraft Hardcore",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/hqfEgHFznoA/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/hqfEgHFznoA/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/hqfEgHFznoA/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-10-17T00:00:00.000Z",
+            "viewCount": 16010244,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "m2hN_-4YnBg",
+            "title": "100 Days, But It’s a RANDOM Layer One Chunk",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/m2hN_-4YnBg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/m2hN_-4YnBg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/m2hN_-4YnBg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-17T00:00:00.000Z",
+            "viewCount": 18038034,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "cfvx32Mn8DY",
+            "title": "I Survived 3000 Days in Minecraft Hardcore [FULL MOVIE]",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/cfvx32Mn8DY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/cfvx32Mn8DY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/cfvx32Mn8DY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2024-09-17T00:00:00.000Z",
+            "viewCount": 18433281,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "qZqZ4NL5UbE",
+            "title": "sus minecraft pig",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/qZqZ4NL5UbE/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/qZqZ4NL5UbE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCAIvZjQgKpcAVPlnJauxx1I9TUCA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 4500000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "-A04GHrD90U",
+            "title": "can’t trust minecraft villagers",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/-A04GHrD90U/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/-A04GHrD90U/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCVD0mZYkaDs4xPAHij9_8qYDxVpg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3200000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "bim8-4naokU",
+            "title": "the new dogs are broken",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/bim8-4naokU/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/bim8-4naokU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBl2_KDWdBsB-J9qWl2VqKZ-29fbw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 3000000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "s_NXh9avKdI",
+            "title": "eating poisonous cookies",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/s_NXh9avKdI/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/s_NXh9avKdI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDre4jW3ttdcIl1dN2muCUkMunpxw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 4200000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 7140000,
+          "subscriberCountRaw": "7.14M subscribers",
+          "viewCountEstimate": 810452390,
+          "viewCountMonthlyEstimate": 12663000,
+          "videosCount": 269,
+          "videosSampleCount": 120,
+          "videosCountRaw": "269",
+          "averageViewsEstimate": 6753769.916666667,
+          "medianViewsEstimate": 5466724,
+          "averageVideoDurationEstimate": 3052,
+          "standardDeviationViewsEstimate": 5738577.42480384,
+          "viewVariationCoefficient": 0.8496850641361682,
+          "avgViewsToSubscribersRatio": 0.9459061507936508,
+          "lastPublishedAtEstimate": "2025-09-13T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2022-09-17T00:00:00.000Z",
+          "positiveOutliersCount": 18,
+          "negativeOutliersCount": 19
+        }
+      },
+      {
+        "id": "UClvboAFAc1biRomj7k9amEw",
+        "snippet": {
+          "handle": "@momentomc",
+          "title": "momento",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/gdvuSjOBvuUtIKkwGZucjlfzxvUU72jZAQU9mG7Rq6kWvRGJxnmERrLWXbDu1tq_dj9-kx8oOxQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/gdvuSjOBvuUtIKkwGZucjlfzxvUU72jZAQU9mG7Rq6kWvRGJxnmERrLWXbDu1tq_dj9-kx8oOxQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/gdvuSjOBvuUtIKkwGZucjlfzxvUU72jZAQU9mG7Rq6kWvRGJxnmERrLWXbDu1tq_dj9-kx8oOxQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-02-24T02:00:37.994Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Challenge",
+            "Adventure",
+            "Community"
+          ],
+          "description": "Minecraft gaming challenges, adventures, and community interactions"
+        },
+        "monetization": {
+          "adsense": false,
+          "revenueMonthlyEstimationFrom": 0,
+          "rpmEstimationFrom": 1.5,
+          "revenueMonthlyEstimationTo": 0,
+          "rpmEstimationTo": 3.5
+        },
+        "language": "en",
+        "videos": [
+          {
+            "id": "PivYGbnXEPw",
+            "title": "HOW TO CHANGE DEBOUNCE TIME ON ANY MOUSE!!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/PivYGbnXEPw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/PivYGbnXEPw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/PivYGbnXEPw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2021-07-17T00:00:00.000Z",
+            "viewCount": 404486,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "W7r4lafxU4g",
+            "title": "So I Tried Cracked Minecraft Servers",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/W7r4lafxU4g/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/W7r4lafxU4g/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/W7r4lafxU4g/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-02-17T00:00:00.000Z",
+            "viewCount": 1500,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "cUxfPFry-R8",
+            "title": "Minecraft Scavenger Hunt",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/cUxfPFry-R8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/cUxfPFry-R8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/cUxfPFry-R8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-17T00:00:00.000Z",
+            "viewCount": 590,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          },
+          {
+            "id": "JuYWKzedSFc",
+            "title": "Minecraft With Girls I Matched On Tinder",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/JuYWKzedSFc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/JuYWKzedSFc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/JuYWKzedSFc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-01-17T00:00:00.000Z",
+            "viewCount": 2778,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "LJty67dkmeg",
+            "title": "qBedwars Dared me WHAT?! #challenge #minecraft #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/LJty67dkmeg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/LJty67dkmeg/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDeXlJNNMTBMbKUDWgKYULV66NO1A",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1200,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "gc6ZJoTEu1I",
+            "title": "NoSDaemon Dared me WHAT?! #challenge #minecraft #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/gc6ZJoTEu1I/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/gc6ZJoTEu1I/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDzRONkAX6QCLpP2yW-faO7XoK1Dg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1100,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "47DtJXvQep4",
+            "title": "Bedwars But I Face Reveal! #facereveal #minecraft #shorts",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/47DtJXvQep4/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/47DtJXvQep4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDy3Xiv5Czl5LrhLh4qeckolO5J-w",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 1300,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "wh6mYsmjMEs",
+            "title": "My TINDER Date Taught ME Her Language on bedwars! #minecraft #shorts #date",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/wh6mYsmjMEs/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/wh6mYsmjMEs/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDpTkH_bU5F65af0lhD1YoF15kMPA",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 91,
+            "statistics": {
+              "isPositiveOutlier": false
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 4570,
+          "subscriberCountRaw": "4.57K subscribers",
+          "viewCountEstimate": 703154,
+          "viewCountMonthlyEstimate": 0,
+          "videosCount": 103,
+          "videosSampleCount": 92,
+          "videosCountRaw": "103",
+          "averageViewsEstimate": 7642.978260869565,
+          "medianViewsEstimate": 1587,
+          "averageVideoDurationEstimate": 557,
+          "standardDeviationViewsEstimate": 41869.75367160961,
+          "viewVariationCoefficient": 5.4781987129250265,
+          "avgViewsToSubscribersRatio": 1.6724241271049376,
+          "lastPublishedAtEstimate": "2025-02-17T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2021-07-17T00:00:00.000Z",
+          "positiveOutliersCount": 1,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UC5SPXzdJcD93FfMAiWo0E5A",
+        "snippet": {
+          "handle": "@dudMinecraft",
+          "title": "dud Minecraft",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/I9FRpnS4zueBOMbkYtL79Q1UHgWgaeDb5xJcwq6MxVVmnU7PUr5-sA6Idnv9CzwDgLDdsuFD9w=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/I9FRpnS4zueBOMbkYtL79Q1UHgWgaeDb5xJcwq6MxVVmnU7PUr5-sA6Idnv9CzwDgLDdsuFD9w=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/I9FRpnS4zueBOMbkYtL79Q1UHgWgaeDb5xJcwq6MxVVmnU7PUr5-sA6Idnv9CzwDgLDdsuFD9w=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "short"
+          ]
+        },
+        "time": "2025-01-09T08:56:38.811Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Survival",
+            "Horror",
+            "Gaming",
+            "Modded"
+          ],
+          "description": "Minecraft survival horror challenges and modded adventures"
+        },
+        "monetization": {
+          "adsense": true,
+          "revenueMonthlyEstimationFrom": 7810,
+          "rpmEstimationFrom": 2.5,
+          "revenueMonthlyEstimationTo": 14058,
+          "rpmEstimationTo": 4.5
+        },
+        "language": "en",
+        "classification": {
+          "isFaceless": true,
+          "quality": "negative"
+        },
+        "videos": [
+          {
+            "id": "4izMTR9rZOs",
+            "title": "I Spawn The Siren Head At The Moon Woke Up in Minecraft 2025!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/4izMTR9rZOs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/4izMTR9rZOs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/4izMTR9rZOs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-13T00:00:00.000Z",
+            "viewCount": 902861,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "qVHw7sA-W3A",
+            "title": "Wither Storm vs The Moon Woke Up in Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/qVHw7sA-W3A/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/qVHw7sA-W3A/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/qVHw7sA-W3A/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-08-13T00:00:00.000Z",
+            "viewCount": 532857,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "EGpCO28j20I",
+            "title": "Wither Storm vs BloodBath And All Scary Mobs in Horror Minecraft!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/EGpCO28j20I/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/EGpCO28j20I/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/EGpCO28j20I/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-13T00:00:00.000Z",
+            "viewCount": 484260,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "OhxMUkGyjSE",
+            "title": "I Spawn The Most Scariest Horror Bosses Inside Temple Of Notch in Minecraft 2025!",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/OhxMUkGyjSE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/OhxMUkGyjSE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/OhxMUkGyjSE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2025-07-13T00:00:00.000Z",
+            "viewCount": 2830717,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [
+          {
+            "id": "GS_61eeI3Kg",
+            "title": "I Spawn Mega The Moon Woke Up in Minecraft!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/GS_61eeI3Kg/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/GS_61eeI3Kg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDrqzWnip9Rr2htVEIB6Pagafd8rg",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 197000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "eHZC-xyQnUM",
+            "title": "All Phases And Transformation Of The Moon Woke Up!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/eHZC-xyQnUM/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/eHZC-xyQnUM/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2fdjcC8lrDKhJkXW9Rf4e60lVKQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 85000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "YlClG2wBXto",
+            "title": "I Trolled The Boiled One And Spawn Him Inside Wither Storm...",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/YlClG2wBXto/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/YlClG2wBXto/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDMVg7o5-J8ptsJMfJjHr8CxeVouQ",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 113000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "ljp3K9OCZ4w",
+            "title": "All Wither Storm Phases in Minecraft!",
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/vi/ljp3K9OCZ4w/frame0.jpg",
+                "width": 1080,
+                "height": 1920
+              },
+              {
+                "url": "https://i.ytimg.com/vi/ljp3K9OCZ4w/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAt4_mdLZ5vq9bz8YAwPooCqL8gGw",
+                "width": 405,
+                "height": 720
+              }
+            ],
+            "viewCount": 290000,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "statistics": {
+          "subscriberCount": 152000,
+          "subscriberCountRaw": "152K subscribers",
+          "viewCountEstimate": 11783130,
+          "viewCountMonthlyEstimate": 3124000,
+          "videosCount": 332,
+          "videosSampleCount": 101,
+          "videosCountRaw": "332",
+          "averageViewsEstimate": 116664.65346534654,
+          "medianViewsEstimate": 12658,
+          "averageVideoDurationEstimate": 990,
+          "standardDeviationViewsEstimate": 385298.5554977879,
+          "viewVariationCoefficient": 3.302616037103603,
+          "avgViewsToSubscribersRatio": 0.7675306149035956,
+          "lastPublishedAtEstimate": "2025-09-13T03:31:49.269Z",
+          "oldestParsedPublishedAtEstimate": "2024-09-13T00:00:00.000Z",
+          "positiveOutliersCount": 8,
+          "negativeOutliersCount": 0
+        }
+      },
+      {
+        "id": "UCVgZpLI9weAUFk9Y3OOtdyg",
+        "snippet": {
+          "handle": "@PMNExtra",
+          "title": "PMN Extra",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.googleusercontent.com/BLooe_cuD1bufFBF4TCeeGUY-H2bErvnd_Si8YPdzwrz87IwiRoe_CvRnB4tsB4JemJlxHrwYQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            "medium": {
+              "url": "https://yt3.googleusercontent.com/BLooe_cuD1bufFBF4TCeeGUY-H2bErvnd_Si8YPdzwrz87IwiRoe_CvRnB4tsB4JemJlxHrwYQ=s240-c-k-c0x00ffffff-no-rj"
+            },
+            "high": {
+              "url": "https://yt3.googleusercontent.com/BLooe_cuD1bufFBF4TCeeGUY-H2bErvnd_Si8YPdzwrz87IwiRoe_CvRnB4tsB4JemJlxHrwYQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "contentKind": [
+            "video",
+            "long-form"
+          ]
+        },
+        "time": "2024-12-29T03:57:54.155Z",
+        "semantic": {
+          "niches": [
+            "Minecraft",
+            "Gaming",
+            "Survival",
+            "Adventure",
+            "Exploration"
+          ],
+          "description": "Minecraft survival and exploration challenges and adventures"
+        },
+        "language": "ar",
+        "videos": [
+          {
+            "id": "NSLUKe3wqrg",
+            "title": "اكتشفنا متاهة مليئة بالتحديات للقرويين في قرية ماين كرافت!!؟",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/NSLUKe3wqrg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/NSLUKe3wqrg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/NSLUKe3wqrg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-12-29T00:00:00.000Z",
+            "viewCount": 3313947,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "LnmKugjM5Vo",
+            "title": "اكتشفنا رئيس حرامي يستعبد القرويين في قرية ماين كرافت!!؟",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/LnmKugjM5Vo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/LnmKugjM5Vo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/LnmKugjM5Vo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-12-29T00:00:00.000Z",
+            "viewCount": 3620254,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "XNoerxbggw0",
+            "title": "اكتشفنا اغرب آلة تطوير سيارات للقرويين في قرية ماين كرافت !!؟",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/XNoerxbggw0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/XNoerxbggw0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/XNoerxbggw0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-12-29T00:00:00.000Z",
+            "viewCount": 5496711,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          },
+          {
+            "id": "jnAmQHj3ZnI",
+            "title": "قضينا 100 يوم وسط دائرة في قرية ماين كرافت!!؟",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/jnAmQHj3ZnI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/jnAmQHj3ZnI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/jnAmQHj3ZnI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "publishedAtEstimate": "2023-12-29T00:00:00.000Z",
+            "viewCount": 4457722,
+            "statistics": {
+              "isPositiveOutlier": true
+            }
+          }
+        ],
+        "shorts": [],
+        "statistics": {
+          "subscriberCount": 2220000,
+          "subscriberCountRaw": "2.22M subscribers",
+          "viewCountEstimate": 269349404,
+          "videosCount": 231,
+          "videosSampleCount": 120,
+          "videosCountRaw": "231",
+          "averageViewsEstimate": 2244578.3666666667,
+          "standardDeviationViewsEstimate": 1319903.5490930448,
+          "viewVariationCoefficient": 0.5880407513029633,
+          "avgViewsToSubscribersRatio": 1.0110713363363364,
+          "lastPublishedAtEstimate": "2024-12-15T00:00:00.000Z",
+          "oldestParsedPublishedAtEstimate": "2022-12-29T00:00:00.000Z",
+          "positiveOutliersCount": 16,
+          "negativeOutliersCount": 23
+        }
+      }
+    ]
+  }
+}

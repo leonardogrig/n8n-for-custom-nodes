@@ -11,6 +11,7 @@
 	},
 	"include": [
 		"utils/**/*.ts",
-		"nodes/**/*.ts"
+		"nodes/**/*.ts",
+		"credentials/**/*.ts"
 	]
 }
