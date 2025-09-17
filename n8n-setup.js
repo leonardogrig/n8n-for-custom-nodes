@@ -68,95 +68,33 @@ function isContainerRunning(containerName) {
 }
 
 function createDockerComposeFile() {
-  const composeContent = `version: '3'
-
-services:
+  const composeContent = `services:
   n8n:
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: n8n-for-custom-nodes
-    image: n8nio/n8n:latest
-    restart: always
     ports:
       - "${N8N_PORT}:5678"
+    volumes:
+      - ./n8n-data:/home/node/.n8n/data
     environment:
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
       - NODE_ENV=production
-      - N8N_LOG_LEVEL=verbose
-      - N8N_DIAGNOSTICS_ENABLED=false
-      - N8N_HIRING_BANNER_ENABLED=false
-      - GENERIC_TIMEZONE=Etc/UTC
-    volumes:
-      - ./data:/home/node/.n8n
-    command: /bin/sh -c "n8n start"
+      - N8N_LOG_LEVEL=info
+      - DB_SQLITE_POOL_SIZE=2
+      - N8N_RUNNERS_ENABLED=false
+      - N8N_USER_FOLDER=/home/node/.n8n/data
+      - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
+    restart: unless-stopped
 `;
 
   fs.writeFileSync("docker-compose.yml", composeContent, "utf8");
   log("Created docker-compose.yml file", "✅");
 }
 
-function createDependencyExtractScript() {
-  const scriptContent = `#!/bin/sh
-
-echo "🔎 Looking for custom nodes and their dependencies..."
-
-# Ensure directory structure exists
-mkdir -p /home/node/.n8n/custom
-
-# Fix permissions on custom directory first
-chown -R node:node /home/node/.n8n/custom || true
-
-# Process each custom node directory
-for dir in /home/node/.n8n/custom/*; do
-  if [ -d "$dir" ] && [ -f "$dir/package.json" ]; then
-    NODE_NAME=$(node -e "console.log(require('$dir/package.json').name || 'unknown')")
-    echo "📦 Processing custom node: $NODE_NAME"
-    
-    # Extract all dependencies from package.json
-    DEPS=$(node -e "const pkg = require('$dir/package.json'); console.log(Object.entries(pkg.dependencies || {}).map(([name, version]) => name + '@' + (version.replace(/[^0-9.]/g, '') || version)).join(' '))")
-    
-    if [ -n "$DEPS" ]; then
-      echo "🔧 Installing dependencies for $NODE_NAME: $DEPS"
-      npm install -g $DEPS
-      
-      # Create directory structure for each dependency
-      echo "$DEPS" | tr ' ' '\\n' | while read -r dep; do
-        if [ -n "$dep" ]; then
-          PKG_NAME=$(echo "$dep" | cut -d '@' -f 1)
-          echo "🔄 Setting up symlink for $PKG_NAME..."
-          
-          # Create the target directory structure
-          DIRNAME=$(dirname "$PKG_NAME")
-          if [ "$DIRNAME" != "." ]; then
-            mkdir -p "$dir/node_modules/$DIRNAME"
-          else
-            mkdir -p "$dir/node_modules"
-          fi
-          
-          # Create symlink from global modules to custom node's node_modules
-          ln -sf "/usr/local/lib/node_modules/$PKG_NAME" "$dir/node_modules/$PKG_NAME"
-        fi
-      done
-    else
-      echo "ℹ️ No dependencies found for $NODE_NAME"
-    fi
-    
-    # Always ensure the node_modules directory has correct permissions
-    mkdir -p "$dir/node_modules"
-    chown -R node:node "$dir/node_modules" || true
-  fi
-done
-
-# Fix permissions to ensure n8n can access everything
-echo "🔧 Setting correct permissions..."
-chown -R node:node /usr/local/lib/node_modules || true
-chown -R node:node /home/node/.n8n || true
-
-echo "✅ Dependencies updated successfully!"
-`;
-
-  fs.writeFileSync("update-container.sh", scriptContent, "utf8");
-  log("Created container update script", "✅");
-}
+// Dependency extraction is now handled by the Dockerfile during build
 
 // Main functions
 async function buildCustomNodesLocally() {
@@ -300,11 +238,8 @@ async function setupN8n() {
       createDockerComposeFile();
 
       // Create data directories
-      if (!fs.existsSync("./data")) {
-        fs.mkdirSync("./data", { recursive: true });
-      }
-      if (!fs.existsSync("./data/custom")) {
-        fs.mkdirSync("./data/custom", { recursive: true });
+      if (!fs.existsSync("./n8n-data")) {
+        fs.mkdirSync("./n8n-data", { recursive: true });
       }
     }
 
@@ -312,166 +247,21 @@ async function setupN8n() {
     await buildCustomNodesLocally();
   }
 
-  // Create dependency extraction script
-  createDependencyExtractScript();
-
   // Start or ensure container is running
   if (isInitialSetup || !containerExists) {
-    log("Starting n8n container...", "🚀");
-    executeCommand(`${dockerComposeCmd} up -d`);
+    log("Building and starting n8n container with custom nodes...", "🚀");
+    executeCommand(`${dockerComposeCmd} up -d --build`);
 
-    log("Waiting for container to initialize (15 seconds)...", "⏳");
-    await new Promise((resolve) => setTimeout(resolve, 15000));
+    log("Waiting for container to initialize (20 seconds)...", "⏳");
+    await new Promise((resolve) => setTimeout(resolve, 20000));
+  } else {
+    log("Rebuilding container with updated custom nodes...", "🔄");
+    executeCommand(`${dockerComposeCmd} down`);
+    executeCommand(`${dockerComposeCmd} up -d --build`);
+
+    log("Waiting for container to initialize (20 seconds)...", "⏳");
+    await new Promise((resolve) => setTimeout(resolve, 20000));
   }
-
-  // Copy custom nodes to the container - with proper permissions handling
-  log("Copying custom nodes to container...", "📂");
-
-  // First create directories with correct permissions
-  executeCommand(
-    `docker exec -u root ${containerName} mkdir -p /home/node/.n8n/custom`,
-    { ignoreError: true }
-  );
-  executeCommand(
-    `docker exec -u root ${containerName} chown -R node:node /home/node/.n8n/custom`,
-    { ignoreError: true }
-  );
-
-  const customNodeDirs = fs
-    .readdirSync("./custom-nodes", { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => path.join("./custom-nodes", dirent.name));
-
-  for (const nodeDir of customNodeDirs) {
-    const nodeName = path.basename(nodeDir);
-    log(`Copying ${nodeName} to container...`, "📂");
-
-    // Create a temporary directory with just the source code (no node_modules)
-    const tempDir = path.join(os.tmpdir(), `n8n-custom-node-${Date.now()}`);
-    fs.mkdirSync(tempDir, { recursive: true });
-
-    // Copy only necessary files (exclude node_modules)
-    const filesToCopy = [
-      "package.json",
-      "tsconfig.json",
-      "README.md",
-      "LICENSE",
-      "src",
-      "dist",
-      "nodes",
-      "credentials",
-    ];
-
-    // Copy each file/directory if it exists
-    for (const file of filesToCopy) {
-      const sourcePath = path.join(nodeDir, file);
-      const destPath = path.join(tempDir, file);
-
-      if (fs.existsSync(sourcePath)) {
-        // Special handling for nodes directory to avoid duplication
-        if (file === "nodes" && fs.statSync(sourcePath).isDirectory()) {
-          // Check if there's a nested nodes/nodes structure and fix it
-          const nestedNodesPath = path.join(sourcePath, "nodes");
-          if (fs.existsSync(nestedNodesPath) && fs.statSync(nestedNodesPath).isDirectory()) {
-            log(`Found duplicate nodes/nodes structure, fixing...`, "🔧");
-            // Copy content from nodes/nodes to nodes directly
-            const nestedContents = fs.readdirSync(nestedNodesPath);
-            for (const item of nestedContents) {
-              const itemSrc = path.join(nestedNodesPath, item);
-              const itemDest = path.join(sourcePath, item);
-              if (!fs.existsSync(itemDest)) {
-                if (fs.statSync(itemSrc).isDirectory()) {
-                  fs.cpSync(itemSrc, itemDest, { recursive: true });
-                } else {
-                  fs.copyFileSync(itemSrc, itemDest);
-                }
-              }
-            }
-            // Remove the nested nodes directory
-            fs.rmSync(nestedNodesPath, { recursive: true, force: true });
-          }
-        }
-
-        if (fs.statSync(sourcePath).isDirectory()) {
-          // For directories like src, dist, etc.
-          fs.mkdirSync(destPath, { recursive: true });
-          // Use cross-platform fs.cpSync instead of platform-specific commands
-          fs.cpSync(sourcePath, destPath, { recursive: true });
-        } else {
-          // For single files
-          fs.copyFileSync(sourcePath, destPath);
-        }
-      }
-    }
-
-    // Copy the sanitized directory to the container
-    try {
-      executeCommand(
-        `docker cp "${tempDir}/." ${containerName}:/home/node/.n8n/custom/${nodeName}/`
-      );
-
-      // Fix permissions inside the container
-      executeCommand(
-        `docker exec -u root ${containerName} chown -R node:node /home/node/.n8n/custom/${nodeName}`,
-        { ignoreError: true }
-      );
-    } catch (error) {
-      log(
-        `Warning: Error copying ${nodeName} to container. Will try fixing permissions and retrying.`,
-        "⚠️"
-      );
-
-      // Try to fix permissions and retry one more time
-      executeCommand(
-        `docker exec -u root ${containerName} rm -rf /home/node/.n8n/custom/${nodeName}`,
-        { ignoreError: true }
-      );
-      executeCommand(
-        `docker exec -u root ${containerName} mkdir -p /home/node/.n8n/custom/${nodeName}`,
-        { ignoreError: true }
-      );
-      executeCommand(
-        `docker exec -u root ${containerName} chown -R node:node /home/node/.n8n/custom/${nodeName}`,
-        { ignoreError: true }
-      );
-
-      try {
-        executeCommand(
-          `docker cp "${tempDir}/." ${containerName}:/home/node/.n8n/custom/${nodeName}/`
-        );
-        executeCommand(
-          `docker exec -u root ${containerName} chown -R node:node /home/node/.n8n/custom/${nodeName}`,
-          { ignoreError: true }
-        );
-      } catch (retryError) {
-        log(
-          `Error copying ${nodeName} to container after retry. You may need to manually copy it.`,
-          "❌"
-        );
-      }
-    }
-
-    // Clean up temp directory
-    try {
-      fs.rmSync(tempDir, { recursive: true, force: true });
-    } catch (error) {
-      log(`Warning: Could not remove temp directory ${tempDir}`, "⚠️");
-    }
-  }
-
-  // Execute the dependency update script in the container
-  log("Updating dependencies inside the container...", "🔄");
-  executeCommand(`docker cp update-container.sh ${containerName}:/tmp/`);
-  executeCommand(
-    `docker exec -u root ${containerName} sh -c "chmod +x /tmp/update-container.sh && /tmp/update-container.sh"`
-  );
-
-  // Cleanup
-  fs.unlinkSync("update-container.sh");
-
-  // Restart n8n to apply changes
-  log("Restarting n8n to apply changes...", "🔄");
-  executeCommand(`${dockerComposeCmd} restart`);
 
   log("n8n with custom nodes is now ready.", "✅");
   log(`Access n8n at http://localhost:${N8N_PORT}`, "💡");
