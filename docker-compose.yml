@@ -18,4 +18,5 @@ services:
       - N8N_USER_FOLDER=/home/node/.n8n/data
       - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - NODE_NO_WARNINGS=1
     restart: unless-stopped
