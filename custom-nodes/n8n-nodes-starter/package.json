@@ -23,7 +23,6 @@
 		"pnpm": ">=9.1"
 	},
 	"packageManager": "pnpm@9.1.4",
-	"main": "index.js",
 	"scripts": {
 		"build": "tsc && gulp build:icons",
 		"dev": "tsc --watch",
@@ -38,18 +37,9 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"nodes": [
-			"dist/nodes/CustomNode/FirecrawlScrape.node.js",
-			"dist/nodes/CustomNode/FirecrawlCrawl.node.js",
-			"dist/nodes/CustomNode/FirecrawlAsyncCrawl.node.js",
-			"dist/nodes/CustomNode/FirecrawlCheckStatus.node.js",
-			"dist/nodes/CustomNode/FirecrawlExtract.node.js",
-			"dist/nodes/CustomNode/FirecrawlMap.node.js",
-			"dist/nodes/CustomNode/FirecrawlBatchScrape.node.js",
-			"dist/nodes/CustomNode/FirecrawlAsyncBatchScrape.node.js"
+			"dist/nodes/HttpBin/HttpBin.node.js"
 		],
-		"credentials": [
-			"dist/credentials/FirecrawlApi.credentials.js"
-		]
+		"credentials": []
 	},
 	"devDependencies": {
 		"@typescript-eslint/parser": "^7.15.0",

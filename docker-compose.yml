@@ -1,4 +1,3 @@
-version: "3"
 services:
   n8n:
     build:
@@ -8,11 +7,14 @@ services:
     ports:
       - "5678:5678"
     volumes:
-      - ./n8n-data:/home/node/.n8n
-      - ./custom-nodes:/home/node/.n8n/custom
-      - ./.env:/home/node/.env
+      - ./n8n-data/database.sqlite:/home/node/.n8n/database.sqlite
+      - ./n8n-data/config:/home/node/.n8n/config
+      - ./n8n-data/binaryData:/home/node/.n8n/binaryData
     environment:
-      - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
-      - DOTENV_CONFIG_PATH=/home/node/.env
-      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
-    restart: always
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_ENV=production
+      - N8N_LOG_LEVEL=info
+      - DB_SQLITE_POOL_SIZE=2
+      - N8N_RUNNERS_ENABLED=false
+    restart: unless-stopped

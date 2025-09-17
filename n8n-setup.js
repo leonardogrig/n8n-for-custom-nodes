@@ -204,6 +204,28 @@ async function buildCustomNodesLocally() {
         executeCommand("pnpm install --no-frozen-lockfile");
         executeCommand("pnpm build");
         anyChanges = true;
+
+        // Check for duplicate nodes/nodes structure after build and fix it
+        const nodesPath = path.join(nodeDir, "nodes");
+        const nestedNodesPath = path.join(nodesPath, "nodes");
+        if (fs.existsSync(nestedNodesPath) && fs.statSync(nestedNodesPath).isDirectory()) {
+          log(`Fixing duplicate nodes/nodes structure in ${path.basename(nodeDir)}...`, "🔧");
+          // Move contents from nodes/nodes to nodes
+          const nestedContents = fs.readdirSync(nestedNodesPath);
+          for (const item of nestedContents) {
+            const itemSrc = path.join(nestedNodesPath, item);
+            const itemDest = path.join(nodesPath, item);
+            if (!fs.existsSync(itemDest)) {
+              if (fs.statSync(itemSrc).isDirectory()) {
+                fs.cpSync(itemSrc, itemDest, { recursive: true });
+              } else {
+                fs.copyFileSync(itemSrc, itemDest);
+              }
+            }
+          }
+          // Remove the nested nodes directory
+          fs.rmSync(nestedNodesPath, { recursive: true, force: true });
+        }
       } catch (error) {
         log(`Error building custom node ${nodeDir}`, "❌");
       } finally {
@@ -232,6 +254,16 @@ async function setupN8n() {
       "❌"
     );
     process.exit(1);
+  }
+
+  // Ensure .env file exists (not a directory)
+  if (fs.existsSync("./.env") && fs.statSync("./.env").isDirectory()) {
+    log("Found .env directory, converting to file...", "🔧");
+    fs.rmSync("./.env", { recursive: true, force: true });
+  }
+  if (!fs.existsSync("./.env")) {
+    fs.writeFileSync("./.env", "", "utf8");
+    log("Created .env file", "✅");
   }
 
   // Check if this is initial setup
@@ -336,19 +368,35 @@ async function setupN8n() {
       const destPath = path.join(tempDir, file);
 
       if (fs.existsSync(sourcePath)) {
+        // Special handling for nodes directory to avoid duplication
+        if (file === "nodes" && fs.statSync(sourcePath).isDirectory()) {
+          // Check if there's a nested nodes/nodes structure and fix it
+          const nestedNodesPath = path.join(sourcePath, "nodes");
+          if (fs.existsSync(nestedNodesPath) && fs.statSync(nestedNodesPath).isDirectory()) {
+            log(`Found duplicate nodes/nodes structure, fixing...`, "🔧");
+            // Copy content from nodes/nodes to nodes directly
+            const nestedContents = fs.readdirSync(nestedNodesPath);
+            for (const item of nestedContents) {
+              const itemSrc = path.join(nestedNodesPath, item);
+              const itemDest = path.join(sourcePath, item);
+              if (!fs.existsSync(itemDest)) {
+                if (fs.statSync(itemSrc).isDirectory()) {
+                  fs.cpSync(itemSrc, itemDest, { recursive: true });
+                } else {
+                  fs.copyFileSync(itemSrc, itemDest);
+                }
+              }
+            }
+            // Remove the nested nodes directory
+            fs.rmSync(nestedNodesPath, { recursive: true, force: true });
+          }
+        }
+
         if (fs.statSync(sourcePath).isDirectory()) {
           // For directories like src, dist, etc.
           fs.mkdirSync(destPath, { recursive: true });
-          executeCommand(
-            `robocopy "${sourcePath}" "${destPath}" /E /COPY:DAT`,
-            { ignoreError: true }
-          );
-          // For non-Windows systems
-          if (os.platform() !== "win32") {
-            executeCommand(`cp -r "${sourcePath}" "${destPath}"`, {
-              ignoreError: true,
-            });
-          }
+          // Use cross-platform fs.cpSync instead of platform-specific commands
+          fs.cpSync(sourcePath, destPath, { recursive: true });
         } else {
           // For single files
           fs.copyFileSync(sourcePath, destPath);
