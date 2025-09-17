@@ -84,9 +84,11 @@ function createDockerComposeFile() {
       - NODE_ENV=production
       - N8N_LOG_LEVEL=info
       - DB_SQLITE_POOL_SIZE=2
-      - N8N_RUNNERS_ENABLED=false
+      - N8N_RUNNERS_ENABLED=true
       - N8N_USER_FOLDER=/home/node/.n8n/data
       - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - NODE_NO_WARNINGS=1
     restart: unless-stopped
 `;
 
