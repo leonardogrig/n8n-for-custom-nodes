@@ -6,10 +6,10 @@ USER root
 RUN mkdir -p /home/node/.n8n/custom
 
 # Copy the entire custom node package (pre-built)
-COPY ./custom-nodes/n8n-nodes-starter /home/node/.n8n/custom/n8n-nodes-starter
+COPY ./custom-nodes/n8n-nodes-firecrawl /home/node/.n8n/custom/n8n-nodes-firecrawl
 
 # Remove any node_modules to avoid conflicts
-RUN rm -rf /home/node/.n8n/custom/n8n-nodes-starter/node_modules
+RUN rm -rf /home/node/.n8n/custom/n8n-nodes-firecrawl/node_modules
 
 # Set proper permissions
 RUN chown -R node:node /home/node/.n8n
