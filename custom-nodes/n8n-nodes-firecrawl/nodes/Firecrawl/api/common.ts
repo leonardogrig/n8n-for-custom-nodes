@@ -1,4 +1,10 @@
-import { INodeProperties, INodePropertyOptions } from 'n8n-workflow';
+import {
+	IDataObject,
+	IExecuteSingleFunctions,
+	IHttpRequestOptions,
+	INodeProperties,
+	INodePropertyOptions,
+} from 'n8n-workflow';
 import { buildPropertiesWithOptions } from '../helpers';
 
 /**
@@ -440,34 +446,119 @@ export function createBatchUrlsProperty(
 	return {
 		displayName: 'URLs',
 		name: 'urls',
-		type: 'fixedCollection',
+		type: 'string',
 		typeOptions: {
-			multipleValues: true,
+			rows: 4,
 		},
-		default: {},
+		default: defaultUrl,
+		required: true,
 		description:
-			'List of URLs to process in batch. Each URL will be scraped independently with the same configuration. Useful for scraping multiple pages from the same site or different sites with similar structure.',
-		placeholder: 'Add URL',
-		options: [
-			{
-				name: 'urlValues',
-				displayName: 'URL',
-				values: [
-					{
-						displayName: 'URL',
-						name: 'url',
-						type: 'string',
-						default: defaultUrl,
-						description: 'URL to process',
-					},
-				],
-			},
-		],
+			'URLs to scrape in batch. Accepts multiple formats: a single URL, multiple URLs separated by commas or newlines, a JSON array like ["url1", "url2"], or an array expression from a previous node. Each URL is scraped independently with the same settings. Example: "https://example.com/page1, https://example.com/page2" or paste one URL per line.',
+		placeholder: 'https://example.com/page1\nhttps://example.com/page2',
 		routing: {
 			request: {
 				body: {
-					urls: '={{ $value.urlValues ? $value.urlValues.map(u => u.url) : [] }}',
+					urls: '={{ $value }}',
 				},
+			},
+			send: {
+				preSend: [
+					async function (
+						this: IExecuteSingleFunctions,
+						requestOptions: IHttpRequestOptions,
+					): Promise<IHttpRequestOptions> {
+						if (typeof requestOptions.body !== 'object' || !requestOptions.body) {
+							return requestOptions;
+						}
+
+						const body = requestOptions.body as IDataObject;
+
+						if (body.urls !== undefined) {
+							// eslint-disable-next-line @typescript-eslint/no-explicit-any
+							let rawValue: any = body.urls;
+
+							// Helper to extract URLs from any input format
+							const extractUrls = (val: unknown): string[] => {
+								// Already an array - flatten and extract strings
+								if (Array.isArray(val)) {
+									return val.flatMap(extractUrls);
+								}
+
+								// String input - try various parsing strategies
+								if (typeof val === 'string') {
+									const trimmed = val.trim();
+									if (!trimmed) return [];
+
+									// Try parsing as JSON array first
+									if (trimmed.startsWith('[')) {
+										try {
+											const parsed = JSON.parse(trimmed);
+											return extractUrls(parsed);
+										} catch {
+											// Not valid JSON, continue with other methods
+										}
+									}
+
+									// Check for newlines (most common for pasted lists)
+									if (trimmed.includes('\n')) {
+										return trimmed
+											.split('\n')
+											.map((u) => u.trim())
+											.filter((u) => u && u.startsWith('http'));
+									}
+
+									// Check for comma separation
+									if (trimmed.includes(',')) {
+										return trimmed
+											.split(',')
+											.map((u) => u.trim())
+											.filter((u) => u && u.startsWith('http'));
+									}
+
+									// Check for space separation (multiple URLs)
+									if (trimmed.includes(' http')) {
+										return trimmed
+											.split(/\s+/)
+											.map((u) => u.trim())
+											.filter((u) => u && u.startsWith('http'));
+									}
+
+									// Single URL
+									if (trimmed.startsWith('http')) {
+										return [trimmed];
+									}
+
+									return [];
+								}
+
+								// Object with url property
+								if (typeof val === 'object' && val !== null && 'url' in val) {
+									const urlVal = (val as { url: unknown }).url;
+									if (typeof urlVal === 'string') {
+										return [urlVal];
+									}
+								}
+
+								return [];
+							};
+
+							const urlsArray = extractUrls(rawValue);
+
+							// Remove duplicates and empty values
+							const uniqueUrls = [...new Set(urlsArray)].filter(Boolean);
+
+							if (uniqueUrls.length === 0) {
+								throw new Error(
+									'At least one valid URL is required. Provide URLs as a single URL, comma-separated list, one per line, or a JSON array.',
+								);
+							}
+
+							body.urls = uniqueUrls;
+						}
+
+						return requestOptions;
+					},
+				],
 			},
 		},
 		displayOptions: {
